@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './ui/header/header';
+import TodoForm from './ui/todo-form/todo-form';
+import Todo from './ui/todo/todo';
+
+import { AppContainer, TodoContainer } from './styles';
+
+import { todoData } from './data/dummy';
 
 function App() {
+  const [todos, setTodos] = React.useState(todoData);
+
+  const addTodo = (text: string) => {
+    const newTodos = [...todos, { text, isCompleted: false }];
+    setTodos(newTodos);
+  };
+
+  const completeTodo = (index: number) => {
+    const newTodos = [...todos];
+    newTodos[index].isCompleted = true;
+    setTodos(newTodos);
+  };
+
+  const removeTodo = (index: number) => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <TodoContainer>
+        <Header />
+        <TodoForm addTodo={addTodo} />
+        {todos.map((todo, index) => (
+          <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} removeTodo={removeTodo} />
+        ))}
+      </TodoContainer>
+    </AppContainer>
   );
 }
 
