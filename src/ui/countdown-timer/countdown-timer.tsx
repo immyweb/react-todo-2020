@@ -5,7 +5,7 @@ import { CountdownHeader } from './countdown-header';
 import { CountdownUnits, CustomCountUnits } from './countdown-units';
 import { returnTransform } from '../../utils/alignment-utils';
 import Button from '../buttons/buttons';
-import { podTracker } from '../../utils/pod-tracker-utils';
+// import { podTracker } from '../../utils/pod-tracker-utils';
 
 import { CountdownWrapper, CountdownContent, CountdownFrame, CountdownAligner, UnitWrapper } from './styles';
 
@@ -82,13 +82,6 @@ export class CountdownTimer extends React.Component<IProps, IState> {
   componentDidMount() {
     this.setState({
       interval: window.setInterval(() => this.getTimeStamp(), 40),
-    });
-
-    const { config, id } = this.props;
-
-    podTracker.loaded({
-      id: `${config.mode}:${id}`,
-      description: `${config.mode}:loaded`,
     });
   }
 

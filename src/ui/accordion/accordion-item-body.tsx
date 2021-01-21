@@ -39,7 +39,7 @@ const AccordionItemBody: React.FC<IProps> = ({
 
   return (
     <Transition in={active} timeout={150}>
-      {(state: any) => (
+      {(state) => (
         <Panel
           open={active}
           style={{

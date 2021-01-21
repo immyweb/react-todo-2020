@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { configureStore } from '@reduxjs/toolkit';
+// import { configureStore } from '@reduxjs/toolkit';
 
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import rootReducer from './reducers';
+// import rootReducer from './reducers';
 
-const store = configureStore({
-  reducer: rootReducer,
-});
+// const store = configureStore({
+//   reducer: rootReducer,
+// });
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div></div>
   </React.StrictMode>,
   document.getElementById('root'),
 );

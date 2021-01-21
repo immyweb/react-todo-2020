@@ -37,9 +37,9 @@ interface IState {
 }
 
 export default class BarChart extends React.Component<IProps, IState> {
-  private lozengeHolder: HTMLDivElement | null;
-  private leftColumn: HTMLDivElement | null;
-  private barHolder: HTMLDivElement | null;
+  private lozengeHolder: any = null;
+  private leftColumn: any = null;
+  private barHolder: any = null;
 
   constructor(props: IProps) {
     super(props);
@@ -208,7 +208,7 @@ export default class BarChart extends React.Component<IProps, IState> {
       };
     });
 
-    const hexColour = hex2RGB(theme.primary);
+    const hexColour: number[] = hex2RGB(theme.primary);
 
     return (
       <section className={styles.BarContainer}>

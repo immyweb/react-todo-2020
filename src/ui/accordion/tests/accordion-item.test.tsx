@@ -2,13 +2,13 @@ import * as React from 'react';
 import { shallow } from 'enzyme';
 import AccordionItem from '../accordion-item';
 import { colours } from '../../../styles/colours';
-import { podTracker } from '../../../utils/pod-tracker-utils';
+// import { podTracker } from '../../../utils/pod-tracker-utils';
 
-jest.mock('../../../utils/pod-tracker-utils', () => ({
-  podTracker: {
-    click: jest.fn(),
-  },
-}));
+// jest.mock('../../../utils/pod-tracker-utils', () => ({
+//   podTracker: {
+//     click: jest.fn(),
+//   },
+// }));
 
 const content = {
   title: 'Harry makes a detour to see Meghan',
@@ -27,15 +27,7 @@ const theme = {
 
 function shallowRender(props?: any) {
   return shallow(
-    <AccordionItem
-      item={content}
-      theme={theme}
-      expanded={false}
-      border={false}
-      index={1}
-      id={'Megain'}
-      {...props}
-    />,
+    <AccordionItem item={content} theme={theme} expanded={false} border={false} index={1} id={'Megain'} {...props} />,
   );
 }
 
@@ -49,16 +41,16 @@ describe('<AccordionItem />', () => {
     expect(wrapper.state('active')).toBe(false);
   });
 
-  it('tracks event when toggle function is called', () => {
-    const wrapper = shallowRender();
-    const instance = wrapper.instance() as AccordionItem;
-    instance.toggle();
+  // it('tracks event when toggle function is called', () => {
+  //   const wrapper = shallowRender();
+  //   const instance = wrapper.instance() as AccordionItem;
+  //   instance.toggle();
 
-    expect(podTracker.click).toHaveBeenCalledWith({
-      description: 'accordion:Harry makes a detour to see Meghan',
-      id: 'accordion:Megain',
-    });
-  });
+  //   expect(podTracker.click).toHaveBeenCalledWith({
+  //     description: 'accordion:Harry makes a detour to see Meghan',
+  //     id: 'accordion:Megain',
+  //   });
+  // });
 
   it('item is set to active if highlight prop is provided', () => {
     const wrapper = shallowRender({ expanded: true });

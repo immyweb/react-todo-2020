@@ -14,6 +14,7 @@ export interface IProps {
 export const WeatherLabels: React.FC<IProps> = ({ locations, selectedIndex, weekForecast }) => {
   const labels = locations.map((location, i) => {
     const { id, label, direction, arrowDirection, mobilePosition, desktopPosition } = location;
+    const weatherType = weekForecast[selectedIndex][id].day.WeatherType;
 
     return (
       <WeatherLabel
@@ -22,7 +23,7 @@ export const WeatherLabels: React.FC<IProps> = ({ locations, selectedIndex, week
         nightMin={weekForecast[selectedIndex][id].night.NightMinimumTemperature}
         direction={Direction[direction]}
         arrowDirection={Direction[arrowDirection]}
-        icon={WeatherIconUrls[weekForecast[selectedIndex][id].day.WeatherType]}
+        icon={WeatherIconUrls[weatherType]}
         mobilePosition={mobilePosition}
         desktopPosition={desktopPosition}
       >

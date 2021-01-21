@@ -27,7 +27,7 @@ export interface IProps {
   desktopPosition: IPosition;
 }
 
-export const WeatherLabel: React.SFC<IProps> = ({
+export const WeatherLabel: React.FC<IProps> = ({
   dayMax,
   nightMin,
   direction,
@@ -49,29 +49,18 @@ export const WeatherLabel: React.SFC<IProps> = ({
       {arrowDirection === Direction.LEFT && (
         <div style={{ display: 'flex' }}>
           <WeatherIcon className="WeatherLabelIcon" iconUrl={icon} />
-          <WeatherArrow
-            className="WeatherLabelArrow"
-            backgroundColour={colours.$offBlack}
-            direction={arrowDirection}
-          />
+          <WeatherArrow className="WeatherLabelArrow" backgroundColour={colours.$offBlack} direction={arrowDirection} />
         </div>
       )}
       {arrowDirection === Direction.RIGHT && (
         <div style={{ display: 'flex' }}>
-          <WeatherArrow
-            className="WeatherLabelArrow"
-            backgroundColour={colours.$offBlack}
-            direction={arrowDirection}
-          />
+          <WeatherArrow className="WeatherLabelArrow" backgroundColour={colours.$offBlack} direction={arrowDirection} />
           <WeatherIcon className="WeatherLabelIcon" iconUrl={icon} />
         </div>
       )}
       {arrowDirection === Direction.BOTTOM && (
         <div>
-          <WeatherArrowBottom
-            className="WeatherLabelArrowBottom"
-            backgroundColour={colours.$offBlack}
-          />
+          <WeatherArrowBottom className="WeatherLabelArrowBottom" backgroundColour={colours.$offBlack} />
           <WeatherIconBottom className="WeatherLabelIcon" iconUrl={icon} />
         </div>
       )}
@@ -81,11 +70,7 @@ export const WeatherLabel: React.SFC<IProps> = ({
           <WeatherIconTop className="WeatherLabelIcon" iconUrl={icon} />
         </div>
       )}
-      <WeatherName
-        className="WeatherLabelName"
-        labelColour={colours.$white}
-        labelBackgroundColour={colours.$offBlack}
-      >
+      <WeatherName className="WeatherLabelName" labelColour={colours.$white} labelBackgroundColour={colours.$offBlack}>
         {children}
       </WeatherName>
     </WeatherNameContainer>

@@ -8,12 +8,6 @@ import { colours } from '../../../styles/colours';
 import { ComponentHeader } from '../../component-header';
 import { StartPosition } from '../types';
 
-jest.mock('../../../utils/pod-tracker-utils', () => ({
-  podTracker: {
-    drag: jest.fn(),
-  },
-}));
-
 const data = {
   config: {
     startPosition: StartPosition.CENTER,
