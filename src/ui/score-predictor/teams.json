@@ -1,0 +1,142 @@
+[
+	{
+		"team": "Manchester City",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100",
+		"played": 30,
+		"points": 81
+	},
+	{
+		"team": "Manchester Utd",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86",
+		"played": 30,
+		"points": 65
+	},
+	{
+		"team": "Liverpool",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+		"played": 31,
+		"points": 63
+	},
+	{
+		"team": "Tottenham",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/tottenham.png?strip=all&w=55",
+		"played": 30,
+		"points": 61
+	},
+	{
+		"team": "Chelsea",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/ChelseaFC.png?strip=all&w=90",
+		"played": 30,
+		"points": 56
+	},
+	{
+		"team": "Arsenal",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/arsenal2.png?strip=all&w=75",
+		"played": 30,
+		"points": 48
+	},
+	{
+		"team": "Burnley",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/05/burnley_football_badges_2405.png?strip=all&w=100",
+		"played": 30,
+		"points": 43
+	},
+	{
+		"team": "Leicester",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+		"played": 30,
+		"points": 40
+	},
+	{
+		"team": "Everton",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/everton.png?strip=all&w=88",
+		"played": 31,
+		"points": 40
+	},
+	{
+		"team": "Bournemouth",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/bournemouth_football_badges_2405.png?strip=all&w=75",
+		"played": 31,
+		"points": 36
+	},
+	{
+		"team": "Watford",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/Watford.png?strip=all&w=79",
+		"played": 31,
+		"points": 36
+	},
+	{
+		"team": "Brighton",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+		"played": 30,
+		"points": 34
+	},
+	{
+		"team": "Newcastle",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/newcastle-utd1.png?strip=all&w=85",
+		"played": 30,
+		"points": 32
+	},
+	{
+		"team": "Swansea",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/Swansea.png?strip=all&w=90",
+		"played": 30,
+		"points": 31
+	},
+	{
+		"team": "Huddersfield",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/05/huddersfield.png?strip=all&w=100",
+		"played": 31,
+		"points": 31
+	},
+	{
+		"team": "Crystal Palace",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+		"played": 31,
+		"points": 30
+	},
+	{
+		"team": "West Ham",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/westham_football_badges_2405.png?strip=all&w=100",
+		"played": 30,
+		"points": 30
+	},
+	{
+		"team": "Southampton",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/Southampton-RGB.png?strip=all&w=79",
+		"played": 30,
+		"points": 28
+	},
+	{
+		"team": "Stoke",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/STOKE-CITY.png?strip=all&w=84",
+		"played": 31,
+		"points": 27
+	},
+	{
+		"team": "West Brom",
+		"badge":
+			"https://www.thesun.co.uk/wp-content/uploads/2016/04/WBA.png?strip=all&w=75",
+		"played": 31,
+		"points": 20
+	}
+]

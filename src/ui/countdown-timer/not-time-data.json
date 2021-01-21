@@ -1,0 +1,26 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#9c73c1",
+      "secondary": "#6a4e82"
+    },
+    "settings": {
+      "alignment": {
+        "x": "center",
+        "y": "center"
+      }
+    },
+    "mode": "COUNTUP"
+  },
+  "content": {
+    "custom": true,
+    "ratePerSecond": "2385",
+    "unit": "£",
+    "unitPosition": "START",
+    "during": {
+      "title": "During Title",
+      "subTitle": "During subTitle and some other text",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=22&txt=During%20Image%20620%C3%97185&w=620&h=185"
+    }
+  }
+}

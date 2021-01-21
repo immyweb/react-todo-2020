@@ -1,0 +1,114 @@
+{
+  "config": {
+    "headlineTheme": {
+      "primary": "#4085cb",
+      "secondary": "#2d5c8c"
+    },
+    "labelTheme": {
+      "txtColour": "#ffffff",
+      "bkgndColour": "#000000",
+      "pulseColour": "#ffa111"
+    }
+  },
+  "content": {
+    "headline": "TAP BELOW: Local election results 2018 - what shall I watch out for?",
+    "image": "https://www.thesun.co.uk/wp-content/uploads/2018/05/af-map-england-wales-empty.jpg?strip=all&w=960",
+    "labels": [
+      {
+        "label": {
+          "text": "London",
+          "arrowSide": "TOP",
+          "arrowPosition": "RIGHT",
+          "position": {
+            "top": 80,
+            "left": 60
+          }
+        },
+        "modal": {
+          "title": "London",
+          "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2017/06/nintchdbpict000329490382.jpg?strip=all&w=960",
+          "imageBottom": "",
+          "copy": [
+            "Traditionally a Labour stronghold, controlling 20 out of 32 boroughs, but there are a few Tory areas too. The last elections were fought here in 2014, when the Tories won eight and the Lib Dems one. Every single council seat in London is going up for election - and Labour are hoping for big gains in the capital. Mr Corbyn wants to capture a number of key councils from the Tories, including Barnet, Wandsworth, Westminster and even ultra-wealthy Kensington and Chelsea. All four of the areas have been solidly Conservative for decades and their loss would be a blow for Theresa May. But will anti-Semitism affect the Jewish voters in North London who might usually vote Labour?"
+          ]
+        }
+      },
+      {
+        "label": {
+          "text": "Manchester",
+          "arrowSide": "BOTTOM",
+          "arrowPosition": "RIGHT",
+          "position": {
+            "top": 46,
+            "left": 17
+          }
+        },
+        "modal": {
+          "title": "Manchester",
+          "imageTop": "",
+          "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/05/nintchdbpict000402722039.jpg?strip=all&w=960",
+          "copy": [
+            "Currently Tory, could go Labour. Mr Corbyn's party are gunning for Trafford council, the only local authority in Greater Manchester which is currently run by the Tories - if they win it, they’ll have had a good night. North of England is generally more likely to be red than blue, but the Tories have held the area since 2004. Labour only have to steal two seats off them to put the council into no overall control. Jezza and other high profile figures have been pottering around the area in recent weeks to try and boost the profile of the vote."
+          ]
+        }
+      },
+      {
+        "label": {
+          "text": "Birmingham",
+          "arrowSide": "RIGHT",
+          "arrowPosition": "CENTER",
+          "position": {
+            "top": 59,
+            "left": 20
+          }
+        },
+        "modal": {
+          "title": "Birmingham",
+          "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2017/06/nintchdbpict0003294979392.jpg?strip=all&w=960",
+          "imageBottom": "",
+          "copy": [
+            "101 councillors serving 69 wards are up for grabs in Birmingham - the first time since the total number was slashed from 120. This is the first time the whole of the council will be elected, in the past it was done a third at a time. Last time, in 2014, Labour won 77 seats, the Tories 31, and the Lib Dems 12, and it's expected to stay Labour red tonight too."
+          ]
+        }
+      },
+      {
+        "label": {
+          "text": "Great Yarmouth",
+          "arrowSide": "TOP",
+          "arrowPosition": "RIGHT",
+          "position": {
+            "top": 65,
+            "left": 58.5
+          }
+        },
+        "modal": {
+          "title": "Great Yarmouth",
+          "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/01/nintchdbpict000306465681-e1516205007927.jpg?strip=all&w=960",
+          "imageBottom": "",
+          "copy": [
+            "Will Ukip hang on to any of their seats in Great Yarmouth? Last year seven of their Ukip councillors defected to the Tories in a sign that the party really is finished. The pattern was seen in last year's local elections across Britain where they only managed to hold onto a single seat, as the party struggles to stay relevant following Brexit. Back in 2014 Ukip swept up ten seats, the Tories got two and Labour just one. Only a third of councillors are elected every year four years at the moment - so 13 seats are up for grabs. There is also a by-election in another ward following a resignation."
+          ]
+        }
+      },
+      {
+        "label": {
+          "text": "Sheffield",
+          "arrowSide": "BOTTOM",
+          "arrowPosition": "LEFT",
+          "position": {
+            "top": 41,
+            "left": 55
+          }
+        },
+        "modal": {
+          "title": "Sheffield",
+          "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/05/nintchdbpict000288569057.jpg?strip=all&w=960",
+          "imageBottom": "",
+          "copy": [
+            "Labour MP Dan Jarvis wants to be the first Mayor of the Sheffield City region, covering Rotherham, Barnsley and Doncaster. The Barnsley MP is thought to be a shoe-in for the job. Other regions who are also electing mayors include Watford, and four London boroughs. One third of seats on Sheffield council (24 seats of their 84) are up for grabs too. In the full council elections in 2016, Labour got 57 seats, the Lib Dems 9, Greens 4 and Ukip 4."
+          ]
+        }
+      }
+    ]
+  }
+}

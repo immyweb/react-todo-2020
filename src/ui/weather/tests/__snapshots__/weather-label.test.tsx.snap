@@ -1,0 +1,1021 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherLabel /> renders correctly with default values 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    arrowDirection="LEFT"
+    dayMax="10"
+    desktopPosition={
+      Object {
+        "left": "15%",
+        "top": "5%",
+      }
+    }
+    direction="LEFT"
+    icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+    labelBackgroundColour="#222526"
+    labelColour="#ffffff"
+    mobilePosition={
+      Object {
+        "left": "15%",
+        "top": "5%",
+      }
+    }
+    nightMin="5"
+    temperatureBackgroundColour="#a5171c"
+    temperatureColour="#ffffff"
+  >
+    SWANSEA
+  </Unknown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(div)
+          direction="LEFT"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <glamorous(div)
+              className="WeatherLabelIcon"
+              iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+            />
+            <glamorous(div)
+              backgroundColour="#222526"
+              className="WeatherLabelArrow"
+              direction="LEFT"
+            />
+          </div>
+          <glamorous(div)
+            className="WeatherLabelName"
+            labelBackgroundColour="#222526"
+            labelColour="#ffffff"
+          >
+            SWANSEA
+          </glamorous(div)>
+        </glamorous(div)>,
+        <glamorous(div)>
+          <glamorous(div)
+            className="WeatherLabelTemperature"
+            temperatureBackgroundColour="#a5171c"
+            temperatureColour="#ffffff"
+          >
+            10°
+          </glamorous(div)>
+          <glamorous(div)
+            className="WeatherLabelTemperature"
+            temperatureBackgroundColour="#2d5c8c"
+            temperatureColour="#ffffff"
+          >
+            5°
+          </glamorous(div)>
+        </glamorous(div)>,
+      ],
+      "className": "WeatherLabelContainer",
+      "dLeft": "15%",
+      "dTop": "5%",
+      "direction": "LEFT",
+      "mLeft": "15%",
+      "mTop": "5%",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <glamorous(div)
+                className="WeatherLabelIcon"
+                iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+              />
+              <glamorous(div)
+                backgroundColour="#222526"
+                className="WeatherLabelArrow"
+                direction="LEFT"
+              />
+            </div>,
+            false,
+            false,
+            false,
+            <glamorous(div)
+              className="WeatherLabelName"
+              labelBackgroundColour="#222526"
+              labelColour="#ffffff"
+            >
+              SWANSEA
+            </glamorous(div)>,
+          ],
+          "direction": "LEFT",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <glamorous(div)
+                  className="WeatherLabelIcon"
+                  iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                />,
+                <glamorous(div)
+                  backgroundColour="#222526"
+                  className="WeatherLabelArrow"
+                  direction="LEFT"
+                />,
+              ],
+              "style": Object {
+                "display": "flex",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "WeatherLabelIcon",
+                  "iconUrl": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "backgroundColour": "#222526",
+                  "className": "WeatherLabelArrow",
+                  "direction": "LEFT",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          false,
+          false,
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "SWANSEA",
+              "className": "WeatherLabelName",
+              "labelBackgroundColour": "#222526",
+              "labelColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "SWANSEA",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#a5171c"
+              temperatureColour="#ffffff"
+            >
+              10°
+            </glamorous(div)>,
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#2d5c8c"
+              temperatureColour="#ffffff"
+            >
+              5°
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "10°",
+              "className": "WeatherLabelTemperature",
+              "temperatureBackgroundColour": "#a5171c",
+              "temperatureColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "10°",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "5°",
+              "className": "WeatherLabelTemperature",
+              "temperatureBackgroundColour": "#2d5c8c",
+              "temperatureColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "5°",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(div)
+            direction="LEFT"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <glamorous(div)
+                className="WeatherLabelIcon"
+                iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+              />
+              <glamorous(div)
+                backgroundColour="#222526"
+                className="WeatherLabelArrow"
+                direction="LEFT"
+              />
+            </div>
+            <glamorous(div)
+              className="WeatherLabelName"
+              labelBackgroundColour="#222526"
+              labelColour="#ffffff"
+            >
+              SWANSEA
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(div)>
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#a5171c"
+              temperatureColour="#ffffff"
+            >
+              10°
+            </glamorous(div)>
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#2d5c8c"
+              temperatureColour="#ffffff"
+            >
+              5°
+            </glamorous(div)>
+          </glamorous(div)>,
+        ],
+        "className": "WeatherLabelContainer",
+        "dLeft": "15%",
+        "dTop": "5%",
+        "direction": "LEFT",
+        "mLeft": "15%",
+        "mTop": "5%",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+              >
+                <glamorous(div)
+                  className="WeatherLabelIcon"
+                  iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                />
+                <glamorous(div)
+                  backgroundColour="#222526"
+                  className="WeatherLabelArrow"
+                  direction="LEFT"
+                />
+              </div>,
+              false,
+              false,
+              false,
+              <glamorous(div)
+                className="WeatherLabelName"
+                labelBackgroundColour="#222526"
+                labelColour="#ffffff"
+              >
+                SWANSEA
+              </glamorous(div)>,
+            ],
+            "direction": "LEFT",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(div)
+                    className="WeatherLabelIcon"
+                    iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                  />,
+                  <glamorous(div)
+                    backgroundColour="#222526"
+                    className="WeatherLabelArrow"
+                    direction="LEFT"
+                  />,
+                ],
+                "style": Object {
+                  "display": "flex",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "WeatherLabelIcon",
+                    "iconUrl": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "backgroundColour": "#222526",
+                    "className": "WeatherLabelArrow",
+                    "direction": "LEFT",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            false,
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "SWANSEA",
+                "className": "WeatherLabelName",
+                "labelBackgroundColour": "#222526",
+                "labelColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "SWANSEA",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                className="WeatherLabelTemperature"
+                temperatureBackgroundColour="#a5171c"
+                temperatureColour="#ffffff"
+              >
+                10°
+              </glamorous(div)>,
+              <glamorous(div)
+                className="WeatherLabelTemperature"
+                temperatureBackgroundColour="#2d5c8c"
+                temperatureColour="#ffffff"
+              >
+                5°
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "10°",
+                "className": "WeatherLabelTemperature",
+                "temperatureBackgroundColour": "#a5171c",
+                "temperatureColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "10°",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "5°",
+                "className": "WeatherLabelTemperature",
+                "temperatureBackgroundColour": "#2d5c8c",
+                "temperatureColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "5°",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<WeatherLabel /> renders in reverse when direction is RIGHT 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    arrowDirection="LEFT"
+    dayMax="10"
+    desktopPosition={
+      Object {
+        "left": "15%",
+        "top": "5%",
+      }
+    }
+    direction="RIGHT"
+    icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+    labelBackgroundColour="#222526"
+    labelColour="#ffffff"
+    mobilePosition={
+      Object {
+        "left": "15%",
+        "top": "5%",
+      }
+    }
+    nightMin="5"
+    temperatureBackgroundColour="#a5171c"
+    temperatureColour="#ffffff"
+  >
+    SWANSEA
+  </Unknown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(div)
+          direction="RIGHT"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <glamorous(div)
+              className="WeatherLabelIcon"
+              iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+            />
+            <glamorous(div)
+              backgroundColour="#222526"
+              className="WeatherLabelArrow"
+              direction="LEFT"
+            />
+          </div>
+          <glamorous(div)
+            className="WeatherLabelName"
+            labelBackgroundColour="#222526"
+            labelColour="#ffffff"
+          >
+            SWANSEA
+          </glamorous(div)>
+        </glamorous(div)>,
+        <glamorous(div)>
+          <glamorous(div)
+            className="WeatherLabelTemperature"
+            temperatureBackgroundColour="#a5171c"
+            temperatureColour="#ffffff"
+          >
+            10°
+          </glamorous(div)>
+          <glamorous(div)
+            className="WeatherLabelTemperature"
+            temperatureBackgroundColour="#2d5c8c"
+            temperatureColour="#ffffff"
+          >
+            5°
+          </glamorous(div)>
+        </glamorous(div)>,
+      ],
+      "className": "WeatherLabelContainer",
+      "dLeft": "15%",
+      "dTop": "5%",
+      "direction": "RIGHT",
+      "mLeft": "15%",
+      "mTop": "5%",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <glamorous(div)
+                className="WeatherLabelIcon"
+                iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+              />
+              <glamorous(div)
+                backgroundColour="#222526"
+                className="WeatherLabelArrow"
+                direction="LEFT"
+              />
+            </div>,
+            false,
+            false,
+            false,
+            <glamorous(div)
+              className="WeatherLabelName"
+              labelBackgroundColour="#222526"
+              labelColour="#ffffff"
+            >
+              SWANSEA
+            </glamorous(div)>,
+          ],
+          "direction": "RIGHT",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <glamorous(div)
+                  className="WeatherLabelIcon"
+                  iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                />,
+                <glamorous(div)
+                  backgroundColour="#222526"
+                  className="WeatherLabelArrow"
+                  direction="LEFT"
+                />,
+              ],
+              "style": Object {
+                "display": "flex",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "WeatherLabelIcon",
+                  "iconUrl": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "backgroundColour": "#222526",
+                  "className": "WeatherLabelArrow",
+                  "direction": "LEFT",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          false,
+          false,
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "SWANSEA",
+              "className": "WeatherLabelName",
+              "labelBackgroundColour": "#222526",
+              "labelColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "SWANSEA",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#a5171c"
+              temperatureColour="#ffffff"
+            >
+              10°
+            </glamorous(div)>,
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#2d5c8c"
+              temperatureColour="#ffffff"
+            >
+              5°
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "10°",
+              "className": "WeatherLabelTemperature",
+              "temperatureBackgroundColour": "#a5171c",
+              "temperatureColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "10°",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "5°",
+              "className": "WeatherLabelTemperature",
+              "temperatureBackgroundColour": "#2d5c8c",
+              "temperatureColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "5°",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(div)
+            direction="RIGHT"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <glamorous(div)
+                className="WeatherLabelIcon"
+                iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+              />
+              <glamorous(div)
+                backgroundColour="#222526"
+                className="WeatherLabelArrow"
+                direction="LEFT"
+              />
+            </div>
+            <glamorous(div)
+              className="WeatherLabelName"
+              labelBackgroundColour="#222526"
+              labelColour="#ffffff"
+            >
+              SWANSEA
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(div)>
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#a5171c"
+              temperatureColour="#ffffff"
+            >
+              10°
+            </glamorous(div)>
+            <glamorous(div)
+              className="WeatherLabelTemperature"
+              temperatureBackgroundColour="#2d5c8c"
+              temperatureColour="#ffffff"
+            >
+              5°
+            </glamorous(div)>
+          </glamorous(div)>,
+        ],
+        "className": "WeatherLabelContainer",
+        "dLeft": "15%",
+        "dTop": "5%",
+        "direction": "RIGHT",
+        "mLeft": "15%",
+        "mTop": "5%",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+              >
+                <glamorous(div)
+                  className="WeatherLabelIcon"
+                  iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                />
+                <glamorous(div)
+                  backgroundColour="#222526"
+                  className="WeatherLabelArrow"
+                  direction="LEFT"
+                />
+              </div>,
+              false,
+              false,
+              false,
+              <glamorous(div)
+                className="WeatherLabelName"
+                labelBackgroundColour="#222526"
+                labelColour="#ffffff"
+              >
+                SWANSEA
+              </glamorous(div)>,
+            ],
+            "direction": "RIGHT",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(div)
+                    className="WeatherLabelIcon"
+                    iconUrl="https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png"
+                  />,
+                  <glamorous(div)
+                    backgroundColour="#222526"
+                    className="WeatherLabelArrow"
+                    direction="LEFT"
+                  />,
+                ],
+                "style": Object {
+                  "display": "flex",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "WeatherLabelIcon",
+                    "iconUrl": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Sunny.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "backgroundColour": "#222526",
+                    "className": "WeatherLabelArrow",
+                    "direction": "LEFT",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            false,
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "SWANSEA",
+                "className": "WeatherLabelName",
+                "labelBackgroundColour": "#222526",
+                "labelColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "SWANSEA",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                className="WeatherLabelTemperature"
+                temperatureBackgroundColour="#a5171c"
+                temperatureColour="#ffffff"
+              >
+                10°
+              </glamorous(div)>,
+              <glamorous(div)
+                className="WeatherLabelTemperature"
+                temperatureBackgroundColour="#2d5c8c"
+                temperatureColour="#ffffff"
+              >
+                5°
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "10°",
+                "className": "WeatherLabelTemperature",
+                "temperatureBackgroundColour": "#a5171c",
+                "temperatureColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "10°",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "5°",
+                "className": "WeatherLabelTemperature",
+                "temperatureBackgroundColour": "#2d5c8c",
+                "temperatureColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "5°",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

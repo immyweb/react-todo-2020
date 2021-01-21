@@ -1,0 +1,32 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#9c73c1",
+      "secondary": "#6a4e82"
+    },
+    "settings": {
+      "alignment": {
+        "x": "left",
+        "y": "bottom"
+      }
+    }
+  },
+  "content": {
+    "date": "December, 28, 2022, 14:35",
+    "during": {
+      "title": "During Title",
+      "subTitle": "During subTitle and some other text",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=22&txt=During%20Image%20620%C3%97185&w=620&h=185"
+    },
+    "ended": {
+      "title": "Ended Title",
+      "subTitle": "Ended subTitle and some other text",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=22&txt=Ended%20Image%20620%C3%97185&w=620&h=185"
+    },
+    "button": {
+      "buttonText": "Oh hi!",
+      "buttonLink": "http://www.thesun.co.uk",
+      "windowTarget": "_blank"
+    }
+  }
+}

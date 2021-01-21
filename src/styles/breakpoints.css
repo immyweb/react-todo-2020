@@ -1,0 +1,5 @@
+@value smallMobile: max-width: 411px;
+@value mobile: min-width: 675px;
+@value mobileInner: min-width: 660px;
+@value tabletPortrait: min-width: 980px;
+@value tabletLandscape: min-width: 1024px;

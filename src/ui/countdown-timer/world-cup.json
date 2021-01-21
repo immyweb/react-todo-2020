@@ -1,0 +1,32 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#9c73c1",
+      "secondary": "#6a4e82"
+    },
+    "settings": {
+      "alignment": {
+        "x": "left",
+        "y": "bottom"
+      }
+    }
+  },
+  "content": {
+    "date": "June, 14, 2022, 16:00",
+    "during": {
+      "title": "",
+      "subTitle": "COUNTDOWN TO KICK OFF",
+      "image": "https://www.thesun.co.uk/wp-content/uploads/2018/05/wc_countdown_clockx2.jpg"
+    },
+    "ended": {
+      "title": "",
+      "subTitle": "ALL THE LATEST FROM RUSSIA",
+      "image": "https://www.thesun.co.uk/wp-content/uploads/2018/05/wc_countdown_clockx2.jpg"
+    },
+    "button": {
+      "buttonText": "TAKE ME THERE",
+      "buttonLink": "https://www.thesun.co.uk/world-cup-2018/",
+      "windowTarget": "_self"
+    }
+  }
+}

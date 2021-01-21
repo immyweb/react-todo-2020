@@ -1,0 +1,21 @@
+@value fonts: "../../styles/fonts.css";
+@value theSunBold from fonts;
+.OverFlowContainer {
+  position: absolute;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), white);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+}
+
+.OverFlowButton {
+  margin-top: 100px;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-family: theSunBold;
+  cursor: pointer;
+}

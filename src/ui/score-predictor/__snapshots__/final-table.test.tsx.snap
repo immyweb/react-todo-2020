@@ -1,0 +1,2155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FinalTable /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FinalTable
+    exitUrl="http://www.thesun.co.uk"
+    table={
+      Array [
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100",
+          "draw": 3,
+          "lose": 1,
+          "played": 30,
+          "points": 81,
+          "team": "Man City",
+          "win": 26,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86",
+          "draw": 5,
+          "lose": 5,
+          "played": 30,
+          "points": 65,
+          "team": "Man Utd",
+          "win": 20,
+        },
+      ]
+    }
+    tableType="PREM"
+    timer={1000}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <glamorous(glamorous(h2))
+          fontName="TheSun-HeavyCondensed"
+        >
+          Here's how YOU think the table will finish
+        </glamorous(glamorous(h2))>,
+        <glamorous(table)>
+          <glamorous(thead)>
+            <tr>
+              <glamorous(th) />
+              <glamorous(th) />
+              <glamorous(th)
+                borderRight={true}
+                fontAlignment="left"
+              >
+                Team
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth={35}
+              >
+                Pl 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth={35}
+              >
+                W 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth={35}
+              >
+                D 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth={35}
+              >
+                L
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth={35}
+              >
+                Pts
+              </glamorous(th)>
+            </tr>
+          </glamorous(thead)>
+          <tbody>
+            <glamorous(glamorous(tr))
+              definedHeight={49}
+            >
+              <glamorous(td)
+                definedWidth={20}
+                fontName="Roboto, sans-serif"
+              >
+                1
+              </glamorous(td)>
+              <glamorous(td)
+                definedWidth={45}
+              >
+                <glamorous(img)
+                  alt="Man City"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                />
+              </glamorous(td)>
+              <glamorous(td)
+                fontAlignment="left"
+              >
+                Man City
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                30
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                26
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                3
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                1
+              </glamorous(td)>
+              <glamorous(td)>
+                81
+              </glamorous(td)>
+            </glamorous(glamorous(tr))>
+            <glamorous(glamorous(tr))
+              definedHeight={49}
+            >
+              <glamorous(td)
+                definedWidth={20}
+                fontName="Roboto, sans-serif"
+              >
+                2
+              </glamorous(td)>
+              <glamorous(td)
+                definedWidth={45}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                />
+              </glamorous(td)>
+              <glamorous(td)
+                fontAlignment="left"
+              >
+                Man Utd
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                30
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                20
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                5
+              </glamorous(td)>
+              <glamorous(td)
+                fontName="Roboto, sans-serif"
+              >
+                5
+              </glamorous(td)>
+              <glamorous(td)>
+                65
+              </glamorous(td)>
+            </glamorous(glamorous(tr))>
+          </tbody>
+        </glamorous(table)>,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Here's how YOU think the table will finish",
+          "fontName": "TheSun-HeavyCondensed",
+        },
+        "ref": null,
+        "rendered": "Here's how YOU think the table will finish",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(thead)>
+              <tr>
+                <glamorous(th) />
+                <glamorous(th) />
+                <glamorous(th)
+                  borderRight={true}
+                  fontAlignment="left"
+                >
+                  Team
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pl 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  W 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  D 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  L
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pts
+                </glamorous(th)>
+              </tr>
+            </glamorous(thead)>,
+            <tbody>
+              <glamorous(glamorous(tr))
+                definedHeight={49}
+              >
+                <glamorous(td)
+                  definedWidth={20}
+                  fontName="Roboto, sans-serif"
+                >
+                  1
+                </glamorous(td)>
+                <glamorous(td)
+                  definedWidth={45}
+                >
+                  <glamorous(img)
+                    alt="Man City"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                  />
+                </glamorous(td)>
+                <glamorous(td)
+                  fontAlignment="left"
+                >
+                  Man City
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  30
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  26
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  3
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  1
+                </glamorous(td)>
+                <glamorous(td)>
+                  81
+                </glamorous(td)>
+              </glamorous(glamorous(tr))>
+              <glamorous(glamorous(tr))
+                definedHeight={49}
+              >
+                <glamorous(td)
+                  definedWidth={20}
+                  fontName="Roboto, sans-serif"
+                >
+                  2
+                </glamorous(td)>
+                <glamorous(td)
+                  definedWidth={45}
+                >
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                  />
+                </glamorous(td)>
+                <glamorous(td)
+                  fontAlignment="left"
+                >
+                  Man Utd
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  30
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  20
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  5
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  5
+                </glamorous(td)>
+                <glamorous(td)>
+                  65
+                </glamorous(td)>
+              </glamorous(glamorous(tr))>
+            </tbody>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <tr>
+                <glamorous(th) />
+                <glamorous(th) />
+                <glamorous(th)
+                  borderRight={true}
+                  fontAlignment="left"
+                >
+                  Team
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pl 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  W 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  D 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  L
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pts
+                </glamorous(th)>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(th) />,
+                  <glamorous(th) />,
+                  <glamorous(th)
+                    borderRight={true}
+                    fontAlignment="left"
+                  >
+                    Team
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pl 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    W 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    D 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    L
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pts
+                  </glamorous(th)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "borderRight": true,
+                    "children": "Team",
+                    "fontAlignment": "left",
+                  },
+                  "ref": null,
+                  "rendered": "Team",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "Pl ",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                    "definedWidth": 35,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Pl ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "W ",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                    "definedWidth": 35,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "W ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "D ",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                    "definedWidth": 35,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "D ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "L",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                    "definedWidth": 35,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "L",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Pts",
+                    "definedWidth": 35,
+                  },
+                  "ref": null,
+                  "rendered": "Pts",
+                  "type": [Function],
+                },
+              ],
+              "type": "tr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <glamorous(glamorous(tr))
+                  definedHeight={49}
+                >
+                  <glamorous(td)
+                    definedWidth={20}
+                    fontName="Roboto, sans-serif"
+                  >
+                    1
+                  </glamorous(td)>
+                  <glamorous(td)
+                    definedWidth={45}
+                  >
+                    <glamorous(img)
+                      alt="Man City"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                    />
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontAlignment="left"
+                  >
+                    Man City
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    30
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    26
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    3
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    1
+                  </glamorous(td)>
+                  <glamorous(td)>
+                    81
+                  </glamorous(td)>
+                </glamorous(glamorous(tr))>,
+                <glamorous(glamorous(tr))
+                  definedHeight={49}
+                >
+                  <glamorous(td)
+                    definedWidth={20}
+                    fontName="Roboto, sans-serif"
+                  >
+                    2
+                  </glamorous(td)>
+                  <glamorous(td)
+                    definedWidth={45}
+                  >
+                    <glamorous(img)
+                      alt="Man Utd"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                    />
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontAlignment="left"
+                  >
+                    Man Utd
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    30
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    20
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    5
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    5
+                  </glamorous(td)>
+                  <glamorous(td)>
+                    65
+                  </glamorous(td)>
+                </glamorous(glamorous(tr))>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "Man City",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(td)
+                      definedWidth={20}
+                      fontName="Roboto, sans-serif"
+                    >
+                      1
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      definedWidth={45}
+                    >
+                      <glamorous(img)
+                        alt="Man City"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                      />
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontAlignment="left"
+                    >
+                      Man City
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      30
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      26
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      3
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      1
+                    </glamorous(td)>,
+                    <glamorous(td)>
+                      81
+                    </glamorous(td)>,
+                  ],
+                  "definedHeight": 49,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 1,
+                      "definedWidth": 20,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 1,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <glamorous(img)
+                        alt="Man City"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                      />,
+                      "definedWidth": 45,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alt": "Man City",
+                        "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Man City",
+                      "fontAlignment": "left",
+                    },
+                    "ref": null,
+                    "rendered": "Man City",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 30,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 30,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 26,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 26,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 3,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 3,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 1,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 1,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 81,
+                    },
+                    "ref": null,
+                    "rendered": 81,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Man Utd",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(td)
+                      definedWidth={20}
+                      fontName="Roboto, sans-serif"
+                    >
+                      2
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      definedWidth={45}
+                    >
+                      <glamorous(img)
+                        alt="Man Utd"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                      />
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontAlignment="left"
+                    >
+                      Man Utd
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      30
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      20
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      5
+                    </glamorous(td)>,
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      5
+                    </glamorous(td)>,
+                    <glamorous(td)>
+                      65
+                    </glamorous(td)>,
+                  ],
+                  "definedHeight": 49,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 2,
+                      "definedWidth": 20,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 2,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <glamorous(img)
+                        alt="Man Utd"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                      />,
+                      "definedWidth": 45,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alt": "Man Utd",
+                        "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Man Utd",
+                      "fontAlignment": "left",
+                    },
+                    "ref": null,
+                    "rendered": "Man Utd",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 30,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 30,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 20,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 20,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 5,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 5,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 5,
+                      "fontName": "Roboto, sans-serif",
+                    },
+                    "ref": null,
+                    "rendered": 5,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": 65,
+                    },
+                    "ref": null,
+                    "rendered": 65,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <glamorous(glamorous(h2))
+            fontName="TheSun-HeavyCondensed"
+          >
+            Here's how YOU think the table will finish
+          </glamorous(glamorous(h2))>,
+          <glamorous(table)>
+            <glamorous(thead)>
+              <tr>
+                <glamorous(th) />
+                <glamorous(th) />
+                <glamorous(th)
+                  borderRight={true}
+                  fontAlignment="left"
+                >
+                  Team
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pl 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  W 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  D 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  L
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth={35}
+                >
+                  Pts
+                </glamorous(th)>
+              </tr>
+            </glamorous(thead)>
+            <tbody>
+              <glamorous(glamorous(tr))
+                definedHeight={49}
+              >
+                <glamorous(td)
+                  definedWidth={20}
+                  fontName="Roboto, sans-serif"
+                >
+                  1
+                </glamorous(td)>
+                <glamorous(td)
+                  definedWidth={45}
+                >
+                  <glamorous(img)
+                    alt="Man City"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                  />
+                </glamorous(td)>
+                <glamorous(td)
+                  fontAlignment="left"
+                >
+                  Man City
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  30
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  26
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  3
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  1
+                </glamorous(td)>
+                <glamorous(td)>
+                  81
+                </glamorous(td)>
+              </glamorous(glamorous(tr))>
+              <glamorous(glamorous(tr))
+                definedHeight={49}
+              >
+                <glamorous(td)
+                  definedWidth={20}
+                  fontName="Roboto, sans-serif"
+                >
+                  2
+                </glamorous(td)>
+                <glamorous(td)
+                  definedWidth={45}
+                >
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                  />
+                </glamorous(td)>
+                <glamorous(td)
+                  fontAlignment="left"
+                >
+                  Man Utd
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  30
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  20
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  5
+                </glamorous(td)>
+                <glamorous(td)
+                  fontName="Roboto, sans-serif"
+                >
+                  5
+                </glamorous(td)>
+                <glamorous(td)>
+                  65
+                </glamorous(td)>
+              </glamorous(glamorous(tr))>
+            </tbody>
+          </glamorous(table)>,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Here's how YOU think the table will finish",
+            "fontName": "TheSun-HeavyCondensed",
+          },
+          "ref": null,
+          "rendered": "Here's how YOU think the table will finish",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(thead)>
+                <tr>
+                  <glamorous(th) />
+                  <glamorous(th) />
+                  <glamorous(th)
+                    borderRight={true}
+                    fontAlignment="left"
+                  >
+                    Team
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pl 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    W 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    D 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    L
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pts
+                  </glamorous(th)>
+                </tr>
+              </glamorous(thead)>,
+              <tbody>
+                <glamorous(glamorous(tr))
+                  definedHeight={49}
+                >
+                  <glamorous(td)
+                    definedWidth={20}
+                    fontName="Roboto, sans-serif"
+                  >
+                    1
+                  </glamorous(td)>
+                  <glamorous(td)
+                    definedWidth={45}
+                  >
+                    <glamorous(img)
+                      alt="Man City"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                    />
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontAlignment="left"
+                  >
+                    Man City
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    30
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    26
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    3
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    1
+                  </glamorous(td)>
+                  <glamorous(td)>
+                    81
+                  </glamorous(td)>
+                </glamorous(glamorous(tr))>
+                <glamorous(glamorous(tr))
+                  definedHeight={49}
+                >
+                  <glamorous(td)
+                    definedWidth={20}
+                    fontName="Roboto, sans-serif"
+                  >
+                    2
+                  </glamorous(td)>
+                  <glamorous(td)
+                    definedWidth={45}
+                  >
+                    <glamorous(img)
+                      alt="Man Utd"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                    />
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontAlignment="left"
+                  >
+                    Man Utd
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    30
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    20
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    5
+                  </glamorous(td)>
+                  <glamorous(td)
+                    fontName="Roboto, sans-serif"
+                  >
+                    5
+                  </glamorous(td)>
+                  <glamorous(td)>
+                    65
+                  </glamorous(td)>
+                </glamorous(glamorous(tr))>
+              </tbody>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <tr>
+                  <glamorous(th) />
+                  <glamorous(th) />
+                  <glamorous(th)
+                    borderRight={true}
+                    fontAlignment="left"
+                  >
+                    Team
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pl 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    W 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    D 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    L
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>
+                  <glamorous(th)
+                    definedWidth={35}
+                  >
+                    Pts
+                  </glamorous(th)>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(th) />,
+                    <glamorous(th) />,
+                    <glamorous(th)
+                      borderRight={true}
+                      fontAlignment="left"
+                    >
+                      Team
+                    </glamorous(th)>,
+                    <glamorous(th)
+                      definedWidth={35}
+                    >
+                      Pl 
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>
+                    </glamorous(th)>,
+                    <glamorous(th)
+                      definedWidth={35}
+                    >
+                      W 
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>
+                    </glamorous(th)>,
+                    <glamorous(th)
+                      definedWidth={35}
+                    >
+                      D 
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>
+                    </glamorous(th)>,
+                    <glamorous(th)
+                      definedWidth={35}
+                    >
+                      L
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>
+                    </glamorous(th)>,
+                    <glamorous(th)
+                      definedWidth={35}
+                    >
+                      Pts
+                    </glamorous(th)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "borderRight": true,
+                      "children": "Team",
+                      "fontAlignment": "left",
+                    },
+                    "ref": null,
+                    "rendered": "Team",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        "Pl ",
+                        <glamorous(span)>
+                          |
+                        </glamorous(span)>,
+                      ],
+                      "definedWidth": 35,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Pl ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "|",
+                        },
+                        "ref": null,
+                        "rendered": "|",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        "W ",
+                        <glamorous(span)>
+                          |
+                        </glamorous(span)>,
+                      ],
+                      "definedWidth": 35,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "W ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "|",
+                        },
+                        "ref": null,
+                        "rendered": "|",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        "D ",
+                        <glamorous(span)>
+                          |
+                        </glamorous(span)>,
+                      ],
+                      "definedWidth": 35,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "D ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "|",
+                        },
+                        "ref": null,
+                        "rendered": "|",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        "L",
+                        <glamorous(span)>
+                          |
+                        </glamorous(span)>,
+                      ],
+                      "definedWidth": 35,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "L",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "|",
+                        },
+                        "ref": null,
+                        "rendered": "|",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Pts",
+                      "definedWidth": 35,
+                    },
+                    "ref": null,
+                    "rendered": "Pts",
+                    "type": [Function],
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(glamorous(tr))
+                    definedHeight={49}
+                  >
+                    <glamorous(td)
+                      definedWidth={20}
+                      fontName="Roboto, sans-serif"
+                    >
+                      1
+                    </glamorous(td)>
+                    <glamorous(td)
+                      definedWidth={45}
+                    >
+                      <glamorous(img)
+                        alt="Man City"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                      />
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontAlignment="left"
+                    >
+                      Man City
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      30
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      26
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      3
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      1
+                    </glamorous(td)>
+                    <glamorous(td)>
+                      81
+                    </glamorous(td)>
+                  </glamorous(glamorous(tr))>,
+                  <glamorous(glamorous(tr))
+                    definedHeight={49}
+                  >
+                    <glamorous(td)
+                      definedWidth={20}
+                      fontName="Roboto, sans-serif"
+                    >
+                      2
+                    </glamorous(td)>
+                    <glamorous(td)
+                      definedWidth={45}
+                    >
+                      <glamorous(img)
+                        alt="Man Utd"
+                        src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                      />
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontAlignment="left"
+                    >
+                      Man Utd
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      30
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      20
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      5
+                    </glamorous(td)>
+                    <glamorous(td)
+                      fontName="Roboto, sans-serif"
+                    >
+                      5
+                    </glamorous(td)>
+                    <glamorous(td)>
+                      65
+                    </glamorous(td)>
+                  </glamorous(glamorous(tr))>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "Man City",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <glamorous(td)
+                        definedWidth={20}
+                        fontName="Roboto, sans-serif"
+                      >
+                        1
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        definedWidth={45}
+                      >
+                        <glamorous(img)
+                          alt="Man City"
+                          src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                        />
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontAlignment="left"
+                      >
+                        Man City
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        30
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        26
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        3
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        1
+                      </glamorous(td)>,
+                      <glamorous(td)>
+                        81
+                      </glamorous(td)>,
+                    ],
+                    "definedHeight": 49,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 1,
+                        "definedWidth": 20,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 1,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <glamorous(img)
+                          alt="Man City"
+                          src="https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+                        />,
+                        "definedWidth": 45,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "alt": "Man City",
+                          "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Man City",
+                        "fontAlignment": "left",
+                      },
+                      "ref": null,
+                      "rendered": "Man City",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 30,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 30,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 26,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 26,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 3,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 3,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 1,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 1,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 81,
+                      },
+                      "ref": null,
+                      "rendered": 81,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Man Utd",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <glamorous(td)
+                        definedWidth={20}
+                        fontName="Roboto, sans-serif"
+                      >
+                        2
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        definedWidth={45}
+                      >
+                        <glamorous(img)
+                          alt="Man Utd"
+                          src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                        />
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontAlignment="left"
+                      >
+                        Man Utd
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        30
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        20
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        5
+                      </glamorous(td)>,
+                      <glamorous(td)
+                        fontName="Roboto, sans-serif"
+                      >
+                        5
+                      </glamorous(td)>,
+                      <glamorous(td)>
+                        65
+                      </glamorous(td)>,
+                    ],
+                    "definedHeight": 49,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 2,
+                        "definedWidth": 20,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 2,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <glamorous(img)
+                          alt="Man Utd"
+                          src="https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+                        />,
+                        "definedWidth": 45,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "alt": "Man Utd",
+                          "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Man Utd",
+                        "fontAlignment": "left",
+                      },
+                      "ref": null,
+                      "rendered": "Man Utd",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 30,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 30,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 20,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 20,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 5,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 5,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 5,
+                        "fontName": "Roboto, sans-serif",
+                      },
+                      "ref": null,
+                      "rendered": 5,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": 65,
+                      },
+                      "ref": null,
+                      "rendered": 65,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "tbody",
+            },
+          ],
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

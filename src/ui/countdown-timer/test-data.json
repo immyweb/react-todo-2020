@@ -1,0 +1,38 @@
+{
+	"countdownTimer": {
+		"during": {
+			"title": "Lorem ipsum dolor sit amet",
+			"subTitle": "Sed dictum, dui sit amet venenatis ultrices"
+		},
+		"ended": {
+			"title": "Pellentesque at condimentum purus.",
+			"subTitle": "Donec quis purus a turpis suscipit euismod"
+		}
+	},
+	"countdownTimerRoyalWedding": {
+		"during": {
+			"title": "Royal Wedding Countdown",
+			"image":
+				"https://www.thesun.co.uk/wp-content/uploads/2018/05/ag-count-down-timer-620x200finale1.png"
+		},
+		"ended": {
+			"title": "Royal Wedding Countdown",
+			"image":
+				"https://www.thesun.co.uk/wp-content/uploads/2018/05/ag-count-down-timer-620x200finale1.png"
+		}
+	},
+	"countdownTimerWorldCup": {
+		"during": {
+			"title": "World Cup",
+			"subTitle": "Sed dictum, dui sit amet venenatis ultrices",
+			"image":
+				"https://placeholdit.imgix.net/~text?txtsize=22&txt=During%20Image%20620%C3%97185&w=620&h=185"
+		},
+		"ended": {
+			"title": "World Cup",
+			"subTitle": "Sed dictum, dui sit amet venenatis ultrices",
+			"image":
+				"https://placeholdit.imgix.net/~text?txtsize=22&txt=Ended%20Image%20620%C3%97185&w=620&h=185"
+		}
+	}
+}

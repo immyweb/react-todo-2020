@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntroScreen /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <IntroScreen
+    introHeadline="Premier League Predictor"
+    introTxt="Play our awesome game"
+    onStartGame={[Function]}
+    slideWidth={400}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <glamorous(div)
+        className="ttt-inner"
+      >
+        <glamorous(glamorous(h3))
+          fontColour="#459977"
+        >
+          Premier League Predictor
+        </glamorous(glamorous(h3))>
+        <glamorous(p)>
+          Play our awesome game
+        </glamorous(p)>
+        <glamorous(button)
+          background="#459977"
+          fullWidth={true}
+          onClick={[Function]}
+        >
+          Play Now
+        </glamorous(button)>
+      </glamorous(div)>,
+      "width": 400,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(glamorous(h3))
+            fontColour="#459977"
+          >
+            Premier League Predictor
+          </glamorous(glamorous(h3))>,
+          <glamorous(p)>
+            Play our awesome game
+          </glamorous(p)>,
+          <glamorous(button)
+            background="#459977"
+            fullWidth={true}
+            onClick={[Function]}
+          >
+            Play Now
+          </glamorous(button)>,
+        ],
+        "className": "ttt-inner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Premier League Predictor",
+            "fontColour": "#459977",
+          },
+          "ref": null,
+          "rendered": "Premier League Predictor",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Play our awesome game",
+          },
+          "ref": null,
+          "rendered": "Play our awesome game",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#459977",
+            "children": "Play Now",
+            "fullWidth": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Play Now",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <glamorous(div)
+          className="ttt-inner"
+        >
+          <glamorous(glamorous(h3))
+            fontColour="#459977"
+          >
+            Premier League Predictor
+          </glamorous(glamorous(h3))>
+          <glamorous(p)>
+            Play our awesome game
+          </glamorous(p)>
+          <glamorous(button)
+            background="#459977"
+            fullWidth={true}
+            onClick={[Function]}
+          >
+            Play Now
+          </glamorous(button)>
+        </glamorous(div)>,
+        "width": 400,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(h3))
+              fontColour="#459977"
+            >
+              Premier League Predictor
+            </glamorous(glamorous(h3))>,
+            <glamorous(p)>
+              Play our awesome game
+            </glamorous(p)>,
+            <glamorous(button)
+              background="#459977"
+              fullWidth={true}
+              onClick={[Function]}
+            >
+              Play Now
+            </glamorous(button)>,
+          ],
+          "className": "ttt-inner",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Premier League Predictor",
+              "fontColour": "#459977",
+            },
+            "ref": null,
+            "rendered": "Premier League Predictor",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Play our awesome game",
+            },
+            "ref": null,
+            "rendered": "Play our awesome game",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "background": "#459977",
+              "children": "Play Now",
+              "fullWidth": true,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Play Now",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

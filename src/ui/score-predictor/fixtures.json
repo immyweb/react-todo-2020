@@ -1,0 +1,294 @@
+[
+	{
+		"team1": "Crystal Palace",
+		"team2": "Liverpool"
+	},
+	{
+		"team1": "Brighton",
+		"team2": "Leicester"
+	},
+	{
+		"team1": "Newcastle",
+		"team2": "Huddersfield"
+	},
+	{
+		"team1": "West Ham",
+		"team2": "Southampton"
+	},
+	{
+		"team1": "Everton",
+		"team2": "Manchester City"
+	},
+	{
+		"team1": "Arsenal",
+		"team2": "Stoke"
+	},
+	{
+		"team1": "Chelsea",
+		"team2": "Tottenham"
+	},
+	{
+		"team1": "Bournemouth",
+		"team2": "Crystal Palace"
+	},
+	{
+		"team1": "Brighton",
+		"team2": "Huddersfield"
+	},
+	{
+		"team1": "Leicester",
+		"team2": "Newcastle"
+	},
+	{
+		"team1": "Stoke",
+		"team2": "Tottenham"
+	},
+	{
+		"team1": "Watford",
+		"team2": "Burnley"
+	},
+	{
+		"team1": "West Brom",
+		"team2": "Swansea"
+	},
+	{
+		"team1": "Manchester City",
+		"team2": "Manchester Utd"
+	},
+	{
+		"team1": "Everton",
+		"team2": "Liverpool"
+	},
+	{
+		"team1": "Chelsea",
+		"team2": "West Ham"
+	},
+	{
+		"team1": "Arsenal",
+		"team2": "Southampton"
+	},
+	{
+		"team1": "Southampton",
+		"team2": "Chelsea"
+	},
+	{
+		"team1": "Burnley",
+		"team2": "Leicester"
+	},
+	{
+		"team1": "Crystal Palace",
+		"team2": "Brighton"
+	},
+	{
+		"team1": "Huddersfield",
+		"team2": "Watford"
+	},
+	{
+		"team1": "Swansea",
+		"team2": "Everton"
+	},
+	{
+		"team1": "Liverpool",
+		"team2": "Bournemouth"
+	},
+	{
+		"team1": "Tottenham",
+		"team2": "Manchester City"
+	},
+	{
+		"team1": "Newcastle",
+		"team2": "Arsenal"
+	},
+	{
+		"team1": "Manchester Utd",
+		"team2": "West Brom"
+	},
+	{
+		"team1": "West Ham",
+		"team2": "Stoke"
+	},
+	{
+		"team1": "Everton",
+		"team2": "Newcastle"
+	},
+	{
+		"team1": "Stoke",
+		"team2": "Burnley"
+	},
+	{
+		"team1": "Watford",
+		"team2": "Crystal Palace"
+	},
+	{
+		"team1": "West Brom",
+		"team2": "Liverpool"
+	},
+	{
+		"team1": "Manchester City",
+		"team2": "Swansea"
+	},
+	{
+		"team1": "Arsenal",
+		"team2": "West Ham"
+	},
+	{
+		"team1": "Liverpool",
+		"team2": "Stoke"
+	},
+	{
+		"team1": "Burnley",
+		"team2": "Brighton"
+	},
+	{
+		"team1": "Crystal Palace",
+		"team2": "Leicester"
+	},
+	{
+		"team1": "Huddersfield",
+		"team2": "Everton"
+	},
+	{
+		"team1": "Newcastle",
+		"team2": "West Brom"
+	},
+	{
+		"team1": "Southampton",
+		"team2": "Bournemouth"
+	},
+	{
+		"team1": "Swansea",
+		"team2": "Chelsea"
+	},
+	{
+		"team1": "West Ham",
+		"team2": "Manchester City"
+	},
+	{
+		"team1": "Manchester Utd",
+		"team2": "Arsenal"
+	},
+	{
+		"team1": "Tottenham",
+		"team2": "Watford"
+	},
+	{
+		"team1": "Arsenal",
+		"team2": "Burnley"
+	},
+	{
+		"team1": "Bournemouth",
+		"team2": "Swansea"
+	},
+	{
+		"team1": "Brighton",
+		"team2": "Manchester Utd"
+	},
+	{
+		"team1": "Chelsea",
+		"team2": "Liverpool"
+	},
+	{
+		"team1": "Everton",
+		"team2": "Southampton"
+	},
+	{
+		"team1": "Leicester",
+		"team2": "West Ham"
+	},
+	{
+		"team1": "Manchester City",
+		"team2": "Huddersfield"
+	},
+	{
+		"team1": "Stoke",
+		"team2": "Crystal Palace"
+	},
+	{
+		"team1": "Watford",
+		"team2": "Newcastle"
+	},
+	{
+		"team1": "West Brom",
+		"team2": "Tottenham"
+	},
+	{
+		"team1": "Burnley",
+		"team2": "Bournemouth"
+	},
+	{
+		"team1": "Crystal Palace",
+		"team2": "West Brom"
+	},
+	{
+		"team1": "Huddersfield",
+		"team2": "Arsenal"
+	},
+	{
+		"team1": "Liverpool",
+		"team2": "Brighton"
+	},
+	{
+		"team1": "Manchester Utd",
+		"team2": "Watford"
+	},
+	{
+		"team1": "Newcastle",
+		"team2": "Chelsea"
+	},
+	{
+		"team1": "Southampton",
+		"team2": "Manchester City"
+	},
+	{
+		"team1": "Swansea",
+		"team2": "Stoke"
+	},
+	{
+		"team1": "Tottenham",
+		"team2": "Leicester"
+	},
+	{
+		"team1": "West Ham",
+		"team2": "Everton"
+	},
+	{
+		"team1": "Bournemouth",
+		"team2": "Manchester Utd"
+	},
+	{
+		"team1": "Brighton",
+		"team2": "Tottenham"
+	},
+	{
+		"team1": "Burnley",
+		"team2": "Chelsea"
+	},
+	{
+		"team1": "Chelsea",
+		"team2": "Huddersfield"
+	},
+	{
+		"team1": "Leicester",
+		"team2": "Arsenal"
+	},
+	{
+		"team1": "Leicester",
+		"team2": "Southampton"
+	},
+	{
+		"team1": "Manchester City",
+		"team2": "Brighton"
+	},
+	{
+		"team1": "Swansea",
+		"team2": "Southampton"
+	},
+	{
+		"team1": "Tottenham",
+		"team2": "Newcastle"
+	},
+	{
+		"team1": "West Ham",
+		"team2": "Manchester Utd"
+	}
+]

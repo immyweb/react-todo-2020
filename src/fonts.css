@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'TheSun-Bold';
+	src: url('/the-sun/TheSun-Bold.eot');
+	src: url('/the-sun/TheSun-Bold.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSun-Bold.woff') format('woff'),
+		url('/the-sun/TheSun-Bold.ttf') format('truetype'),
+		url('/the-sun/TheSun-Bold.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheSun-HeavyNarrow';
+	src: url('https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-HeavyNarrow.woff2');
+	src: url('/the-sun/TheSun-HeavyNarrow.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSun-HeavyNarrow.woff') format('woff'),
+		url('/the-sun/TheSun-HeavyNarrow.ttf') format('truetype'),
+		url('/the-sun/TheSun-HeavyNarrow.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheSun-HeavyCondensed';
+	src: url('/the-sun/TheSun-HeavyCondensed.eot');
+	src: url('/the-sun/TheSun-HeavyCondensed.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSun-HeavyCondensed.woff') format('woff'),
+		url('/the-sun/TheSun-HeavyCondensed.ttf') format('truetype'),
+		url('/the-sun/TheSun-HeavyCondensed.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheSun-Medium';
+	src: url('/the-sun/TheSun-Medium.eot');
+	src: url('/the-sun/TheSun-Medium.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSun-Medium.woff') format('woff'),
+		url('/the-sun/TheSun-Medium.ttf') format('truetype'),
+		url('/the-sun/TheSun-Medium.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheSunSlab-Regular';
+	src: url('/the-sun/TheSunSlab-Regular.eot');
+	src: url('/the-sun/TheSunSlab-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSunSlab-Regular.woff') format('woff'),
+		url('/the-sun/TheSunSlab-Regular.ttf') format('truetype'),
+		url('/the-sun/TheSunSlab-Regular.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheSun-Regular';
+	src: url('/the-sun/TheSun-Regular.eot');
+	src: url('/the-sun/TheSun-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('/the-sun/TheSun-Regular.woff') format('woff'),
+		url('/the-sun/TheSun-Regular.ttf') format('truetype'),
+		url('/the-sun/TheSun-Regular.svg#') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('/the-sun/roboto-regular-webfont.woff') format('woff'),
+		url('/the-sun/roboto-regular-webfont.ttf') format('truetype'),
+		url('/the-sun/roboto-regular-webfont.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}

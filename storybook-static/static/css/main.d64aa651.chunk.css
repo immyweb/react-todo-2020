@@ -1,0 +1,346 @@
+.barchart_titleWrapper__229ZC {
+  text-align: left;
+  padding: 13px 20px 13px 15px;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.barchart_title__2A-PZ {
+  font-size: 24px !important;
+  line-height: 1.14 !important;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica-Bold !important;
+  display: block;
+  text-transform: unset;
+}
+
+@media only screen and (min-width: 980px) {
+  .barchart_title__2A-PZ {
+    font-size: 28px !important;
+  }
+}
+
+.barchart_BarContainer__1eDOB {
+  margin-bottom: 20px;
+}
+
+.barchart_BarContentHolder__2Hl-p {
+  padding: 20px;
+}
+
+.barchart_BarSubHeading__35lR_ {
+  font-family: Helvetica-Bold !important;
+  font-size: 20px;
+  line-height: 1.17;
+  text-align: left;
+  color: #222526;
+  margin-top: 0;
+  margin-bottom: 5px !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.barchart_BarCopy__2Syw- {
+  font-size: 14px;
+  color: #222526;
+  font-family: 'Helvetica';
+  margin-bottom: 20px !important;
+}
+
+.barchart_chartHeading__3AJUk {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.barchart_BarChartHolder__1owsq {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.barchart_LeftColumn__3G_zB {
+  display: flex;
+  position: relative;
+  top: -25px;
+}
+
+.barchart_BarChartLegend__1p4ZN {
+  padding: 0 10px 0 0;
+  border-right: 1px solid #adafb0;
+}
+
+.barchart_BarChartLegendItem__33Avw {
+  height: 45px;
+  font-size: 20px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.barchart_BarChartDiff__2K_om {
+  padding: 0 10px;
+}
+
+.barchart_BarChartDiffItem__2uu9j {
+  height: 45px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.barchart_ArrowUp__HGY-v {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #4eb056;
+  margin-right: 3px;
+}
+
+.barchart_ArrowDown__299st {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #a5171c;
+  margin-right: 3px;
+}
+
+.barchart_Diff__bpx7Q {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.barchart_ChartContainer__3fPgu {
+  position: relative;
+  overflow: hidden;
+  top: -25px;
+}
+
+.barchart_LozengeHolder__wgvYd {
+  position: absolute;
+  width: 100%;
+  padding-top: 4px;
+}
+
+.barchart_Lozenge__27t5J {
+  margin: 0 0 7px;
+  padding: 0 8px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  height: 37px;
+}
+
+.barchart_GridLineHolder__2bgZZ {
+  position: absolute;
+  width: 91%;
+}
+
+.barchart_GridLine__2xcVa {
+  margin: 0 0 43px;
+  background: #232526;
+  opacity: 0.1;
+  height: 1px;
+}
+
+.barchart_AnotherChartContainer__17ToT {
+  margin-top: 8px;
+}
+
+.barchart_UnitHolder__3QU99 {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 675px) {
+  .barchart_BarSubHeading__35lR_ {
+    font-size: 18px;
+  }
+
+  .barchart_ArrowUp__HGY-v {
+    display: none;
+  }
+
+  .barchart_ArrowDown__299st {
+    display: none;
+  }
+
+  .barchart_GridLineHolder__2bgZZ {
+    width: 83%;
+  }
+}
+
+@value fonts: "../../styles/fonts.css";
+@value theSunBold from fonts;
+.OverFlowContainer {
+  position: absolute;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), white);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+}
+
+.OverFlowButton {
+  margin-top: 100px;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-family: theSunBold;
+  cursor: pointer;
+}
+
+.stacked-bar_titleWrapper__3SDYW {
+  text-align: left;
+  padding: 13px 20px 13px 15px;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.stacked-bar_title__2CrFU {
+  font-size: 24px !important;
+  line-height: 1.14 !important;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica-Bold !important;
+  display: block;
+  text-transform: unset;
+}
+
+@media only screen and (min-width: 980px) {
+  .stacked-bar_title__2CrFU {
+    font-size: 28px !important;
+  }
+}
+
+.stacked-bar_stackedBarContainer__c4VmG {
+  margin-bottom: 20px;
+}
+
+.stacked-bar_stackedBarContentHolder__hI27H {
+  padding: 20px;
+}
+
+.stacked-bar_stackedBarSubHeading__28QqP {
+  font-family: Helvetica-Bold !important;
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 5px !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.17;
+}
+
+.stacked-bar_stackedBarCopy__M3xRK {
+  font-size: 14px;
+  color: black;
+  font-family: Helvetica;
+  margin-bottom: 15px !important;
+}
+
+.stacked-bar_chartHeadingContainer__3bFfD {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.stacked-bar_chartHeading__1ai77 {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.stacked-bar_labelChartHeader__2raLY {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 0px;
+}
+
+.stacked-bar_stackedChartHolder__3nXR- {
+  margin: 5px 0 15px;
+  background: #ffffff;
+  border-radius: 35px;
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  height: 55px;
+  padding: 0 6px;
+}
+
+.stacked-bar_stackedBarLegendList__26Aip {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.stacked-bar_stackedBarLegendItem__1uJXC {
+  padding: 0 5px;
+  margin-bottom: 17px;
+  display: flex;
+  flex: 0 0 50%;
+}
+
+.stacked-bar_stackedBarLegendColour__2BYay {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.stacked-bar_stackedBarLegendLabel__2GwZQ {
+  display: inline-block;
+  font-family: Helvetica-Bold;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.stacked-bar_stackedBarLegendStat__2PV2E {
+  display: block;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 675px) {
+  .stacked-bar_stackedBarSubHeading__28QqP {
+    font-size: 18px;
+  }
+
+  .stacked-bar_stackedChartHolder__3nXR- {
+    padding: 0 8px;
+    height: 40px;
+  }
+
+  .stacked-bar_stackedBarLegendList__26Aip {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+
+/*# sourceMappingURL=main.d64aa651.chunk.css.map*/
