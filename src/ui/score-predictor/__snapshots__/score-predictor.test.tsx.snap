@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScorePredictor /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ScorePredictor
+    fixtures={
+      Array [
+        Object {
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+      ]
+    }
+    introHeadline="EFL CHAMPIONSHIP PREDICTOR"
+    introTxt="Predict Home Win, Draw or Away Win to see who will finish in those crucial Promotion and Relegation places."
+    teams={
+      Array [
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+          "draw": 9,
+          "lose": 4,
+          "played": 31,
+          "points": 63,
+          "team": "Liverpool",
+          "win": 18,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+          "draw": 9,
+          "lose": 15,
+          "played": 31,
+          "points": 30,
+          "team": "C Palace",
+          "win": 7,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+          "draw": 10,
+          "lose": 12,
+          "played": 30,
+          "points": 34,
+          "team": "Brighton",
+          "win": 8,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+          "draw": 10,
+          "lose": 10,
+          "played": 30,
+          "points": 40,
+          "team": "Leicester",
+          "win": 10,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Predictor
+        fixtures={
+          Array [
+            Object {
+              "id": 0,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 1,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 2,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 3,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 4,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 5,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 6,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 7,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+          ]
+        }
+        groupNumber={8}
+        introHeadline="EFL CHAMPIONSHIP PREDICTOR"
+        introTxt="Predict Home Win, Draw or Away Win to see who will finish in those crucial Promotion and Relegation places."
+        onConfirm={[Function]}
+        onLoaded={[Function]}
+        onPredict={[Function]}
+        teams={
+          Array [
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+              "draw": 9,
+              "lose": 4,
+              "played": 31,
+              "points": 63,
+              "team": "Liverpool",
+              "win": 18,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+              "draw": 9,
+              "lose": 15,
+              "played": 31,
+              "points": 30,
+              "team": "C Palace",
+              "win": 7,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+              "draw": 10,
+              "lose": 12,
+              "played": 30,
+              "points": 34,
+              "team": "Brighton",
+              "win": 8,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+              "draw": 10,
+              "lose": 10,
+              "played": 30,
+              "points": 40,
+              "team": "Leicester",
+              "win": 10,
+            },
+          ]
+        }
+      />,
+      "loaded": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "fixtures": Array [
+          Object {
+            "id": 0,
+            "team1": "C Palace",
+            "team2": "Liverpool",
+          },
+          Object {
+            "id": 1,
+            "team1": "Brighton",
+            "team2": "Leicester",
+          },
+          Object {
+            "id": 2,
+            "team1": "C Palace",
+            "team2": "Liverpool",
+          },
+          Object {
+            "id": 3,
+            "team1": "Brighton",
+            "team2": "Leicester",
+          },
+          Object {
+            "id": 4,
+            "team1": "C Palace",
+            "team2": "Liverpool",
+          },
+          Object {
+            "id": 5,
+            "team1": "Brighton",
+            "team2": "Leicester",
+          },
+          Object {
+            "id": 6,
+            "team1": "C Palace",
+            "team2": "Liverpool",
+          },
+          Object {
+            "id": 7,
+            "team1": "Brighton",
+            "team2": "Leicester",
+          },
+        ],
+        "groupNumber": 8,
+        "introHeadline": "EFL CHAMPIONSHIP PREDICTOR",
+        "introTxt": "Predict Home Win, Draw or Away Win to see who will finish in those crucial Promotion and Relegation places.",
+        "onConfirm": [Function],
+        "onLoaded": [Function],
+        "onPredict": [Function],
+        "teams": Array [
+          Object {
+            "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+            "draw": 9,
+            "lose": 4,
+            "played": 31,
+            "points": 63,
+            "team": "Liverpool",
+            "win": 18,
+          },
+          Object {
+            "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+            "draw": 9,
+            "lose": 15,
+            "played": 31,
+            "points": 30,
+            "team": "C Palace",
+            "win": 7,
+          },
+          Object {
+            "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+            "draw": 10,
+            "lose": 12,
+            "played": 30,
+            "points": 34,
+            "team": "Brighton",
+            "win": 8,
+          },
+          Object {
+            "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+            "draw": 10,
+            "lose": 10,
+            "played": 30,
+            "points": 40,
+            "team": "Leicester",
+            "win": 10,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Predictor
+          fixtures={
+            Array [
+              Object {
+                "id": 0,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              },
+              Object {
+                "id": 1,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              },
+              Object {
+                "id": 2,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              },
+              Object {
+                "id": 3,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              },
+              Object {
+                "id": 4,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              },
+              Object {
+                "id": 5,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              },
+              Object {
+                "id": 6,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              },
+              Object {
+                "id": 7,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              },
+            ]
+          }
+          groupNumber={8}
+          introHeadline="EFL CHAMPIONSHIP PREDICTOR"
+          introTxt="Predict Home Win, Draw or Away Win to see who will finish in those crucial Promotion and Relegation places."
+          onConfirm={[Function]}
+          onLoaded={[Function]}
+          onPredict={[Function]}
+          teams={
+            Array [
+              Object {
+                "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                "draw": 9,
+                "lose": 4,
+                "played": 31,
+                "points": 63,
+                "team": "Liverpool",
+                "win": 18,
+              },
+              Object {
+                "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                "draw": 9,
+                "lose": 15,
+                "played": 31,
+                "points": 30,
+                "team": "C Palace",
+                "win": 7,
+              },
+              Object {
+                "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                "draw": 10,
+                "lose": 12,
+                "played": 30,
+                "points": 34,
+                "team": "Brighton",
+                "win": 8,
+              },
+              Object {
+                "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                "draw": 10,
+                "lose": 10,
+                "played": 30,
+                "points": 40,
+                "team": "Leicester",
+                "win": 10,
+              },
+            ]
+          }
+        />,
+        "loaded": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "fixtures": Array [
+            Object {
+              "id": 0,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 1,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 2,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 3,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 4,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 5,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+            Object {
+              "id": 6,
+              "team1": "C Palace",
+              "team2": "Liverpool",
+            },
+            Object {
+              "id": 7,
+              "team1": "Brighton",
+              "team2": "Leicester",
+            },
+          ],
+          "groupNumber": 8,
+          "introHeadline": "EFL CHAMPIONSHIP PREDICTOR",
+          "introTxt": "Predict Home Win, Draw or Away Win to see who will finish in those crucial Promotion and Relegation places.",
+          "onConfirm": [Function],
+          "onLoaded": [Function],
+          "onPredict": [Function],
+          "teams": Array [
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+              "draw": 9,
+              "lose": 4,
+              "played": 31,
+              "points": 63,
+              "team": "Liverpool",
+              "win": 18,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+              "draw": 9,
+              "lose": 15,
+              "played": 31,
+              "points": 30,
+              "team": "C Palace",
+              "win": 7,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+              "draw": 10,
+              "lose": 12,
+              "played": 30,
+              "points": 34,
+              "team": "Brighton",
+              "win": 8,
+            },
+            Object {
+              "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+              "draw": 10,
+              "lose": 10,
+              "played": 30,
+              "points": 40,
+              "team": "Leicester",
+              "win": 10,
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

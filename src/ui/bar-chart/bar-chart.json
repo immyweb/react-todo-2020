@@ -1,0 +1,47 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#4085cb",
+      "secondary": "#2d5c8c"
+    }
+  },
+  "content": {
+    "headline": "Local Election Results",
+    "subHeadline": "After 200 of 200 seats declared",
+    "copy": "Summary text goes here. Morbi eget ligula tincidunt, gravida nulla quis, fermentum nunc. Nunc dictum risus nec enim posuere pellentesque. Etiam hendrerit turpis quis placerat pulvinar.",
+    "labelHeader": "Party",
+    "diffHeader": "Seats",
+    "data": [
+      {
+        "label": "Lab",
+        "value": -9.5,
+        "colour": "#dc241f"
+      },
+      {
+        "label": "Con",
+        "value": -5.9,
+        "colour": "#0087dc"
+      },
+      {
+        "label": "Lib",
+        "value": -1,
+        "colour": "#fdbb30"
+      },
+      {
+        "label": "SNP",
+        "value": 1.7,
+        "colour": "#ffff00"
+      },
+      {
+        "label": "Grn",
+        "value": 2.1,
+        "colour": "#78b943"
+      },
+      {
+        "label": "Ukip",
+        "value": 10.8,
+        "colour": "#70147a"
+      }
+    ]
+  }
+}

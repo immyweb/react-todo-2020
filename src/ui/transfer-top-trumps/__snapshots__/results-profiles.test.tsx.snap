@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsProfiles /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    sortedProfiles={
+      Array [
+        Object {
+          "active": false,
+          "age": 29,
+          "club": "Chelsea",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+          "fee": "£60m",
+          "fname": "",
+          "id": "willian",
+          "idx": 0,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+          "position": "CAM",
+          "sName": "Willian",
+          "selected": false,
+          "voteCount": 20,
+          "voted": true,
+        },
+        Object {
+          "active": false,
+          "age": 27,
+          "club": "Juventus",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+          "fee": "£60m",
+          "fname": "Alex",
+          "id": "a_sandro",
+          "idx": 1,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+          "position": "LB",
+          "sName": "Sandro",
+          "selected": true,
+          "voteCount": 50,
+          "voted": true,
+        },
+        Object {
+          "active": true,
+          "age": 23,
+          "club": "SS Lazio",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+          "fee": "£70m",
+          "fname": "Sergej",
+          "id": "s_m_savic",
+          "idx": 2,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+          "position": "CM",
+          "sName": "Milinković-Savić",
+          "selected": false,
+          "voteCount": 60,
+          "voted": false,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(div)>
+          <glamorous(div)>
+            <ButtonCta
+              bkgndBottom="#9f041b"
+              bkgndTop="#ed283a"
+              borderWidth={1}
+              disabled={true}
+              iconName="cross-solid"
+              iconSize={7}
+              size={20}
+            />
+          </glamorous(div)>
+          <glamorous(div)>
+            <img
+              alt="Willian"
+              src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+            />
+          </glamorous(div)>
+        </glamorous(div)>,
+        <glamorous(div)>
+          <glamorous(div)>
+            <ButtonCta
+              bkgndBottom="#6cb71b"
+              bkgndTop="#a5dc39"
+              borderWidth={1}
+              disabled={true}
+              iconName="tick-solid"
+              iconSize={8}
+              size={20}
+            />
+          </glamorous(div)>
+          <glamorous(div)>
+            <img
+              alt="Sandro"
+              src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+            />
+          </glamorous(div)>
+        </glamorous(div)>,
+        <glamorous(div)>
+          <glamorous(div)>
+            <ButtonCta
+              bkgndBottom="#9f041b"
+              bkgndTop="#ed283a"
+              borderWidth={1}
+              disabled={true}
+              iconName="cross-solid"
+              iconSize={7}
+              size={20}
+            />
+          </glamorous(div)>
+          <glamorous(div)>
+            <img
+              alt="Milinković-Savić"
+              src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+            />
+          </glamorous(div)>
+        </glamorous(div)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            false,
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />
+            </glamorous(div)>,
+            <glamorous(div)>
+              <img
+                alt="Willian"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+              />
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "bkgndBottom": "#9f041b",
+                "bkgndTop": "#ed283a",
+                "borderWidth": 1,
+                "disabled": true,
+                "iconName": "cross-solid",
+                "iconSize": 7,
+                "size": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <img
+                alt="Willian"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Willian",
+                "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#6cb71b"
+                bkgndTop="#a5dc39"
+                borderWidth={1}
+                disabled={true}
+                iconName="tick-solid"
+                iconSize={8}
+                size={20}
+              />
+            </glamorous(div)>,
+            false,
+            <glamorous(div)>
+              <img
+                alt="Sandro"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+              />
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <ButtonCta
+                bkgndBottom="#6cb71b"
+                bkgndTop="#a5dc39"
+                borderWidth={1}
+                disabled={true}
+                iconName="tick-solid"
+                iconSize={8}
+                size={20}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "bkgndBottom": "#6cb71b",
+                "bkgndTop": "#a5dc39",
+                "borderWidth": 1,
+                "disabled": true,
+                "iconName": "tick-solid",
+                "iconSize": 8,
+                "size": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <img
+                alt="Sandro"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Sandro",
+                "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            false,
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />
+            </glamorous(div)>,
+            <glamorous(div)>
+              <img
+                alt="Milinković-Savić"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+              />
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "bkgndBottom": "#9f041b",
+                "bkgndTop": "#ed283a",
+                "borderWidth": 1,
+                "disabled": true,
+                "iconName": "cross-solid",
+                "iconSize": 7,
+                "size": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <img
+                alt="Milinković-Savić"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Milinković-Savić",
+                "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(div)>
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />
+            </glamorous(div)>
+            <glamorous(div)>
+              <img
+                alt="Willian"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+              />
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(div)>
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#6cb71b"
+                bkgndTop="#a5dc39"
+                borderWidth={1}
+                disabled={true}
+                iconName="tick-solid"
+                iconSize={8}
+                size={20}
+              />
+            </glamorous(div)>
+            <glamorous(div)>
+              <img
+                alt="Sandro"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+              />
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(div)>
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                borderWidth={1}
+                disabled={true}
+                iconName="cross-solid"
+                iconSize={7}
+                size={20}
+              />
+            </glamorous(div)>
+            <glamorous(div)>
+              <img
+                alt="Milinković-Savić"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+              />
+            </glamorous(div)>
+          </glamorous(div)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              false,
+              <glamorous(div)>
+                <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="cross-solid"
+                  iconSize={7}
+                  size={20}
+                />
+              </glamorous(div)>,
+              <glamorous(div)>
+                <img
+                  alt="Willian"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+                />
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="cross-solid"
+                  iconSize={7}
+                  size={20}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bkgndBottom": "#9f041b",
+                  "bkgndTop": "#ed283a",
+                  "borderWidth": 1,
+                  "disabled": true,
+                  "iconName": "cross-solid",
+                  "iconSize": 7,
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <img
+                  alt="Willian"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Willian",
+                  "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)>
+                <ButtonCta
+                  bkgndBottom="#6cb71b"
+                  bkgndTop="#a5dc39"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="tick-solid"
+                  iconSize={8}
+                  size={20}
+                />
+              </glamorous(div)>,
+              false,
+              <glamorous(div)>
+                <img
+                  alt="Sandro"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+                />
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ButtonCta
+                  bkgndBottom="#6cb71b"
+                  bkgndTop="#a5dc39"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="tick-solid"
+                  iconSize={8}
+                  size={20}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bkgndBottom": "#6cb71b",
+                  "bkgndTop": "#a5dc39",
+                  "borderWidth": 1,
+                  "disabled": true,
+                  "iconName": "tick-solid",
+                  "iconSize": 8,
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <img
+                  alt="Sandro"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Sandro",
+                  "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              false,
+              <glamorous(div)>
+                <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="cross-solid"
+                  iconSize={7}
+                  size={20}
+                />
+              </glamorous(div)>,
+              <glamorous(div)>
+                <img
+                  alt="Milinković-Savić"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+                />
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  borderWidth={1}
+                  disabled={true}
+                  iconName="cross-solid"
+                  iconSize={7}
+                  size={20}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bkgndBottom": "#9f041b",
+                  "bkgndTop": "#ed283a",
+                  "borderWidth": 1,
+                  "disabled": true,
+                  "iconName": "cross-solid",
+                  "iconSize": 7,
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <img
+                  alt="Milinković-Savić"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Milinković-Savić",
+                  "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

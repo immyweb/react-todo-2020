@@ -1,0 +1,1006 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntroScreen /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    headline="Transfer Top Trumps"
+    introCopy="Choose the players you would like your club to sign"
+    introHeadline="How to play"
+    no="Tap/Click for 'No'"
+    onStartGame={[Function]}
+    playBtn="Play now"
+    subHeadline="Who will you choose?"
+    targetClub={
+      Object {
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+        "id": "man-utd",
+        "name": "Man Utd",
+        "teamColours": "#a81507",
+      }
+    }
+    theme={
+      Object {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+      }
+    }
+    yes="Tap/Click for 'Yes'"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <glamorous(glamorous.Div)
+        className="ttt-intro"
+      >
+        <glamorous(glamorous(h3))
+          className="ttt-intro-headline"
+          fontColour="#000000"
+        >
+          Transfer Top Trumps
+        </glamorous(glamorous(h3))>
+        <glamorous(glamorous(h2))
+          className="ttt-intro-subheadline"
+          fontColour="#ffffff"
+        >
+          Who will you choose?
+        </glamorous(glamorous(h2))>
+        <glamorous(div)
+          className="ttt-intro-badge"
+        >
+          <Unknown
+            colour="#a81507"
+            top={30}
+          />
+          <glamorous(div)
+            size={85}
+          >
+            <glamorous(img)
+              alt="Man Utd"
+              src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+            />
+          </glamorous(div)>
+        </glamorous(div)>
+        <glamorous(glamorous(h3))
+          className="ttt-intro-header"
+        >
+          How to play
+        </glamorous(glamorous(h3))>
+        <glamorous(glamorous(glamorous.P))
+          className="ttt-intro-content"
+          color="#000000"
+        >
+          Choose the players you would like your club to sign
+        </glamorous(glamorous(glamorous.P))>
+        <glamorous(div)
+          className="ttt-intro-instructions"
+        >
+          <glamorous(div)
+            reverse={true}
+          >
+            <ButtonCta
+              bkgndBottom="#9f041b"
+              bkgndTop="#ed283a"
+              disabled={true}
+              iconName="cross-solid"
+            />
+            <glamorous(glamorous(glamorous.P))>
+              Tap/Click for 'No'
+            </glamorous(glamorous(glamorous.P))>
+          </glamorous(div)>
+          <glamorous(div) />
+          <glamorous(div)>
+            <ButtonCta
+              bkgndBottom="#6cb71b"
+              bkgndTop="#a5dc39"
+              disabled={true}
+              iconName="tick-solid"
+            />
+            <glamorous(glamorous(glamorous.P))>
+              Tap/Click for 'Yes'
+            </glamorous(glamorous(glamorous.P))>
+          </glamorous(div)>
+        </glamorous(div)>
+        <glamorous(div)
+          className="ttt-intro-button"
+        >
+          <glamorous(glamorous(button))
+            bkgndBottom="#ffffff"
+            bkgndTop="#000000"
+            onClick={[Function]}
+          >
+            Play now
+          </glamorous(glamorous(button))>
+        </glamorous(div)>
+      </glamorous(glamorous.Div)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(glamorous(h3))
+            className="ttt-intro-headline"
+            fontColour="#000000"
+          >
+            Transfer Top Trumps
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h2))
+            className="ttt-intro-subheadline"
+            fontColour="#ffffff"
+          >
+            Who will you choose?
+          </glamorous(glamorous(h2))>,
+          <glamorous(div)
+            className="ttt-intro-badge"
+          >
+            <Unknown
+              colour="#a81507"
+              top={30}
+            />
+            <glamorous(div)
+              size={85}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(glamorous(h3))
+            className="ttt-intro-header"
+          >
+            How to play
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(glamorous.P))
+            className="ttt-intro-content"
+            color="#000000"
+          >
+            Choose the players you would like your club to sign
+          </glamorous(glamorous(glamorous.P))>,
+          <glamorous(div)
+            className="ttt-intro-instructions"
+          >
+            <glamorous(div)
+              reverse={true}
+            >
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                disabled={true}
+                iconName="cross-solid"
+              />
+              <glamorous(glamorous(glamorous.P))>
+                Tap/Click for 'No'
+              </glamorous(glamorous(glamorous.P))>
+            </glamorous(div)>
+            <glamorous(div) />
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#6cb71b"
+                bkgndTop="#a5dc39"
+                disabled={true}
+                iconName="tick-solid"
+              />
+              <glamorous(glamorous(glamorous.P))>
+                Tap/Click for 'Yes'
+              </glamorous(glamorous(glamorous.P))>
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(div)
+            className="ttt-intro-button"
+          >
+            <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              Play now
+            </glamorous(glamorous(button))>
+          </glamorous(div)>,
+        ],
+        "className": "ttt-intro",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Transfer Top Trumps",
+            "className": "ttt-intro-headline",
+            "fontColour": "#000000",
+          },
+          "ref": null,
+          "rendered": "Transfer Top Trumps",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Who will you choose?",
+            "className": "ttt-intro-subheadline",
+            "fontColour": "#ffffff",
+          },
+          "ref": null,
+          "rendered": "Who will you choose?",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                colour="#a81507"
+                top={30}
+              />,
+              <glamorous(div)
+                size={85}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+              </glamorous(div)>,
+            ],
+            "className": "ttt-intro-badge",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "colour": "#a81507",
+                "top": 30,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />,
+                "size": 85,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "Man Utd",
+                  "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "How to play",
+            "className": "ttt-intro-header",
+          },
+          "ref": null,
+          "rendered": "How to play",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Choose the players you would like your club to sign",
+            "className": "ttt-intro-content",
+            "color": "#000000",
+          },
+          "ref": null,
+          "rendered": "Choose the players you would like your club to sign",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                reverse={true}
+              >
+                <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  disabled={true}
+                  iconName="cross-solid"
+                />
+                <glamorous(glamorous(glamorous.P))>
+                  Tap/Click for 'No'
+                </glamorous(glamorous(glamorous.P))>
+              </glamorous(div)>,
+              <glamorous(div) />,
+              <glamorous(div)>
+                <ButtonCta
+                  bkgndBottom="#6cb71b"
+                  bkgndTop="#a5dc39"
+                  disabled={true}
+                  iconName="tick-solid"
+                />
+                <glamorous(glamorous(glamorous.P))>
+                  Tap/Click for 'Yes'
+                </glamorous(glamorous(glamorous.P))>
+              </glamorous(div)>,
+            ],
+            "className": "ttt-intro-instructions",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ButtonCta
+                    bkgndBottom="#9f041b"
+                    bkgndTop="#ed283a"
+                    disabled={true}
+                    iconName="cross-solid"
+                  />,
+                  <glamorous(glamorous(glamorous.P))>
+                    Tap/Click for 'No'
+                  </glamorous(glamorous(glamorous.P))>,
+                ],
+                "reverse": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bkgndBottom": "#9f041b",
+                    "bkgndTop": "#ed283a",
+                    "disabled": true,
+                    "iconName": "cross-solid",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Tap/Click for 'No'",
+                  },
+                  "ref": null,
+                  "rendered": "Tap/Click for 'No'",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ButtonCta
+                    bkgndBottom="#6cb71b"
+                    bkgndTop="#a5dc39"
+                    disabled={true}
+                    iconName="tick-solid"
+                  />,
+                  <glamorous(glamorous(glamorous.P))>
+                    Tap/Click for 'Yes'
+                  </glamorous(glamorous(glamorous.P))>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bkgndBottom": "#6cb71b",
+                    "bkgndTop": "#a5dc39",
+                    "disabled": true,
+                    "iconName": "tick-solid",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Tap/Click for 'Yes'",
+                  },
+                  "ref": null,
+                  "rendered": "Tap/Click for 'Yes'",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              Play now
+            </glamorous(glamorous(button))>,
+            "className": "ttt-intro-button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bkgndBottom": "#ffffff",
+              "bkgndTop": "#000000",
+              "children": "Play now",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Play now",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <glamorous(glamorous.Div)
+          className="ttt-intro"
+        >
+          <glamorous(glamorous(h3))
+            className="ttt-intro-headline"
+            fontColour="#000000"
+          >
+            Transfer Top Trumps
+          </glamorous(glamorous(h3))>
+          <glamorous(glamorous(h2))
+            className="ttt-intro-subheadline"
+            fontColour="#ffffff"
+          >
+            Who will you choose?
+          </glamorous(glamorous(h2))>
+          <glamorous(div)
+            className="ttt-intro-badge"
+          >
+            <Unknown
+              colour="#a81507"
+              top={30}
+            />
+            <glamorous(div)
+              size={85}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+            </glamorous(div)>
+          </glamorous(div)>
+          <glamorous(glamorous(h3))
+            className="ttt-intro-header"
+          >
+            How to play
+          </glamorous(glamorous(h3))>
+          <glamorous(glamorous(glamorous.P))
+            className="ttt-intro-content"
+            color="#000000"
+          >
+            Choose the players you would like your club to sign
+          </glamorous(glamorous(glamorous.P))>
+          <glamorous(div)
+            className="ttt-intro-instructions"
+          >
+            <glamorous(div)
+              reverse={true}
+            >
+              <ButtonCta
+                bkgndBottom="#9f041b"
+                bkgndTop="#ed283a"
+                disabled={true}
+                iconName="cross-solid"
+              />
+              <glamorous(glamorous(glamorous.P))>
+                Tap/Click for 'No'
+              </glamorous(glamorous(glamorous.P))>
+            </glamorous(div)>
+            <glamorous(div) />
+            <glamorous(div)>
+              <ButtonCta
+                bkgndBottom="#6cb71b"
+                bkgndTop="#a5dc39"
+                disabled={true}
+                iconName="tick-solid"
+              />
+              <glamorous(glamorous(glamorous.P))>
+                Tap/Click for 'Yes'
+              </glamorous(glamorous(glamorous.P))>
+            </glamorous(div)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="ttt-intro-button"
+          >
+            <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              Play now
+            </glamorous(glamorous(button))>
+          </glamorous(div)>
+        </glamorous(glamorous.Div)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(h3))
+              className="ttt-intro-headline"
+              fontColour="#000000"
+            >
+              Transfer Top Trumps
+            </glamorous(glamorous(h3))>,
+            <glamorous(glamorous(h2))
+              className="ttt-intro-subheadline"
+              fontColour="#ffffff"
+            >
+              Who will you choose?
+            </glamorous(glamorous(h2))>,
+            <glamorous(div)
+              className="ttt-intro-badge"
+            >
+              <Unknown
+                colour="#a81507"
+                top={30}
+              />
+              <glamorous(div)
+                size={85}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+              </glamorous(div)>
+            </glamorous(div)>,
+            <glamorous(glamorous(h3))
+              className="ttt-intro-header"
+            >
+              How to play
+            </glamorous(glamorous(h3))>,
+            <glamorous(glamorous(glamorous.P))
+              className="ttt-intro-content"
+              color="#000000"
+            >
+              Choose the players you would like your club to sign
+            </glamorous(glamorous(glamorous.P))>,
+            <glamorous(div)
+              className="ttt-intro-instructions"
+            >
+              <glamorous(div)
+                reverse={true}
+              >
+                <ButtonCta
+                  bkgndBottom="#9f041b"
+                  bkgndTop="#ed283a"
+                  disabled={true}
+                  iconName="cross-solid"
+                />
+                <glamorous(glamorous(glamorous.P))>
+                  Tap/Click for 'No'
+                </glamorous(glamorous(glamorous.P))>
+              </glamorous(div)>
+              <glamorous(div) />
+              <glamorous(div)>
+                <ButtonCta
+                  bkgndBottom="#6cb71b"
+                  bkgndTop="#a5dc39"
+                  disabled={true}
+                  iconName="tick-solid"
+                />
+                <glamorous(glamorous(glamorous.P))>
+                  Tap/Click for 'Yes'
+                </glamorous(glamorous(glamorous.P))>
+              </glamorous(div)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="ttt-intro-button"
+            >
+              <glamorous(glamorous(button))
+                bkgndBottom="#ffffff"
+                bkgndTop="#000000"
+                onClick={[Function]}
+              >
+                Play now
+              </glamorous(glamorous(button))>
+            </glamorous(div)>,
+          ],
+          "className": "ttt-intro",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Transfer Top Trumps",
+              "className": "ttt-intro-headline",
+              "fontColour": "#000000",
+            },
+            "ref": null,
+            "rendered": "Transfer Top Trumps",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Who will you choose?",
+              "className": "ttt-intro-subheadline",
+              "fontColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "Who will you choose?",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  colour="#a81507"
+                  top={30}
+                />,
+                <glamorous(div)
+                  size={85}
+                >
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />
+                </glamorous(div)>,
+              ],
+              "className": "ttt-intro-badge",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "colour": "#a81507",
+                  "top": 30,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />,
+                  "size": 85,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Man Utd",
+                    "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "How to play",
+              "className": "ttt-intro-header",
+            },
+            "ref": null,
+            "rendered": "How to play",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Choose the players you would like your club to sign",
+              "className": "ttt-intro-content",
+              "color": "#000000",
+            },
+            "ref": null,
+            "rendered": "Choose the players you would like your club to sign",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <glamorous(div)
+                  reverse={true}
+                >
+                  <ButtonCta
+                    bkgndBottom="#9f041b"
+                    bkgndTop="#ed283a"
+                    disabled={true}
+                    iconName="cross-solid"
+                  />
+                  <glamorous(glamorous(glamorous.P))>
+                    Tap/Click for 'No'
+                  </glamorous(glamorous(glamorous.P))>
+                </glamorous(div)>,
+                <glamorous(div) />,
+                <glamorous(div)>
+                  <ButtonCta
+                    bkgndBottom="#6cb71b"
+                    bkgndTop="#a5dc39"
+                    disabled={true}
+                    iconName="tick-solid"
+                  />
+                  <glamorous(glamorous(glamorous.P))>
+                    Tap/Click for 'Yes'
+                  </glamorous(glamorous(glamorous.P))>
+                </glamorous(div)>,
+              ],
+              "className": "ttt-intro-instructions",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <ButtonCta
+                      bkgndBottom="#9f041b"
+                      bkgndTop="#ed283a"
+                      disabled={true}
+                      iconName="cross-solid"
+                    />,
+                    <glamorous(glamorous(glamorous.P))>
+                      Tap/Click for 'No'
+                    </glamorous(glamorous(glamorous.P))>,
+                  ],
+                  "reverse": true,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "bkgndBottom": "#9f041b",
+                      "bkgndTop": "#ed283a",
+                      "disabled": true,
+                      "iconName": "cross-solid",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Tap/Click for 'No'",
+                    },
+                    "ref": null,
+                    "rendered": "Tap/Click for 'No'",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <ButtonCta
+                      bkgndBottom="#6cb71b"
+                      bkgndTop="#a5dc39"
+                      disabled={true}
+                      iconName="tick-solid"
+                    />,
+                    <glamorous(glamorous(glamorous.P))>
+                      Tap/Click for 'Yes'
+                    </glamorous(glamorous(glamorous.P))>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "bkgndBottom": "#6cb71b",
+                      "bkgndTop": "#a5dc39",
+                      "disabled": true,
+                      "iconName": "tick-solid",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Tap/Click for 'Yes'",
+                    },
+                    "ref": null,
+                    "rendered": "Tap/Click for 'Yes'",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(glamorous(button))
+                bkgndBottom="#ffffff"
+                bkgndTop="#000000"
+                onClick={[Function]}
+              >
+                Play now
+              </glamorous(glamorous(button))>,
+              "className": "ttt-intro-button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bkgndBottom": "#ffffff",
+                "bkgndTop": "#000000",
+                "children": "Play now",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Play now",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

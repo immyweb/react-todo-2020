@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fixture /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Fixture
+    fixture={
+      Object {
+        "id": 0,
+        "team1": "C Palace",
+        "team2": "Liverpool",
+      }
+    }
+    onPlayed={[Function]}
+    onPredict={[Function]}
+    onSlidePlayed={[Function]}
+    teams={
+      Array [
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+          "draw": 9,
+          "lose": 4,
+          "played": 31,
+          "points": 63,
+          "team": "Liverpool",
+          "win": 18,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+          "draw": 9,
+          "lose": 15,
+          "played": 31,
+          "points": 30,
+          "team": "C Palace",
+          "win": 7,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(td)>
+          <glamorous(img)
+            alt="C Palace"
+            draw={false}
+            lose={false}
+            src="https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72"
+          />
+          <glamorous(span)
+            draw={false}
+            lose={false}
+          >
+            C Palace
+          </glamorous(span)>
+        </glamorous(td)>,
+        <glamorous(td)
+          align="right"
+        >
+          <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            W
+          </glamorous(button)>
+        </glamorous(td)>,
+        <glamorous(td)>
+          <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            D
+          </glamorous(button)>
+        </glamorous(td)>,
+        <glamorous(td)
+          align="left"
+        >
+          <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            W
+          </glamorous(button)>
+        </glamorous(td)>,
+        <glamorous(td)>
+          <glamorous(img)
+            alt="Liverpool"
+            draw={false}
+            lose={false}
+            src="https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67"
+          />
+          <glamorous(span)
+            draw={false}
+            lose={false}
+          >
+            Liverpool
+          </glamorous(span)>
+        </glamorous(td)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(img)
+              alt="C Palace"
+              draw={false}
+              lose={false}
+              src="https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72"
+            />,
+            <glamorous(span)
+              draw={false}
+              lose={false}
+            >
+              C Palace
+            </glamorous(span)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "C Palace",
+              "draw": false,
+              "lose": false,
+              "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "C Palace",
+              "draw": false,
+              "lose": false,
+            },
+            "ref": null,
+            "rendered": "C Palace",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "align": "right",
+          "children": <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            W
+          </glamorous(button)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "children": "W",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "W",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            D
+          </glamorous(button)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "children": "D",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "D",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "align": "left",
+          "children": <glamorous(button)
+            active={false}
+            onClick={[Function]}
+          >
+            W
+          </glamorous(button)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "children": "W",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "W",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(img)
+              alt="Liverpool"
+              draw={false}
+              lose={false}
+              src="https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67"
+            />,
+            <glamorous(span)
+              draw={false}
+              lose={false}
+            >
+              Liverpool
+            </glamorous(span)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "Liverpool",
+              "draw": false,
+              "lose": false,
+              "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Liverpool",
+              "draw": false,
+              "lose": false,
+            },
+            "ref": null,
+            "rendered": "Liverpool",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(td)>
+            <glamorous(img)
+              alt="C Palace"
+              draw={false}
+              lose={false}
+              src="https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72"
+            />
+            <glamorous(span)
+              draw={false}
+              lose={false}
+            >
+              C Palace
+            </glamorous(span)>
+          </glamorous(td)>,
+          <glamorous(td)
+            align="right"
+          >
+            <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              W
+            </glamorous(button)>
+          </glamorous(td)>,
+          <glamorous(td)>
+            <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              D
+            </glamorous(button)>
+          </glamorous(td)>,
+          <glamorous(td)
+            align="left"
+          >
+            <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              W
+            </glamorous(button)>
+          </glamorous(td)>,
+          <glamorous(td)>
+            <glamorous(img)
+              alt="Liverpool"
+              draw={false}
+              lose={false}
+              src="https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67"
+            />
+            <glamorous(span)
+              draw={false}
+              lose={false}
+            >
+              Liverpool
+            </glamorous(span)>
+          </glamorous(td)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(img)
+                alt="C Palace"
+                draw={false}
+                lose={false}
+                src="https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72"
+              />,
+              <glamorous(span)
+                draw={false}
+                lose={false}
+              >
+                C Palace
+              </glamorous(span)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "C Palace",
+                "draw": false,
+                "lose": false,
+                "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "C Palace",
+                "draw": false,
+                "lose": false,
+              },
+              "ref": null,
+              "rendered": "C Palace",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "align": "right",
+            "children": <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              W
+            </glamorous(button)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "children": "W",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "W",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              D
+            </glamorous(button)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "children": "D",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "D",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "align": "left",
+            "children": <glamorous(button)
+              active={false}
+              onClick={[Function]}
+            >
+              W
+            </glamorous(button)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "children": "W",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "W",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(img)
+                alt="Liverpool"
+                draw={false}
+                lose={false}
+                src="https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67"
+              />,
+              <glamorous(span)
+                draw={false}
+                lose={false}
+              >
+                Liverpool
+              </glamorous(span)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "Liverpool",
+                "draw": false,
+                "lose": false,
+                "src": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Liverpool",
+                "draw": false,
+                "lose": false,
+              },
+              "ref": null,
+              "rendered": "Liverpool",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

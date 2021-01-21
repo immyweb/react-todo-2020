@@ -1,0 +1,512 @@
+{
+	"fixtures": [
+		{
+			"team1": "C Palace",
+			"team2": "Liverpool"
+		},
+		{
+			"team1": "Brighton",
+			"team2": "Leicester"
+		},
+		{
+			"team1": "Man Utd",
+			"team2": "Swansea"
+		},
+		{
+			"team1": "Newcastle",
+			"team2": "Huddsf’ld"
+		},
+		{
+			"team1": "Watford",
+			"team2": "B’mouth"
+		},
+		{
+			"team1": "W Brom",
+			"team2": "Burnley"
+		},
+		{
+			"team1": "West Ham",
+			"team2": "So’ton"
+		},
+		{
+			"team1": "Everton",
+			"team2": "Man City"
+		},
+		{
+			"team1": "Arsenal",
+			"team2": "Stoke"
+		},
+		{
+			"team1": "Chelsea",
+			"team2": "Tottenham"
+		},
+		{
+			"team1": "B’mouth",
+			"team2": "C Palace"
+		},
+		{
+			"team1": "Brighton",
+			"team2": "Huddsf’ld"
+		},
+		{
+			"team1": "Leicester",
+			"team2": "Newcastle"
+		},
+		{
+			"team1": "Stoke",
+			"team2": "Tottenham"
+		},
+		{
+			"team1": "Watford",
+			"team2": "Burnley"
+		},
+		{
+			"team1": "W Brom",
+			"team2": "Swansea"
+		},
+		{
+			"team1": "Man City",
+			"team2": "Man Utd"
+		},
+		{
+			"team1": "Everton",
+			"team2": "Liverpool"
+		},
+		{
+			"team1": "Chelsea",
+			"team2": "West Ham"
+		},
+		{
+			"team1": "Arsenal",
+			"team2": "So’ton"
+		},
+		{
+			"team1": "So’ton",
+			"team2": "Chelsea"
+		},
+		{
+			"team1": "Burnley",
+			"team2": "Leicester"
+		},
+		{
+			"team1": "C Palace",
+			"team2": "Brighton"
+		},
+		{
+			"team1": "Huddsf’ld",
+			"team2": "Watford"
+		},
+		{
+			"team1": "Swansea",
+			"team2": "Everton"
+		},
+		{
+			"team1": "Liverpool",
+			"team2": "B’mouth"
+		},
+		{
+			"team1": "Tottenham",
+			"team2": "Man City"
+		},
+		{
+			"team1": "Newcastle",
+			"team2": "Arsenal"
+		},
+		{
+			"team1": "Man Utd",
+			"team2": "W Brom"
+		},
+		{
+			"team1": "West Ham",
+			"team2": "Stoke"
+		},
+
+		{
+			"team1": "Everton",
+			"team2": "Newcastle"
+		},
+
+		{
+			"team1": "Stoke",
+			"team2": "Burnley"
+		},
+		{
+			"team1": "Watford",
+			"team2": "C Palace"
+		},
+		{
+			"team1": "W Brom",
+			"team2": "Liverpool"
+		},
+		{
+			"team1": "Man City",
+			"team2": "Swansea"
+		},
+		{
+			"team1": "Arsenal",
+			"team2": "West Ham"
+		},
+		{
+			"team1": "Liverpool",
+			"team2": "Stoke"
+		},
+		{
+			"team1": "Burnley",
+			"team2": "Brighton"
+		},
+		{
+			"team1": "C Palace",
+			"team2": "Leicester"
+		},
+		{
+			"team1": "Huddsf’ld",
+			"team2": "Everton"
+		},
+		{
+			"team1": "Newcastle",
+			"team2": "W Brom"
+		},
+		{
+			"team1": "So’ton",
+			"team2": "B’mouth"
+		},
+		{
+			"team1": "Swansea",
+			"team2": "Chelsea"
+		},
+		{
+			"team1": "West Ham",
+			"team2": "Man City"
+		},
+		{
+			"team1": "Man Utd",
+			"team2": "Arsenal"
+		},
+		{
+			"team1": "Tottenham",
+			"team2": "Watford"
+		},
+		{
+			"team1": "Arsenal",
+			"team2": "Burnley"
+		},
+		{
+			"team1": "B’mouth",
+			"team2": "Swansea"
+		},
+		{
+			"team1": "Brighton",
+			"team2": "Man Utd"
+		},
+		{
+			"team1": "Chelsea",
+			"team2": "Liverpool"
+		},
+		{
+			"team1": "Everton",
+			"team2": "So’ton"
+		},
+		{
+			"team1": "Leicester",
+			"team2": "West Ham"
+		},
+		{
+			"team1": "Man City",
+			"team2": "Huddsf’ld"
+		},
+		{
+			"team1": "Stoke",
+			"team2": "C Palace"
+		},
+		{
+			"team1": "Watford",
+			"team2": "Newcastle"
+		},
+		{
+			"team1": "W Brom",
+			"team2": "Tottenham"
+		},
+		{
+			"team1": "Burnley",
+			"team2": "B’mouth"
+		},
+		{
+			"team1": "C Palace",
+			"team2": "W Brom"
+		},
+		{
+			"team1": "Huddsf’ld",
+			"team2": "Arsenal"
+		},
+		{
+			"team1": "Liverpool",
+			"team2": "Brighton"
+		},
+		{
+			"team1": "Man Utd",
+			"team2": "Watford"
+		},
+		{
+			"team1": "Newcastle",
+			"team2": "Chelsea"
+		},
+		{
+			"team1": "So’ton",
+			"team2": "Man City"
+		},
+		{
+			"team1": "Swansea",
+			"team2": "Stoke"
+		},
+		{
+			"team1": "Tottenham",
+			"team2": "Leicester"
+		},
+		{
+			"team1": "West Ham",
+			"team2": "Everton"
+		},
+		{
+			"team1": "B’mouth",
+			"team2": "Man Utd"
+		},
+		{
+			"team1": "Brighton",
+			"team2": "Tottenham"
+		},
+		{
+			"team1": "Burnley",
+			"team2": "Chelsea"
+		},
+		{
+			"team1": "Chelsea",
+			"team2": "Huddsf’ld"
+		},
+		{
+			"team1": "Leicester",
+			"team2": "Arsenal"
+		},
+		{
+			"team1": "Leicester",
+			"team2": "So’ton"
+		},
+		{
+			"team1": "Man City",
+			"team2": "Brighton"
+		},
+		{
+			"team1": "Swansea",
+			"team2": "So’ton"
+		},
+		{
+			"team1": "Tottenham",
+			"team2": "Newcastle"
+		},
+		{
+			"team1": "West Ham",
+			"team2": "Man Utd"
+		}
+	],
+	"teams": [
+		{
+			"team": "Man City",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100",
+			"played": 30,
+			"win": 26,
+			"draw": 3,
+			"lose": 1,
+			"points": 81
+		},
+		{
+			"team": "Man Utd",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86",
+			"played": 30,
+			"win": 20,
+			"draw": 5,
+			"lose": 5,
+			"points": 65
+		},
+		{
+			"team": "Liverpool",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+			"played": 31,
+			"win": 18,
+			"draw": 9,
+			"lose": 4,
+			"points": 63
+		},
+		{
+			"team": "Tottenham",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/tottenham.png?strip=all&w=55",
+			"played": 30,
+			"win": 18,
+			"draw": 7,
+			"lose": 5,
+			"points": 61
+		},
+		{
+			"team": "Chelsea",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/ChelseaFC.png?strip=all&w=90",
+			"played": 30,
+			"win": 17,
+			"draw": 5,
+			"lose": 8,
+			"points": 56
+		},
+		{
+			"team": "Arsenal",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/arsenal2.png?strip=all&w=75",
+			"played": 30,
+			"win": 14,
+			"draw": 6,
+			"lose": 10,
+			"points": 48
+		},
+		{
+			"team": "Burnley",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/05/burnley_football_badges_2405.png?strip=all&w=100",
+			"played": 30,
+			"win": 11,
+			"draw": 10,
+			"lose": 9,
+			"points": 43
+		},
+		{
+			"team": "Leicester",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+			"played": 30,
+			"win": 10,
+			"draw": 10,
+			"lose": 10,
+			"points": 40
+		},
+		{
+			"team": "Everton",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/everton.png?strip=all&w=88",
+			"played": 31,
+			"win": 11,
+			"draw": 7,
+			"lose": 13,
+			"points": 40
+		},
+		{
+			"team": "B’mouth",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/bournemouth_football_badges_2405.png?strip=all&w=75",
+			"played": 31,
+			"win": 9,
+			"draw": 9,
+			"lose": 13,
+			"points": 36
+		},
+		{
+			"team": "Watford",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/Watford.png?strip=all&w=79",
+			"played": 31,
+			"win": 10,
+			"draw": 6,
+			"lose": 15,
+			"points": 36
+		},
+		{
+			"team": "Brighton",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+			"played": 30,
+			"win": 8,
+			"draw": 10,
+			"lose": 12,
+			"points": 34
+		},
+		{
+			"team": "Newcastle",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/newcastle-utd1.png?strip=all&w=85",
+			"played": 30,
+			"win": 8,
+			"draw": 8,
+			"lose": 14,
+			"points": 32
+		},
+		{
+			"team": "Swansea",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/Swansea.png?strip=all&w=90",
+			"played": 30,
+			"win": 8,
+			"draw": 7,
+			"lose": 15,
+			"points": 31
+		},
+		{
+			"team": "Huddsf’ld",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/05/huddersfield.png?strip=all&w=100",
+			"played": 31,
+			"win": 8,
+			"draw": 7,
+			"lose": 16,
+			"points": 31
+		},
+		{
+			"team": "C Palace",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+			"played": 31,
+			"win": 7,
+			"draw": 9,
+			"lose": 15,
+			"points": 30
+		},
+		{
+			"team": "West Ham",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/westham_football_badges_2405.png?strip=all&w=100",
+			"played": 30,
+			"win": 7,
+			"draw": 9,
+			"lose": 14,
+			"points": 30
+		},
+		{
+			"team": "So’ton",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/Southampton-RGB.png?strip=all&w=79",
+			"played": 30,
+			"win": 5,
+			"draw": 13,
+			"lose": 12,
+			"points": 28
+		},
+		{
+			"team": "Stoke",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/STOKE-CITY.png?strip=all&w=84",
+			"played": 31,
+			"win": 6,
+			"draw": 9,
+			"lose": 16,
+			"points": 27
+		},
+		{
+			"team": "W Brom",
+			"badge":
+				"https://www.thesun.co.uk/wp-content/uploads/2016/04/WBA.png?strip=all&w=75",
+			"played": 31,
+			"win": 3,
+			"draw": 11,
+			"lose": 17,
+			"points": 20
+		}
+	]
+}

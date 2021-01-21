@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherLabels /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    locations={
+      Array [
+        Object {
+          "direction": "LEFT",
+          "id": "WICK",
+          "label": "WICK",
+          "position": Object {
+            "left": "15%",
+            "top": "5%",
+          },
+        },
+        Object {
+          "direction": "RIGHT",
+          "id": "LOND",
+          "label": "LONDON",
+          "position": Object {
+            "left": "5%",
+            "top": "15%",
+          },
+        },
+      ]
+    }
+    selectedIndex={0}
+    weekForecast={
+      Array [
+        Object {
+          "LOND": Object {
+            "date": 20190131,
+            "day": Object {
+              "DayMaximumTemperature": "5",
+              "FeelsLikeDayMaximumTemperature": "1",
+              "MaxUVIndex": "1",
+              "PrecipitationProbabilityDay": "4",
+              "ScreenRelativeHumidityNoon": "75",
+              "Visibility": "GO",
+              "WeatherType": "PARTLY_CLOUDY_DAY",
+              "WindDirection": "E",
+              "WindGustNoon": "13",
+              "WindSpeed": "11",
+            },
+            "night": Object {
+              "FeelsLikeNightMinimumTemperature": "-4",
+              "NightMinimumTemperature": "1",
+              "PrecipitationProbabilityNight": "84",
+              "ScreenRelativeHumidityMidnight": "88",
+              "Visibility": "MO",
+              "WeatherType": "LIGHT_SNOW",
+              "WindDirection": "E",
+              "WindGustMidnight": "27",
+              "WindSpeed": "13",
+            },
+          },
+          "WICK": Object {
+            "date": 20190131,
+            "day": Object {
+              "DayMaximumTemperature": "2",
+              "FeelsLikeDayMaximumTemperature": "-1",
+              "MaxUVIndex": "1",
+              "PrecipitationProbabilityDay": "78",
+              "ScreenRelativeHumidityNoon": "94",
+              "Visibility": "VG",
+              "WeatherType": "SLEET",
+              "WindDirection": "WSW",
+              "WindGustNoon": "9",
+              "WindSpeed": "9",
+            },
+            "night": Object {
+              "FeelsLikeNightMinimumTemperature": "-4",
+              "NightMinimumTemperature": "-1",
+              "PrecipitationProbabilityNight": "49",
+              "ScreenRelativeHumidityMidnight": "96",
+              "Visibility": "VG",
+              "WeatherType": "CLOUDY",
+              "WindDirection": "W",
+              "WindGustMidnight": "16",
+              "WindSpeed": "9",
+            },
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          dayMax="2"
+          direction="LEFT"
+          icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Snow.png"
+          nightMin="-1"
+        >
+          WICK
+        </Unknown>,
+        <Unknown
+          dayMax="5"
+          direction="RIGHT"
+          icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Party-Cloudy.png"
+          nightMin="1"
+        >
+          LONDON
+        </Unknown>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "arrowDirection": undefined,
+          "children": "WICK",
+          "dayMax": "2",
+          "desktopPosition": undefined,
+          "direction": "LEFT",
+          "icon": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Snow.png",
+          "mobilePosition": undefined,
+          "nightMin": "-1",
+        },
+        "ref": null,
+        "rendered": "WICK",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "arrowDirection": undefined,
+          "children": "LONDON",
+          "dayMax": "5",
+          "desktopPosition": undefined,
+          "direction": "RIGHT",
+          "icon": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Party-Cloudy.png",
+          "mobilePosition": undefined,
+          "nightMin": "1",
+        },
+        "ref": null,
+        "rendered": "LONDON",
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            dayMax="2"
+            direction="LEFT"
+            icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Snow.png"
+            nightMin="-1"
+          >
+            WICK
+          </Unknown>,
+          <Unknown
+            dayMax="5"
+            direction="RIGHT"
+            icon="https://www.thesun.co.uk/wp-content/uploads/2018/11/Party-Cloudy.png"
+            nightMin="1"
+          >
+            LONDON
+          </Unknown>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "arrowDirection": undefined,
+            "children": "WICK",
+            "dayMax": "2",
+            "desktopPosition": undefined,
+            "direction": "LEFT",
+            "icon": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Snow.png",
+            "mobilePosition": undefined,
+            "nightMin": "-1",
+          },
+          "ref": null,
+          "rendered": "WICK",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "arrowDirection": undefined,
+            "children": "LONDON",
+            "dayMax": "5",
+            "desktopPosition": undefined,
+            "direction": "RIGHT",
+            "icon": "https://www.thesun.co.uk/wp-content/uploads/2018/11/Party-Cloudy.png",
+            "mobilePosition": undefined,
+            "nightMin": "1",
+          },
+          "ref": null,
+          "rendered": "LONDON",
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

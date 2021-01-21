@@ -1,0 +1,1489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> button accepts background prop 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#e665bf",
+        "secondary": "#a6498a",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#e665bf"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#e665bf"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#e665bf"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#e665bf",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#e665bf",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#e665bf",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#e665bf"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#e665bf"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#e665bf"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#e665bf",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#e665bf",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#e665bf",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> calls refresh when clicked 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <glamorous(button)
+    onClick={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "className": "css-epfqux",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "css-epfqux",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> has a button 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#eb1701"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#eb1701"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#eb1701"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#eb1701",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#eb1701"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#eb1701"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#eb1701"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#eb1701",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> has a graphic 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#eb1701"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#eb1701"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#eb1701"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#eb1701",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#eb1701"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#eb1701"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#eb1701"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#eb1701",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> has a heading and sub heading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#eb1701"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#eb1701"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#eb1701"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#eb1701",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#eb1701"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#eb1701"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#eb1701"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#eb1701",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> header accepts fontColour prop 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#e665bf",
+        "secondary": "#a6498a",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#e665bf"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#e665bf"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#e665bf"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#e665bf",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#e665bf",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#e665bf",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#e665bf"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#e665bf"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#e665bf"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#e665bf",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#e665bf",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#e665bf",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> renders ok 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#ffffff"
+    theme={
+      Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "children": Array [
+        <Unknown
+          colour="#eb1701"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#eb1701"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#eb1701"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#eb1701",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "children": Array [
+          <Unknown
+            colour="#eb1701"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#eb1701"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#eb1701"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#eb1701",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Error /> wrapper accepts a background colour prop 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    backgroundColour="#e665bf"
+    theme={
+      Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "backgroundColour": "#e665bf",
+      "children": Array [
+        <Unknown
+          colour="#eb1701"
+        />,
+        <glamorous(glamorous(h3))
+          fontColour="#eb1701"
+        >
+          UH OH!
+        </glamorous(glamorous(h3))>,
+        <glamorous(glamorous(h3))
+          marginBottom={15}
+        >
+          THERE WAS A LOADING ERROR
+        </glamorous(glamorous(h3))>,
+        <glamorous(button)
+          background="#eb1701"
+          onClick={[Function]}
+        >
+          Refresh page
+        </glamorous(button)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "UH OH!",
+          "fontColour": "#eb1701",
+        },
+        "ref": null,
+        "rendered": "UH OH!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "THERE WAS A LOADING ERROR",
+          "marginBottom": 15,
+        },
+        "ref": null,
+        "rendered": "THERE WAS A LOADING ERROR",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "background": "#eb1701",
+          "children": "Refresh page",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Refresh page",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColour": "#e665bf",
+        "children": Array [
+          <Unknown
+            colour="#eb1701"
+          />,
+          <glamorous(glamorous(h3))
+            fontColour="#eb1701"
+          >
+            UH OH!
+          </glamorous(glamorous(h3))>,
+          <glamorous(glamorous(h3))
+            marginBottom={15}
+          >
+            THERE WAS A LOADING ERROR
+          </glamorous(glamorous(h3))>,
+          <glamorous(button)
+            background="#eb1701"
+            onClick={[Function]}
+          >
+            Refresh page
+          </glamorous(button)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "UH OH!",
+            "fontColour": "#eb1701",
+          },
+          "ref": null,
+          "rendered": "UH OH!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "THERE WAS A LOADING ERROR",
+            "marginBottom": 15,
+          },
+          "ref": null,
+          "rendered": "THERE WAS A LOADING ERROR",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "background": "#eb1701",
+            "children": "Refresh page",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Refresh page",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

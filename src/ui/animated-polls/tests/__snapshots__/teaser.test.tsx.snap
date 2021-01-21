@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TeaserScreen /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    copy="copy"
+    cta="cta"
+    imageDesktop="http://www.thesun.co.uk/imageDesktop.jpg"
+    imageMobile="http://www.thesun.co.uk/imageMobile.jpg"
+    theme={
+      Object {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+      }
+    }
+    title="title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(img)
+          backgroundColour="#000000"
+        />,
+        <glamorous(div) />,
+        <glamorous(video)
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          playsInline={true}
+        >
+          <source
+            media="all and (max-width: 660px)"
+            type="video/mp4"
+          />
+          <source
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </glamorous(video)>,
+        <glamorous(div)>
+          <glamorous(glamorous(h2))>
+            title
+          </glamorous(glamorous(h2))>
+          <glamorous(glamorous(glamorous.P))>
+            copy
+          </glamorous(glamorous(glamorous.P))>
+          <glamorous(button)
+            background="#000000"
+            fullWidth={true}
+            onClick={[Function]}
+          >
+            cta
+          </glamorous(button)>
+        </glamorous(div)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alt": undefined,
+          "backgroundColour": "#000000",
+          "src": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoPlay": true,
+          "children": Array [
+            <source
+              media="all and (max-width: 660px)"
+              type="video/mp4"
+            />,
+            <source
+              type="video/mp4"
+            />,
+            "Your browser does not support the video tag.",
+          ],
+          "loop": true,
+          "muted": true,
+          "playsInline": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "media": "all and (max-width: 660px)",
+              "src": undefined,
+              "type": "video/mp4",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "source",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": undefined,
+              "type": "video/mp4",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "source",
+          },
+          "Your browser does not support the video tag.",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(h2))>
+              title
+            </glamorous(glamorous(h2))>,
+            <glamorous(glamorous(glamorous.P))>
+              copy
+            </glamorous(glamorous(glamorous.P))>,
+            <glamorous(button)
+              background="#000000"
+              fullWidth={true}
+              onClick={[Function]}
+            >
+              cta
+            </glamorous(button)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "title",
+            },
+            "ref": null,
+            "rendered": "title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "copy",
+            },
+            "ref": null,
+            "rendered": "copy",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "background": "#000000",
+              "children": "cta",
+              "fullWidth": true,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "cta",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(img)
+            backgroundColour="#000000"
+          />,
+          <glamorous(div) />,
+          <glamorous(video)
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            playsInline={true}
+          >
+            <source
+              media="all and (max-width: 660px)"
+              type="video/mp4"
+            />
+            <source
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </glamorous(video)>,
+          <glamorous(div)>
+            <glamorous(glamorous(h2))>
+              title
+            </glamorous(glamorous(h2))>
+            <glamorous(glamorous(glamorous.P))>
+              copy
+            </glamorous(glamorous(glamorous.P))>
+            <glamorous(button)
+              background="#000000"
+              fullWidth={true}
+              onClick={[Function]}
+            >
+              cta
+            </glamorous(button)>
+          </glamorous(div)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alt": undefined,
+            "backgroundColour": "#000000",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoPlay": true,
+            "children": Array [
+              <source
+                media="all and (max-width: 660px)"
+                type="video/mp4"
+              />,
+              <source
+                type="video/mp4"
+              />,
+              "Your browser does not support the video tag.",
+            ],
+            "loop": true,
+            "muted": true,
+            "playsInline": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "media": "all and (max-width: 660px)",
+                "src": undefined,
+                "type": "video/mp4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "source",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": undefined,
+                "type": "video/mp4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "source",
+            },
+            "Your browser does not support the video tag.",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(glamorous(h2))>
+                title
+              </glamorous(glamorous(h2))>,
+              <glamorous(glamorous(glamorous.P))>
+                copy
+              </glamorous(glamorous(glamorous.P))>,
+              <glamorous(button)
+                background="#000000"
+                fullWidth={true}
+                onClick={[Function]}
+              >
+                cta
+              </glamorous(button)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "title",
+              },
+              "ref": null,
+              "rendered": "title",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "copy",
+              },
+              "ref": null,
+              "rendered": "copy",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "background": "#000000",
+                "children": "cta",
+                "fullWidth": true,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "cta",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

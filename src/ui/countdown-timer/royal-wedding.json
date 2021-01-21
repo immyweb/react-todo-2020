@@ -1,0 +1,30 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#9c73c1",
+      "secondary": "#6a4e82"
+    },
+    "settings": {
+      "alignment": {
+        "x": "right",
+        "y": "bottom"
+      }
+    }
+  },
+  "content": {
+    "date": "May, 19, 2022, 12:00",
+    "during": {
+      "title": "Royal Wedding Countdown",
+      "image": "https://www.thesun.co.uk/wp-content/uploads/2018/05/ag-count-down-timer-620x200finale1.png"
+    },
+    "ended": {
+      "title": "Royal Wedding Countdown",
+      "image": "https://www.thesun.co.uk/wp-content/uploads/2018/05/ag-count-down-timer-620x200finale1.png"
+    },
+    "button": {
+      "buttonText": "Take me there",
+      "buttonLink": "",
+      "windowTarget": ""
+    }
+  }
+}

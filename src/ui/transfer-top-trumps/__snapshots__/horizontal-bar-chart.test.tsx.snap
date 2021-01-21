@@ -1,0 +1,2129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartHorizontalBar /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ChartHorizontalBar
+    data={
+      Array [
+        Object {
+          "active": false,
+          "fname": "",
+          "id": "willian",
+          "idx": 0,
+          "noVoteCount": 20,
+          "noVotePercent": 20,
+          "sName": "Willian",
+          "selected": false,
+          "voteCount": 80,
+          "votePercent": 80,
+          "voted": true,
+        },
+        Object {
+          "active": false,
+          "fname": "Alex",
+          "id": "a_sandro",
+          "idx": 1,
+          "noVoteCount": 50,
+          "noVotePercent": 50,
+          "sName": "Sandro",
+          "selected": true,
+          "voteCount": 50,
+          "votePercent": 50,
+          "voted": true,
+        },
+        Object {
+          "active": true,
+          "fname": "Sergej",
+          "id": "s_m_savic",
+          "idx": 2,
+          "sName": "Milinković-Savić",
+          "selected": false,
+          "voteCount": 60,
+          "voted": false,
+        },
+      ]
+    }
+    theme={
+      Object {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <glamorous(div)>
+        <ResponsiveContainer
+          debounce={0}
+          height={380}
+          minHeight={380}
+          width="100%"
+        >
+          <BarChart
+            barCategoryGap="10%"
+            barGap={3}
+            data={
+              Array [
+                Object {
+                  "active": false,
+                  "fname": "",
+                  "id": "willian",
+                  "idx": 0,
+                  "noVoteCount": 20,
+                  "noVotePercent": 20,
+                  "sName": "Willian",
+                  "selected": false,
+                  "voteCount": 80,
+                  "votePercent": 80,
+                  "voted": true,
+                },
+                Object {
+                  "active": false,
+                  "fname": "Alex",
+                  "id": "a_sandro",
+                  "idx": 1,
+                  "noVoteCount": 50,
+                  "noVotePercent": 50,
+                  "sName": "Sandro",
+                  "selected": true,
+                  "voteCount": 50,
+                  "votePercent": 50,
+                  "voted": true,
+                },
+                Object {
+                  "active": true,
+                  "fname": "Sergej",
+                  "id": "s_m_savic",
+                  "idx": 2,
+                  "sName": "Milinković-Savić",
+                  "selected": false,
+                  "voteCount": 60,
+                  "voted": false,
+                },
+              ]
+            }
+            layout="vertical"
+            margin={
+              Object {
+                "bottom": 20,
+                "left": 60,
+                "right": 30,
+                "top": 8,
+              }
+            }
+            reverseStackOrder={false}
+            stackOffset="none"
+          >
+            <XAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              axisLine={false}
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={30}
+              hide={true}
+              mirror={false}
+              orientation="bottom"
+              padding={
+                Object {
+                  "left": 0,
+                  "right": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="number"
+              width={0}
+              xAxisId={0}
+            />
+            <YAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              dataKey="player"
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={0}
+              hide={true}
+              mirror={false}
+              orientation="left"
+              padding={
+                Object {
+                  "bottom": 0,
+                  "top": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="category"
+              width={60}
+              yAxisId={0}
+            />
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="votePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="votePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+            </Bar>
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="noVotePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="noVotePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </glamorous(div)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ResponsiveContainer
+          debounce={0}
+          height={380}
+          minHeight={380}
+          width="100%"
+        >
+          <BarChart
+            barCategoryGap="10%"
+            barGap={3}
+            data={
+              Array [
+                Object {
+                  "active": false,
+                  "fname": "",
+                  "id": "willian",
+                  "idx": 0,
+                  "noVoteCount": 20,
+                  "noVotePercent": 20,
+                  "sName": "Willian",
+                  "selected": false,
+                  "voteCount": 80,
+                  "votePercent": 80,
+                  "voted": true,
+                },
+                Object {
+                  "active": false,
+                  "fname": "Alex",
+                  "id": "a_sandro",
+                  "idx": 1,
+                  "noVoteCount": 50,
+                  "noVotePercent": 50,
+                  "sName": "Sandro",
+                  "selected": true,
+                  "voteCount": 50,
+                  "votePercent": 50,
+                  "voted": true,
+                },
+                Object {
+                  "active": true,
+                  "fname": "Sergej",
+                  "id": "s_m_savic",
+                  "idx": 2,
+                  "sName": "Milinković-Savić",
+                  "selected": false,
+                  "voteCount": 60,
+                  "voted": false,
+                },
+              ]
+            }
+            layout="vertical"
+            margin={
+              Object {
+                "bottom": 20,
+                "left": 60,
+                "right": 30,
+                "top": 8,
+              }
+            }
+            reverseStackOrder={false}
+            stackOffset="none"
+          >
+            <XAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              axisLine={false}
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={30}
+              hide={true}
+              mirror={false}
+              orientation="bottom"
+              padding={
+                Object {
+                  "left": 0,
+                  "right": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="number"
+              width={0}
+              xAxisId={0}
+            />
+            <YAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              dataKey="player"
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={0}
+              hide={true}
+              mirror={false}
+              orientation="left"
+              padding={
+                Object {
+                  "bottom": 0,
+                  "top": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="category"
+              width={60}
+              yAxisId={0}
+            />
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="votePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="votePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+            </Bar>
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="noVotePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="noVotePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <BarChart
+            barCategoryGap="10%"
+            barGap={3}
+            data={
+              Array [
+                Object {
+                  "active": false,
+                  "fname": "",
+                  "id": "willian",
+                  "idx": 0,
+                  "noVoteCount": 20,
+                  "noVotePercent": 20,
+                  "sName": "Willian",
+                  "selected": false,
+                  "voteCount": 80,
+                  "votePercent": 80,
+                  "voted": true,
+                },
+                Object {
+                  "active": false,
+                  "fname": "Alex",
+                  "id": "a_sandro",
+                  "idx": 1,
+                  "noVoteCount": 50,
+                  "noVotePercent": 50,
+                  "sName": "Sandro",
+                  "selected": true,
+                  "voteCount": 50,
+                  "votePercent": 50,
+                  "voted": true,
+                },
+                Object {
+                  "active": true,
+                  "fname": "Sergej",
+                  "id": "s_m_savic",
+                  "idx": 2,
+                  "sName": "Milinković-Savić",
+                  "selected": false,
+                  "voteCount": 60,
+                  "voted": false,
+                },
+              ]
+            }
+            layout="vertical"
+            margin={
+              Object {
+                "bottom": 20,
+                "left": 60,
+                "right": 30,
+                "top": 8,
+              }
+            }
+            reverseStackOrder={false}
+            stackOffset="none"
+          >
+            <XAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              axisLine={false}
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={30}
+              hide={true}
+              mirror={false}
+              orientation="bottom"
+              padding={
+                Object {
+                  "left": 0,
+                  "right": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="number"
+              width={0}
+              xAxisId={0}
+            />
+            <YAxis
+              allowDataOverflow={false}
+              allowDecimals={true}
+              allowDuplicatedCategory={true}
+              dataKey="player"
+              domain={
+                Array [
+                  0,
+                  "auto",
+                ]
+              }
+              height={0}
+              hide={true}
+              mirror={false}
+              orientation="left"
+              padding={
+                Object {
+                  "bottom": 0,
+                  "top": 0,
+                }
+              }
+              reversed={false}
+              scale="auto"
+              tickCount={5}
+              type="category"
+              width={60}
+              yAxisId={0}
+            />
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="votePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="votePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+              <Cell
+                fill="#ffffff"
+              />
+            </Bar>
+            <Bar
+              animationBegin={0}
+              animationDuration={400}
+              animationEasing="ease"
+              background={false}
+              barSize={14}
+              data={Array []}
+              dataKey="noVotePercent"
+              hide={false}
+              isAnimationActive={true}
+              layout="vertical"
+              legendType="rect"
+              minPointSize={0}
+              onAnimationEnd={[Function]}
+              onAnimationStart={[Function]}
+              xAxisId={0}
+              yAxisId={0}
+            >
+              <LabelList
+                content={[Function]}
+                dataKey="noVotePercent"
+                position="outside"
+                valueAccessor={[Function]}
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+              <Cell
+                fill="#eb1701"
+              />
+            </Bar>
+          </BarChart>,
+          "debounce": 0,
+          "height": 380,
+          "minHeight": 380,
+          "width": "100%",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "barCategoryGap": "10%",
+            "barGap": 3,
+            "children": Array [
+              <XAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                axisLine={false}
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={30}
+                hide={true}
+                mirror={false}
+                orientation="bottom"
+                padding={
+                  Object {
+                    "left": 0,
+                    "right": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="number"
+                width={0}
+                xAxisId={0}
+              />,
+              <YAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                dataKey="player"
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={0}
+                hide={true}
+                mirror={false}
+                orientation="left"
+                padding={
+                  Object {
+                    "bottom": 0,
+                    "top": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="category"
+                width={60}
+                yAxisId={0}
+              />,
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="votePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="votePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+              </Bar>,
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="noVotePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="noVotePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+              </Bar>,
+            ],
+            "data": Array [
+              Object {
+                "active": false,
+                "fname": "",
+                "id": "willian",
+                "idx": 0,
+                "noVoteCount": 20,
+                "noVotePercent": 20,
+                "sName": "Willian",
+                "selected": false,
+                "voteCount": 80,
+                "votePercent": 80,
+                "voted": true,
+              },
+              Object {
+                "active": false,
+                "fname": "Alex",
+                "id": "a_sandro",
+                "idx": 1,
+                "noVoteCount": 50,
+                "noVotePercent": 50,
+                "sName": "Sandro",
+                "selected": true,
+                "voteCount": 50,
+                "votePercent": 50,
+                "voted": true,
+              },
+              Object {
+                "active": true,
+                "fname": "Sergej",
+                "id": "s_m_savic",
+                "idx": 2,
+                "sName": "Milinković-Savić",
+                "selected": false,
+                "voteCount": 60,
+                "voted": false,
+              },
+            ],
+            "layout": "vertical",
+            "margin": Object {
+              "bottom": 20,
+              "left": 60,
+              "right": 30,
+              "top": 8,
+            },
+            "reverseStackOrder": false,
+            "stackOffset": "none",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "allowDataOverflow": false,
+                "allowDecimals": true,
+                "allowDuplicatedCategory": true,
+                "axisLine": false,
+                "domain": Array [
+                  0,
+                  "auto",
+                ],
+                "height": 30,
+                "hide": true,
+                "mirror": false,
+                "orientation": "bottom",
+                "padding": Object {
+                  "left": 0,
+                  "right": 0,
+                },
+                "reversed": false,
+                "scale": "auto",
+                "tickCount": 5,
+                "type": "number",
+                "width": 0,
+                "xAxisId": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "allowDataOverflow": false,
+                "allowDecimals": true,
+                "allowDuplicatedCategory": true,
+                "dataKey": "player",
+                "domain": Array [
+                  0,
+                  "auto",
+                ],
+                "height": 0,
+                "hide": true,
+                "mirror": false,
+                "orientation": "left",
+                "padding": Object {
+                  "bottom": 0,
+                  "top": 0,
+                },
+                "reversed": false,
+                "scale": "auto",
+                "tickCount": 5,
+                "type": "category",
+                "width": 60,
+                "yAxisId": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "animationBegin": 0,
+                "animationDuration": 400,
+                "animationEasing": "ease",
+                "background": false,
+                "barSize": 14,
+                "children": Array [
+                  <LabelList
+                    content={[Function]}
+                    dataKey="votePercent"
+                    position="outside"
+                    valueAccessor={[Function]}
+                  />,
+                  Array [
+                    <Cell
+                      fill="#ffffff"
+                    />,
+                    <Cell
+                      fill="#ffffff"
+                    />,
+                    <Cell
+                      fill="#ffffff"
+                    />,
+                  ],
+                ],
+                "data": Array [],
+                "dataKey": "votePercent",
+                "hide": false,
+                "isAnimationActive": true,
+                "layout": "vertical",
+                "legendType": "rect",
+                "minPointSize": 0,
+                "onAnimationEnd": [Function],
+                "onAnimationStart": [Function],
+                "xAxisId": 0,
+                "yAxisId": 0,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": [Function],
+                    "dataKey": "votePercent",
+                    "position": "outside",
+                    "valueAccessor": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#ffffff",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#ffffff",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#ffffff",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "animationBegin": 0,
+                "animationDuration": 400,
+                "animationEasing": "ease",
+                "background": false,
+                "barSize": 14,
+                "children": Array [
+                  <LabelList
+                    content={[Function]}
+                    dataKey="noVotePercent"
+                    position="outside"
+                    valueAccessor={[Function]}
+                  />,
+                  Array [
+                    <Cell
+                      fill="#eb1701"
+                    />,
+                    <Cell
+                      fill="#eb1701"
+                    />,
+                    <Cell
+                      fill="#eb1701"
+                    />,
+                  ],
+                ],
+                "data": Array [],
+                "dataKey": "noVotePercent",
+                "hide": false,
+                "isAnimationActive": true,
+                "layout": "vertical",
+                "legendType": "rect",
+                "minPointSize": 0,
+                "onAnimationEnd": [Function],
+                "onAnimationStart": [Function],
+                "xAxisId": 0,
+                "yAxisId": 0,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": [Function],
+                    "dataKey": "noVotePercent",
+                    "position": "outside",
+                    "valueAccessor": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#eb1701",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#eb1701",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "function",
+                  "props": Object {
+                    "fill": "#eb1701",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <glamorous(div)>
+          <ResponsiveContainer
+            debounce={0}
+            height={380}
+            minHeight={380}
+            width="100%"
+          >
+            <BarChart
+              barCategoryGap="10%"
+              barGap={3}
+              data={
+                Array [
+                  Object {
+                    "active": false,
+                    "fname": "",
+                    "id": "willian",
+                    "idx": 0,
+                    "noVoteCount": 20,
+                    "noVotePercent": 20,
+                    "sName": "Willian",
+                    "selected": false,
+                    "voteCount": 80,
+                    "votePercent": 80,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": false,
+                    "fname": "Alex",
+                    "id": "a_sandro",
+                    "idx": 1,
+                    "noVoteCount": 50,
+                    "noVotePercent": 50,
+                    "sName": "Sandro",
+                    "selected": true,
+                    "voteCount": 50,
+                    "votePercent": 50,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": true,
+                    "fname": "Sergej",
+                    "id": "s_m_savic",
+                    "idx": 2,
+                    "sName": "Milinković-Savić",
+                    "selected": false,
+                    "voteCount": 60,
+                    "voted": false,
+                  },
+                ]
+              }
+              layout="vertical"
+              margin={
+                Object {
+                  "bottom": 20,
+                  "left": 60,
+                  "right": 30,
+                  "top": 8,
+                }
+              }
+              reverseStackOrder={false}
+              stackOffset="none"
+            >
+              <XAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                axisLine={false}
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={30}
+                hide={true}
+                mirror={false}
+                orientation="bottom"
+                padding={
+                  Object {
+                    "left": 0,
+                    "right": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="number"
+                width={0}
+                xAxisId={0}
+              />
+              <YAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                dataKey="player"
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={0}
+                hide={true}
+                mirror={false}
+                orientation="left"
+                padding={
+                  Object {
+                    "bottom": 0,
+                    "top": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="category"
+                width={60}
+                yAxisId={0}
+              />
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="votePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="votePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+              </Bar>
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="noVotePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="noVotePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </glamorous(div)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <ResponsiveContainer
+            debounce={0}
+            height={380}
+            minHeight={380}
+            width="100%"
+          >
+            <BarChart
+              barCategoryGap="10%"
+              barGap={3}
+              data={
+                Array [
+                  Object {
+                    "active": false,
+                    "fname": "",
+                    "id": "willian",
+                    "idx": 0,
+                    "noVoteCount": 20,
+                    "noVotePercent": 20,
+                    "sName": "Willian",
+                    "selected": false,
+                    "voteCount": 80,
+                    "votePercent": 80,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": false,
+                    "fname": "Alex",
+                    "id": "a_sandro",
+                    "idx": 1,
+                    "noVoteCount": 50,
+                    "noVotePercent": 50,
+                    "sName": "Sandro",
+                    "selected": true,
+                    "voteCount": 50,
+                    "votePercent": 50,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": true,
+                    "fname": "Sergej",
+                    "id": "s_m_savic",
+                    "idx": 2,
+                    "sName": "Milinković-Savić",
+                    "selected": false,
+                    "voteCount": 60,
+                    "voted": false,
+                  },
+                ]
+              }
+              layout="vertical"
+              margin={
+                Object {
+                  "bottom": 20,
+                  "left": 60,
+                  "right": 30,
+                  "top": 8,
+                }
+              }
+              reverseStackOrder={false}
+              stackOffset="none"
+            >
+              <XAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                axisLine={false}
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={30}
+                hide={true}
+                mirror={false}
+                orientation="bottom"
+                padding={
+                  Object {
+                    "left": 0,
+                    "right": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="number"
+                width={0}
+                xAxisId={0}
+              />
+              <YAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                dataKey="player"
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={0}
+                hide={true}
+                mirror={false}
+                orientation="left"
+                padding={
+                  Object {
+                    "bottom": 0,
+                    "top": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="category"
+                width={60}
+                yAxisId={0}
+              />
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="votePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="votePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+              </Bar>
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="noVotePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="noVotePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <BarChart
+              barCategoryGap="10%"
+              barGap={3}
+              data={
+                Array [
+                  Object {
+                    "active": false,
+                    "fname": "",
+                    "id": "willian",
+                    "idx": 0,
+                    "noVoteCount": 20,
+                    "noVotePercent": 20,
+                    "sName": "Willian",
+                    "selected": false,
+                    "voteCount": 80,
+                    "votePercent": 80,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": false,
+                    "fname": "Alex",
+                    "id": "a_sandro",
+                    "idx": 1,
+                    "noVoteCount": 50,
+                    "noVotePercent": 50,
+                    "sName": "Sandro",
+                    "selected": true,
+                    "voteCount": 50,
+                    "votePercent": 50,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": true,
+                    "fname": "Sergej",
+                    "id": "s_m_savic",
+                    "idx": 2,
+                    "sName": "Milinković-Savić",
+                    "selected": false,
+                    "voteCount": 60,
+                    "voted": false,
+                  },
+                ]
+              }
+              layout="vertical"
+              margin={
+                Object {
+                  "bottom": 20,
+                  "left": 60,
+                  "right": 30,
+                  "top": 8,
+                }
+              }
+              reverseStackOrder={false}
+              stackOffset="none"
+            >
+              <XAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                axisLine={false}
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={30}
+                hide={true}
+                mirror={false}
+                orientation="bottom"
+                padding={
+                  Object {
+                    "left": 0,
+                    "right": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="number"
+                width={0}
+                xAxisId={0}
+              />
+              <YAxis
+                allowDataOverflow={false}
+                allowDecimals={true}
+                allowDuplicatedCategory={true}
+                dataKey="player"
+                domain={
+                  Array [
+                    0,
+                    "auto",
+                  ]
+                }
+                height={0}
+                hide={true}
+                mirror={false}
+                orientation="left"
+                padding={
+                  Object {
+                    "bottom": 0,
+                    "top": 0,
+                  }
+                }
+                reversed={false}
+                scale="auto"
+                tickCount={5}
+                type="category"
+                width={60}
+                yAxisId={0}
+              />
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="votePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="votePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+                <Cell
+                  fill="#ffffff"
+                />
+              </Bar>
+              <Bar
+                animationBegin={0}
+                animationDuration={400}
+                animationEasing="ease"
+                background={false}
+                barSize={14}
+                data={Array []}
+                dataKey="noVotePercent"
+                hide={false}
+                isAnimationActive={true}
+                layout="vertical"
+                legendType="rect"
+                minPointSize={0}
+                onAnimationEnd={[Function]}
+                onAnimationStart={[Function]}
+                xAxisId={0}
+                yAxisId={0}
+              >
+                <LabelList
+                  content={[Function]}
+                  dataKey="noVotePercent"
+                  position="outside"
+                  valueAccessor={[Function]}
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+                <Cell
+                  fill="#eb1701"
+                />
+              </Bar>
+            </BarChart>,
+            "debounce": 0,
+            "height": 380,
+            "minHeight": 380,
+            "width": "100%",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "barCategoryGap": "10%",
+              "barGap": 3,
+              "children": Array [
+                <XAxis
+                  allowDataOverflow={false}
+                  allowDecimals={true}
+                  allowDuplicatedCategory={true}
+                  axisLine={false}
+                  domain={
+                    Array [
+                      0,
+                      "auto",
+                    ]
+                  }
+                  height={30}
+                  hide={true}
+                  mirror={false}
+                  orientation="bottom"
+                  padding={
+                    Object {
+                      "left": 0,
+                      "right": 0,
+                    }
+                  }
+                  reversed={false}
+                  scale="auto"
+                  tickCount={5}
+                  type="number"
+                  width={0}
+                  xAxisId={0}
+                />,
+                <YAxis
+                  allowDataOverflow={false}
+                  allowDecimals={true}
+                  allowDuplicatedCategory={true}
+                  dataKey="player"
+                  domain={
+                    Array [
+                      0,
+                      "auto",
+                    ]
+                  }
+                  height={0}
+                  hide={true}
+                  mirror={false}
+                  orientation="left"
+                  padding={
+                    Object {
+                      "bottom": 0,
+                      "top": 0,
+                    }
+                  }
+                  reversed={false}
+                  scale="auto"
+                  tickCount={5}
+                  type="category"
+                  width={60}
+                  yAxisId={0}
+                />,
+                <Bar
+                  animationBegin={0}
+                  animationDuration={400}
+                  animationEasing="ease"
+                  background={false}
+                  barSize={14}
+                  data={Array []}
+                  dataKey="votePercent"
+                  hide={false}
+                  isAnimationActive={true}
+                  layout="vertical"
+                  legendType="rect"
+                  minPointSize={0}
+                  onAnimationEnd={[Function]}
+                  onAnimationStart={[Function]}
+                  xAxisId={0}
+                  yAxisId={0}
+                >
+                  <LabelList
+                    content={[Function]}
+                    dataKey="votePercent"
+                    position="outside"
+                    valueAccessor={[Function]}
+                  />
+                  <Cell
+                    fill="#ffffff"
+                  />
+                  <Cell
+                    fill="#ffffff"
+                  />
+                  <Cell
+                    fill="#ffffff"
+                  />
+                </Bar>,
+                <Bar
+                  animationBegin={0}
+                  animationDuration={400}
+                  animationEasing="ease"
+                  background={false}
+                  barSize={14}
+                  data={Array []}
+                  dataKey="noVotePercent"
+                  hide={false}
+                  isAnimationActive={true}
+                  layout="vertical"
+                  legendType="rect"
+                  minPointSize={0}
+                  onAnimationEnd={[Function]}
+                  onAnimationStart={[Function]}
+                  xAxisId={0}
+                  yAxisId={0}
+                >
+                  <LabelList
+                    content={[Function]}
+                    dataKey="noVotePercent"
+                    position="outside"
+                    valueAccessor={[Function]}
+                  />
+                  <Cell
+                    fill="#eb1701"
+                  />
+                  <Cell
+                    fill="#eb1701"
+                  />
+                  <Cell
+                    fill="#eb1701"
+                  />
+                </Bar>,
+              ],
+              "data": Array [
+                Object {
+                  "active": false,
+                  "fname": "",
+                  "id": "willian",
+                  "idx": 0,
+                  "noVoteCount": 20,
+                  "noVotePercent": 20,
+                  "sName": "Willian",
+                  "selected": false,
+                  "voteCount": 80,
+                  "votePercent": 80,
+                  "voted": true,
+                },
+                Object {
+                  "active": false,
+                  "fname": "Alex",
+                  "id": "a_sandro",
+                  "idx": 1,
+                  "noVoteCount": 50,
+                  "noVotePercent": 50,
+                  "sName": "Sandro",
+                  "selected": true,
+                  "voteCount": 50,
+                  "votePercent": 50,
+                  "voted": true,
+                },
+                Object {
+                  "active": true,
+                  "fname": "Sergej",
+                  "id": "s_m_savic",
+                  "idx": 2,
+                  "sName": "Milinković-Savić",
+                  "selected": false,
+                  "voteCount": 60,
+                  "voted": false,
+                },
+              ],
+              "layout": "vertical",
+              "margin": Object {
+                "bottom": 20,
+                "left": 60,
+                "right": 30,
+                "top": 8,
+              },
+              "reverseStackOrder": false,
+              "stackOffset": "none",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "allowDataOverflow": false,
+                  "allowDecimals": true,
+                  "allowDuplicatedCategory": true,
+                  "axisLine": false,
+                  "domain": Array [
+                    0,
+                    "auto",
+                  ],
+                  "height": 30,
+                  "hide": true,
+                  "mirror": false,
+                  "orientation": "bottom",
+                  "padding": Object {
+                    "left": 0,
+                    "right": 0,
+                  },
+                  "reversed": false,
+                  "scale": "auto",
+                  "tickCount": 5,
+                  "type": "number",
+                  "width": 0,
+                  "xAxisId": 0,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "allowDataOverflow": false,
+                  "allowDecimals": true,
+                  "allowDuplicatedCategory": true,
+                  "dataKey": "player",
+                  "domain": Array [
+                    0,
+                    "auto",
+                  ],
+                  "height": 0,
+                  "hide": true,
+                  "mirror": false,
+                  "orientation": "left",
+                  "padding": Object {
+                    "bottom": 0,
+                    "top": 0,
+                  },
+                  "reversed": false,
+                  "scale": "auto",
+                  "tickCount": 5,
+                  "type": "category",
+                  "width": 60,
+                  "yAxisId": 0,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "animationBegin": 0,
+                  "animationDuration": 400,
+                  "animationEasing": "ease",
+                  "background": false,
+                  "barSize": 14,
+                  "children": Array [
+                    <LabelList
+                      content={[Function]}
+                      dataKey="votePercent"
+                      position="outside"
+                      valueAccessor={[Function]}
+                    />,
+                    Array [
+                      <Cell
+                        fill="#ffffff"
+                      />,
+                      <Cell
+                        fill="#ffffff"
+                      />,
+                      <Cell
+                        fill="#ffffff"
+                      />,
+                    ],
+                  ],
+                  "data": Array [],
+                  "dataKey": "votePercent",
+                  "hide": false,
+                  "isAnimationActive": true,
+                  "layout": "vertical",
+                  "legendType": "rect",
+                  "minPointSize": 0,
+                  "onAnimationEnd": [Function],
+                  "onAnimationStart": [Function],
+                  "xAxisId": 0,
+                  "yAxisId": 0,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "content": [Function],
+                      "dataKey": "votePercent",
+                      "position": "outside",
+                      "valueAccessor": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#ffffff",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#ffffff",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#ffffff",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "animationBegin": 0,
+                  "animationDuration": 400,
+                  "animationEasing": "ease",
+                  "background": false,
+                  "barSize": 14,
+                  "children": Array [
+                    <LabelList
+                      content={[Function]}
+                      dataKey="noVotePercent"
+                      position="outside"
+                      valueAccessor={[Function]}
+                    />,
+                    Array [
+                      <Cell
+                        fill="#eb1701"
+                      />,
+                      <Cell
+                        fill="#eb1701"
+                      />,
+                      <Cell
+                        fill="#eb1701"
+                      />,
+                    ],
+                  ],
+                  "data": Array [],
+                  "dataKey": "noVotePercent",
+                  "hide": false,
+                  "isAnimationActive": true,
+                  "layout": "vertical",
+                  "legendType": "rect",
+                  "minPointSize": 0,
+                  "onAnimationEnd": [Function],
+                  "onAnimationStart": [Function],
+                  "xAxisId": 0,
+                  "yAxisId": 0,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "content": [Function],
+                      "dataKey": "noVotePercent",
+                      "position": "outside",
+                      "valueAccessor": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#eb1701",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#eb1701",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "function",
+                    "props": Object {
+                      "fill": "#eb1701",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

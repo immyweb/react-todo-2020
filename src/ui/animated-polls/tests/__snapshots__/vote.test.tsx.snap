@@ -1,0 +1,790 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VoteScreen /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    bkgndImgDesktop="desktop.jpg"
+    bkgndImgMobile="handlebar-mobile.jpg"
+    cta="Read more from:"
+    ctaLink="#MOVEMBER"
+    ctaTxt="Tell us what you think"
+    ctaUrl="http://www.thesun.co.uk"
+    introTxt="Which do you think looked best? Vote on your favourite moustache"
+    options={
+      Array [
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png",
+          "optionTxt": "The Chevron",
+        },
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png",
+          "optionTxt": "The Handlebar",
+        },
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png",
+          "optionTxt": "The Horseshoe",
+        },
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png",
+          "optionTxt": "The Pencil",
+        },
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png",
+          "optionTxt": "The Walrus",
+        },
+        Object {
+          "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png",
+          "optionTxt": "The Fu Manchu",
+        },
+      ]
+    }
+    theme={
+      Object {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+      }
+    }
+    title="Have your say"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(div)
+          imageDesktop="desktop.jpg"
+          imageMobile="handlebar-mobile.jpg"
+        />,
+        <glamorous(div) />,
+        <glamorous(div) />,
+        <glamorous(div)>
+          <glamorous(glamorous(glamorous(h2)))>
+            Have your say
+          </glamorous(glamorous(glamorous(h2)))>
+          <glamorous(glamorous(glamorous.P))
+            textAlign="left"
+          >
+            Which do you think looked best? Vote on your favourite moustache
+          </glamorous(glamorous(glamorous.P))>
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png"
+            optionTxt="The Chevron"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png"
+            optionTxt="The Handlebar"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png"
+            optionTxt="The Horseshoe"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png"
+            optionTxt="The Pencil"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png"
+            optionTxt="The Walrus"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <Unknown
+            iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png"
+            optionTxt="The Fu Manchu"
+            primary="#000000"
+            secondary="#ffffff"
+          />
+          <glamorous(glamorous(glamorous(glamorous(h2))))>
+            Tell us what you think
+          </glamorous(glamorous(glamorous(glamorous(h2))))>
+          <glamorous(glamorous(glamorous.P))>
+            <glamorous(a)
+              href="http://www.thesun.co.uk"
+            >
+              Read more from:
+               
+              <glamorous(span)>
+                #MOVEMBER
+              </glamorous(span)>
+            </glamorous(a)>
+          </glamorous(glamorous(glamorous.P))>
+        </glamorous(div)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "imageDesktop": "desktop.jpg",
+          "imageMobile": "handlebar-mobile.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(glamorous(h2)))>
+              Have your say
+            </glamorous(glamorous(glamorous(h2)))>,
+            <glamorous(glamorous(glamorous.P))
+              textAlign="left"
+            >
+              Which do you think looked best? Vote on your favourite moustache
+            </glamorous(glamorous(glamorous.P))>,
+            Array [
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png"
+                optionTxt="The Chevron"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png"
+                optionTxt="The Handlebar"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png"
+                optionTxt="The Horseshoe"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png"
+                optionTxt="The Pencil"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png"
+                optionTxt="The Walrus"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+              <Unknown
+                iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png"
+                optionTxt="The Fu Manchu"
+                primary="#000000"
+                secondary="#ffffff"
+              />,
+            ],
+            <glamorous(glamorous(glamorous(glamorous(h2))))>
+              Tell us what you think
+            </glamorous(glamorous(glamorous(glamorous(h2))))>,
+            <glamorous(glamorous(glamorous.P))>
+              <glamorous(a)
+                href="http://www.thesun.co.uk"
+              >
+                Read more from:
+                 
+                <glamorous(span)>
+                  #MOVEMBER
+                </glamorous(span)>
+              </glamorous(a)>
+            </glamorous(glamorous(glamorous.P))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Have your say",
+            },
+            "ref": null,
+            "rendered": "Have your say",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Which do you think looked best? Vote on your favourite moustache",
+              "textAlign": "left",
+            },
+            "ref": null,
+            "rendered": "Which do you think looked best? Vote on your favourite moustache",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png",
+              "optionTxt": "The Chevron",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png",
+              "optionTxt": "The Handlebar",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png",
+              "optionTxt": "The Horseshoe",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png",
+              "optionTxt": "The Pencil",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png",
+              "optionTxt": "The Walrus",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "clickVote": undefined,
+              "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png",
+              "optionTxt": "The Fu Manchu",
+              "primary": "#000000",
+              "secondary": "#ffffff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Tell us what you think",
+            },
+            "ref": null,
+            "rendered": "Tell us what you think",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://www.thesun.co.uk"
+              >
+                Read more from:
+                 
+                <glamorous(span)>
+                  #MOVEMBER
+                </glamorous(span)>
+              </glamorous(a)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Read more from:",
+                  " ",
+                  <glamorous(span)>
+                    #MOVEMBER
+                  </glamorous(span)>,
+                ],
+                "href": "http://www.thesun.co.uk",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Read more from:",
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "#MOVEMBER",
+                  },
+                  "ref": null,
+                  "rendered": "#MOVEMBER",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(div)
+            imageDesktop="desktop.jpg"
+            imageMobile="handlebar-mobile.jpg"
+          />,
+          <glamorous(div) />,
+          <glamorous(div) />,
+          <glamorous(div)>
+            <glamorous(glamorous(glamorous(h2)))>
+              Have your say
+            </glamorous(glamorous(glamorous(h2)))>
+            <glamorous(glamorous(glamorous.P))
+              textAlign="left"
+            >
+              Which do you think looked best? Vote on your favourite moustache
+            </glamorous(glamorous(glamorous.P))>
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png"
+              optionTxt="The Chevron"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png"
+              optionTxt="The Handlebar"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png"
+              optionTxt="The Horseshoe"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png"
+              optionTxt="The Pencil"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png"
+              optionTxt="The Walrus"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <Unknown
+              iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png"
+              optionTxt="The Fu Manchu"
+              primary="#000000"
+              secondary="#ffffff"
+            />
+            <glamorous(glamorous(glamorous(glamorous(h2))))>
+              Tell us what you think
+            </glamorous(glamorous(glamorous(glamorous(h2))))>
+            <glamorous(glamorous(glamorous.P))>
+              <glamorous(a)
+                href="http://www.thesun.co.uk"
+              >
+                Read more from:
+                 
+                <glamorous(span)>
+                  #MOVEMBER
+                </glamorous(span)>
+              </glamorous(a)>
+            </glamorous(glamorous(glamorous.P))>
+          </glamorous(div)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "imageDesktop": "desktop.jpg",
+            "imageMobile": "handlebar-mobile.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(glamorous(glamorous(h2)))>
+                Have your say
+              </glamorous(glamorous(glamorous(h2)))>,
+              <glamorous(glamorous(glamorous.P))
+                textAlign="left"
+              >
+                Which do you think looked best? Vote on your favourite moustache
+              </glamorous(glamorous(glamorous.P))>,
+              Array [
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png"
+                  optionTxt="The Chevron"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png"
+                  optionTxt="The Handlebar"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png"
+                  optionTxt="The Horseshoe"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png"
+                  optionTxt="The Pencil"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png"
+                  optionTxt="The Walrus"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+                <Unknown
+                  iconImg="https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png"
+                  optionTxt="The Fu Manchu"
+                  primary="#000000"
+                  secondary="#ffffff"
+                />,
+              ],
+              <glamorous(glamorous(glamorous(glamorous(h2))))>
+                Tell us what you think
+              </glamorous(glamorous(glamorous(glamorous(h2))))>,
+              <glamorous(glamorous(glamorous.P))>
+                <glamorous(a)
+                  href="http://www.thesun.co.uk"
+                >
+                  Read more from:
+                   
+                  <glamorous(span)>
+                    #MOVEMBER
+                  </glamorous(span)>
+                </glamorous(a)>
+              </glamorous(glamorous(glamorous.P))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Have your say",
+              },
+              "ref": null,
+              "rendered": "Have your say",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Which do you think looked best? Vote on your favourite moustache",
+                "textAlign": "left",
+              },
+              "ref": null,
+              "rendered": "Which do you think looked best? Vote on your favourite moustache",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Chevron.png",
+                "optionTxt": "The Chevron",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Handlebar.png",
+                "optionTxt": "The Handlebar",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Horseshoe.png",
+                "optionTxt": "The Horseshoe",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Pencil.png",
+                "optionTxt": "The Pencil",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/Walrus.png",
+                "optionTxt": "The Walrus",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "clickVote": undefined,
+                "iconImg": "https://www.thesun.co.uk/wp-content/uploads/2018/10/FuManchu.png",
+                "optionTxt": "The Fu Manchu",
+                "primary": "#000000",
+                "secondary": "#ffffff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Tell us what you think",
+              },
+              "ref": null,
+              "rendered": "Tell us what you think",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://www.thesun.co.uk"
+                >
+                  Read more from:
+                   
+                  <glamorous(span)>
+                    #MOVEMBER
+                  </glamorous(span)>
+                </glamorous(a)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "Read more from:",
+                    " ",
+                    <glamorous(span)>
+                      #MOVEMBER
+                    </glamorous(span)>,
+                  ],
+                  "href": "http://www.thesun.co.uk",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Read more from:",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "#MOVEMBER",
+                    },
+                    "ref": null,
+                    "rendered": "#MOVEMBER",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

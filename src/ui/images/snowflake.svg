@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="70px" viewBox="0 0 66 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>snow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="snow" transform="translate(3.000000, 3.000000)" stroke="#88CDFF" stroke-width="5">
+            <path d="M30,0 L30,64" id="path15229" fill="#88CDFF"></path>
+            <path d="M59,16 L0,48" id="path15229-5" fill="#88CDFF"></path>
+            <path d="M0,15 L59,47" id="path15229-5-0" fill="#88CDFF"></path>
+            <polyline id="path15261" points="20 6 29.5 17 39 6.16541334"></polyline>
+            <polyline id="path15261-6" points="20 59 29.5000019 48 39 58.8345897"></polyline>
+            <polyline id="path15261-5" points="50.6738932 8 46 22.0607839 60 25"></polyline>
+            <polyline id="path15261-1" points="59 36 45 38.7139208 49.4870844 52"></polyline>
+            <polyline id="path15261-8" points="11.3261054 52 16 37.9392167 2 35"></polyline>
+            <polyline id="path15261-3" points="1 26 15 23.2860761 10.5129165 10"></polyline>
+        </g>
+    </g>
+</svg>

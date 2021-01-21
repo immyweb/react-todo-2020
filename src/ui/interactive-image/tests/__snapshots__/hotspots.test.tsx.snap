@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HotspotItems /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    hotSpotBkgndColour="#000000"
+    hotSpotTxtColour="#ffffff"
+    hotspots={
+      Array [
+        Object {
+          "label": Object {
+            "arrowPosition": "LEFT",
+            "arrowSide": "BOTTOM",
+            "desktopPosition": Object {
+              "left": "65%",
+              "top": "30%",
+            },
+            "mobilePosition": Object {
+              "left": "65%",
+              "top": "30%",
+            },
+            "text": "ARMS",
+          },
+          "modal": Object {
+            "copy": Array [
+              "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+            ],
+            "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+            "title": "Long arms are a turn on",
+          },
+        },
+        Object {
+          "label": Object {
+            "arrowPosition": "RIGHT",
+            "arrowSide": "BOTTOM",
+            "desktopPosition": Object {
+              "left": "65%",
+              "top": "30%",
+            },
+            "mobilePosition": Object {
+              "left": "23%",
+              "top": "23%",
+            },
+            "text": "BOOBS",
+          },
+          "modal": Object {
+            "copy": Array [
+              "Ladies with larger breasts scored an average of 10 points higher on an IQ test as part of a University of Chicago study. This may be because the hormones which make boobs grow play a role in intelligence.",
+            ],
+            "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+            "title": "Bigger boobs mean bigger IQs",
+          },
+        },
+      ]
+    }
+    id="hotspot"
+    modalRef={[Function]}
+    pulseColour="#000000"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          hotSpotBkgndColour="#000000"
+          hotSpotTxtColour="#ffffff"
+          hotspot={
+            Object {
+              "label": Object {
+                "arrowPosition": "LEFT",
+                "arrowSide": "BOTTOM",
+                "desktopPosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "mobilePosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "text": "ARMS",
+              },
+              "modal": Object {
+                "copy": Array [
+                  "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+                ],
+                "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                "title": "Long arms are a turn on",
+              },
+            }
+          }
+          id="hotspot"
+          modalRef={[Function]}
+          pulseColour="#000000"
+        />,
+        <Unknown
+          hotSpotBkgndColour="#000000"
+          hotSpotTxtColour="#ffffff"
+          hotspot={
+            Object {
+              "label": Object {
+                "arrowPosition": "RIGHT",
+                "arrowSide": "BOTTOM",
+                "desktopPosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "mobilePosition": Object {
+                  "left": "23%",
+                  "top": "23%",
+                },
+                "text": "BOOBS",
+              },
+              "modal": Object {
+                "copy": Array [
+                  "Ladies with larger breasts scored an average of 10 points higher on an IQ test as part of a University of Chicago study. This may be because the hormones which make boobs grow play a role in intelligence.",
+                ],
+                "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                "title": "Bigger boobs mean bigger IQs",
+              },
+            }
+          }
+          id="hotspot"
+          modalRef={[Function]}
+          pulseColour="#000000"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "ARMS",
+        "nodeType": "function",
+        "props": Object {
+          "hotSpotBkgndColour": "#000000",
+          "hotSpotTxtColour": "#ffffff",
+          "hotspot": Object {
+            "label": Object {
+              "arrowPosition": "LEFT",
+              "arrowSide": "BOTTOM",
+              "desktopPosition": Object {
+                "left": "65%",
+                "top": "30%",
+              },
+              "mobilePosition": Object {
+                "left": "65%",
+                "top": "30%",
+              },
+              "text": "ARMS",
+            },
+            "modal": Object {
+              "copy": Array [
+                "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+              ],
+              "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+              "title": "Long arms are a turn on",
+            },
+          },
+          "id": "hotspot",
+          "modalRef": [Function],
+          "pulseColour": "#000000",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "BOOBS",
+        "nodeType": "function",
+        "props": Object {
+          "hotSpotBkgndColour": "#000000",
+          "hotSpotTxtColour": "#ffffff",
+          "hotspot": Object {
+            "label": Object {
+              "arrowPosition": "RIGHT",
+              "arrowSide": "BOTTOM",
+              "desktopPosition": Object {
+                "left": "65%",
+                "top": "30%",
+              },
+              "mobilePosition": Object {
+                "left": "23%",
+                "top": "23%",
+              },
+              "text": "BOOBS",
+            },
+            "modal": Object {
+              "copy": Array [
+                "Ladies with larger breasts scored an average of 10 points higher on an IQ test as part of a University of Chicago study. This may be because the hormones which make boobs grow play a role in intelligence.",
+              ],
+              "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+              "title": "Bigger boobs mean bigger IQs",
+            },
+          },
+          "id": "hotspot",
+          "modalRef": [Function],
+          "pulseColour": "#000000",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            hotSpotBkgndColour="#000000"
+            hotSpotTxtColour="#ffffff"
+            hotspot={
+              Object {
+                "label": Object {
+                  "arrowPosition": "LEFT",
+                  "arrowSide": "BOTTOM",
+                  "desktopPosition": Object {
+                    "left": "65%",
+                    "top": "30%",
+                  },
+                  "mobilePosition": Object {
+                    "left": "65%",
+                    "top": "30%",
+                  },
+                  "text": "ARMS",
+                },
+                "modal": Object {
+                  "copy": Array [
+                    "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+                  ],
+                  "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                  "title": "Long arms are a turn on",
+                },
+              }
+            }
+            id="hotspot"
+            modalRef={[Function]}
+            pulseColour="#000000"
+          />,
+          <Unknown
+            hotSpotBkgndColour="#000000"
+            hotSpotTxtColour="#ffffff"
+            hotspot={
+              Object {
+                "label": Object {
+                  "arrowPosition": "RIGHT",
+                  "arrowSide": "BOTTOM",
+                  "desktopPosition": Object {
+                    "left": "65%",
+                    "top": "30%",
+                  },
+                  "mobilePosition": Object {
+                    "left": "23%",
+                    "top": "23%",
+                  },
+                  "text": "BOOBS",
+                },
+                "modal": Object {
+                  "copy": Array [
+                    "Ladies with larger breasts scored an average of 10 points higher on an IQ test as part of a University of Chicago study. This may be because the hormones which make boobs grow play a role in intelligence.",
+                  ],
+                  "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                  "title": "Bigger boobs mean bigger IQs",
+                },
+              }
+            }
+            id="hotspot"
+            modalRef={[Function]}
+            pulseColour="#000000"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "ARMS",
+          "nodeType": "function",
+          "props": Object {
+            "hotSpotBkgndColour": "#000000",
+            "hotSpotTxtColour": "#ffffff",
+            "hotspot": Object {
+              "label": Object {
+                "arrowPosition": "LEFT",
+                "arrowSide": "BOTTOM",
+                "desktopPosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "mobilePosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "text": "ARMS",
+              },
+              "modal": Object {
+                "copy": Array [
+                  "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+                ],
+                "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                "title": "Long arms are a turn on",
+              },
+            },
+            "id": "hotspot",
+            "modalRef": [Function],
+            "pulseColour": "#000000",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "BOOBS",
+          "nodeType": "function",
+          "props": Object {
+            "hotSpotBkgndColour": "#000000",
+            "hotSpotTxtColour": "#ffffff",
+            "hotspot": Object {
+              "label": Object {
+                "arrowPosition": "RIGHT",
+                "arrowSide": "BOTTOM",
+                "desktopPosition": Object {
+                  "left": "65%",
+                  "top": "30%",
+                },
+                "mobilePosition": Object {
+                  "left": "23%",
+                  "top": "23%",
+                },
+                "text": "BOOBS",
+              },
+              "modal": Object {
+                "copy": Array [
+                  "Ladies with larger breasts scored an average of 10 points higher on an IQ test as part of a University of Chicago study. This may be because the hormones which make boobs grow play a role in intelligence.",
+                ],
+                "imageBottom": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+                "title": "Bigger boobs mean bigger IQs",
+              },
+            },
+            "id": "hotspot",
+            "modalRef": [Function],
+            "pulseColour": "#000000",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

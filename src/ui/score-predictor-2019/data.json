@@ -1,0 +1,501 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#459977",
+      "secondary": "#2e664f"
+    }
+  },
+  "content": {
+    "intro": {
+      "title": "Our current prediction",
+      "subTitle": "What's your prediction?",
+      "copy": "Predict the remaining games to see who will finish in those crucial Champions League places.",
+      "cta": "Play now",
+      "ctaResults": "See your results",
+      "predictions": [
+        {
+          "team": "Tottenham",
+          "played": 38,
+          "win": 22,
+          "draw": 7,
+          "lose": 9,
+          "goals": 65,
+          "conceded": 40,
+          "goalDiff": 25,
+          "points": 73
+        },
+        {
+          "team": "Man Utd",
+          "played": 38,
+          "win": 20,
+          "draw": 12,
+          "lose": 6,
+          "goals": 64,
+          "conceded": 45,
+          "goalDiff": 19,
+          "points": 72
+        },
+        {
+          "team": "Arsenal",
+          "played": 38,
+          "win": 18,
+          "draw": 10,
+          "lose": 10,
+          "goals": 70,
+          "conceded": 50,
+          "goalDiff": 20,
+          "points": 64
+        },
+        {
+          "team": "Chelsea",
+          "played": 38,
+          "win": 17,
+          "draw": 10,
+          "lose": 11,
+          "goals": 60,
+          "conceded": 40,
+          "goalDiff": 20,
+          "points": 61
+        }
+      ]
+    },
+    "fixtures": [
+      {
+        "date": "Monday 1st April",
+        "games": [
+          {
+            "team1": "Arsenal",
+            "team2": "Newcastle",
+            "id": 0,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Tuesday 2nd April",
+        "games": [
+          {
+            "team1": "Wolves",
+            "team2": "Man Utd",
+            "id": 1,
+            "startPrediction": {
+              "team1": 1,
+              "team2": 10
+            }
+          }
+        ]
+      },
+      {
+        "date": "Sunday 7th April",
+        "games": [
+          {
+            "team1": "Everton",
+            "team2": "Arsenal",
+            "id": 2,
+            "startPrediction": {
+              "team1": 1,
+              "team2": 1
+            }
+          },
+          {
+            "team1": "Tottenham",
+            "team2": "Brighton",
+            "id": 3,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Monday 8th April",
+        "games": [
+          {
+            "team1": "Chelsea",
+            "team2": "West Ham",
+            "id": 4,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Saturday 13th April",
+        "games": [
+          {
+            "team1": "Tottenham",
+            "team2": "Huddsf'ld",
+            "id": 5,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Man Utd",
+            "team2": "West Ham",
+            "id": 6,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Sunday 14th April",
+        "games": [
+          {
+            "team1": "Liverpool",
+            "team2": "Chelsea",
+            "id": 7,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Monday 15th April",
+        "games": [
+          {
+            "team1": "Watford",
+            "team2": "Arsenal",
+            "id": 8,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Saturday 20th April",
+        "games": [
+          {
+            "team1": "Man City",
+            "team2": "Tottenham",
+            "id": 9,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Arsenal",
+            "team2": "C Palace",
+            "id": 10,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Sunday 21st April",
+        "games": [
+          {
+            "team1": "Everton",
+            "team2": "Man Utd",
+            "id": 11,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Monday 22nd April",
+        "games": [
+          {
+            "team1": "Chelsea",
+            "team2": "Burnley",
+            "id": 12,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Wednesday 24th April",
+        "games": [
+          {
+            "team1": "Man Utd",
+            "team2": "Man City",
+            "id": 13,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Saturday 27th April",
+        "games": [
+          {
+            "team1": "Tottenham",
+            "team2": "West Ham",
+            "id": 14,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Sunday 28th April",
+        "games": [
+          {
+            "team1": "Man Utd",
+            "team2": "Chelsea",
+            "id": 15,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Monday 29th April",
+        "games": [
+          {
+            "team1": "Leicester",
+            "team2": "Arsenal",
+            "id": 16,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Saturday 4th May",
+        "games": [
+          {
+            "team1": "Arsenal",
+            "team2": "Brighton",
+            "id": 17,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "B'mouth",
+            "team2": "Tottenham",
+            "id": 18,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Chelsea",
+            "team2": "Watford",
+            "id": 19,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Huddsf'ld",
+            "team2": "Man Utd",
+            "id": 20,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      },
+      {
+        "date": "Sunday 12th May",
+        "games": [
+          {
+            "team1": "Burnley",
+            "team2": "Arsenal",
+            "id": 21,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Leicester",
+            "team2": "Chelsea",
+            "id": 22,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Man Utd",
+            "team2": "Cardiff",
+            "id": 23,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          },
+          {
+            "team1": "Tottenham",
+            "team2": "Everton",
+            "id": 24,
+            "startPrediction": {
+              "team1": 2,
+              "team2": 0
+            }
+          }
+        ]
+      }
+    ],
+    "teams": [
+      {
+        "team": "Man City",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/mancity_football_badge.png?strip=all&w=100"
+      },
+      {
+        "team": "Liverpool",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67"
+      },
+      {
+        "team": "Tottenham",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/tottenham.png?strip=all&w=55"
+      },
+      {
+        "team": "Man Utd",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/man_u_rgb1.png?strip=all&w=86"
+      },
+      {
+        "team": "Arsenal",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/arsenal2.png?strip=all&w=75"
+      },
+      {
+        "team": "Chelsea",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/ChelseaFC.png?strip=all&w=90"
+      },
+      {
+        "team": "Wolves",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/05/wolves.png?strip=all&w=100"
+      },
+      {
+        "team": "Watford",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Watford.png?strip=all&w=79"
+      },
+      {
+        "team": "West Ham",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/westham_football_badges_2405.png?strip=all&w=100"
+      },
+      {
+        "team": "Leicester",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90"
+      },
+      {
+        "team": "Everton",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/everton.png?strip=all&w=88"
+      },
+      {
+        "team": "B'mouth",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/bournemouth_football_badges_2405.png?strip=all&w=75"
+      },
+      {
+        "team": "Newcastle",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/newcastle-utd1.png?strip=all&w=85"
+      },
+      {
+        "team": "C Palace",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72"
+      },
+      {
+        "team": "Brighton",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96"
+      },
+      {
+        "team": "Southampton",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Southampton-RGB.png?strip=all&w=79"
+      },
+      {
+        "team": "Burnley",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/05/burnley_football_badges_2405.png?strip=all&w=100"
+      },
+      {
+        "team": "Cardiff",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/10/cardiff.png?strip=all&w=262"
+      },
+      {
+        "team": "Fulham",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/05/fulham.png?strip=all&w=100"
+      },
+      {
+        "team": "Huddsf'ld",
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/05/huddersfield.png?strip=all&w=100"
+      }
+    ],
+    "teamData": [
+      {
+        "team": "Tottenham",
+        "played": 30,
+        "win": 20,
+        "draw": 1,
+        "lose": 9,
+        "goals": 57,
+        "conceded": 32,
+        "goalDiff": 25,
+        "points": 61
+      },
+      {
+        "team": "Man Utd",
+        "played": 30,
+        "win": 17,
+        "draw": 7,
+        "lose": 6,
+        "goals": 58,
+        "conceded": 40,
+        "goalDiff": 18,
+        "points": 58
+      },
+      {
+        "team": "Arsenal",
+        "played": 30,
+        "win": 18,
+        "draw": 6,
+        "lose": 6,
+        "goals": 63,
+        "conceded": 39,
+        "goalDiff": 24,
+        "points": 60
+      },
+      {
+        "team": "Chelsea",
+        "played": 30,
+        "win": 17,
+        "draw": 6,
+        "lose": 7,
+        "goals": 50,
+        "conceded": 33,
+        "goalDiff": 17,
+        "points": 57
+      }
+    ],
+    "finalTable": {
+      "title": "Here's how YOU think the table will finish"
+    }
+  }
+}

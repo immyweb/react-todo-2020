@@ -1,0 +1,4078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slide /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Slide
+    group={
+      Array [
+        Object {
+          "id": 0,
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "id": 1,
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "id": 2,
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "id": 3,
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "id": 4,
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "id": 5,
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+        Object {
+          "id": 6,
+          "team1": "C Palace",
+          "team2": "Liverpool",
+        },
+        Object {
+          "id": 7,
+          "team1": "Brighton",
+          "team2": "Leicester",
+        },
+      ]
+    }
+    onPlayed={[Function]}
+    onPredict={[Function]}
+    onToggleNext={[Function]}
+    slideWidth={620}
+    teams={
+      Array [
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+          "draw": 9,
+          "lose": 4,
+          "played": 31,
+          "points": 63,
+          "team": "Liverpool",
+          "win": 18,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+          "draw": 9,
+          "lose": 15,
+          "played": 31,
+          "points": 30,
+          "team": "C Palace",
+          "win": 7,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+          "draw": 10,
+          "lose": 12,
+          "played": 30,
+          "points": 34,
+          "team": "Brighton",
+          "win": 8,
+        },
+        Object {
+          "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+          "draw": 10,
+          "lose": 10,
+          "played": 30,
+          "points": 40,
+          "team": "Leicester",
+          "win": 10,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <glamorous(table)>
+        <glamorous(thead)>
+          <tr>
+            <glamorous(th)
+              borderRight={true}
+              definedWidth="26%"
+            >
+              Team
+            </glamorous(th)>
+            <glamorous(th)>
+              Win 
+              <glamorous(span)>
+                |
+              </glamorous(span)>
+            </glamorous(th)>
+            <glamorous(th)>
+              Draw 
+              <glamorous(span)>
+                |
+              </glamorous(span)>
+            </glamorous(th)>
+            <glamorous(th)
+              borderRight={true}
+            >
+              Win
+            </glamorous(th)>
+            <glamorous(th)
+              definedWidth="26%"
+            >
+              Team
+            </glamorous(th)>
+          </tr>
+        </glamorous(thead)>
+        <tbody>
+          <Fixture
+            fixture={
+              Object {
+                "id": 0,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 1,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 2,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 3,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 4,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 5,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 6,
+                "team1": "C Palace",
+                "team2": "Liverpool",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+          <Fixture
+            fixture={
+              Object {
+                "id": 7,
+                "team1": "Brighton",
+                "team2": "Leicester",
+              }
+            }
+            onPlayed={[Function]}
+            onPredict={[Function]}
+            onSlidePlayed={[Function]}
+            teams={
+              Array [
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                  "draw": 9,
+                  "lose": 4,
+                  "played": 31,
+                  "points": 63,
+                  "team": "Liverpool",
+                  "win": 18,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                  "draw": 9,
+                  "lose": 15,
+                  "played": 31,
+                  "points": 30,
+                  "team": "C Palace",
+                  "win": 7,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                  "draw": 10,
+                  "lose": 12,
+                  "played": 30,
+                  "points": 34,
+                  "team": "Brighton",
+                  "win": 8,
+                },
+                Object {
+                  "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                  "draw": 10,
+                  "lose": 10,
+                  "played": 30,
+                  "points": 40,
+                  "team": "Leicester",
+                  "win": 10,
+                },
+              ]
+            }
+          />
+        </tbody>
+      </glamorous(table)>,
+      "width": 620,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(thead)>
+            <tr>
+              <glamorous(th)
+                borderRight={true}
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+              <glamorous(th)>
+                Win 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)>
+                Draw 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                borderRight={true}
+              >
+                Win
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+            </tr>
+          </glamorous(thead)>,
+          <tbody>
+            <Fixture
+              fixture={
+                Object {
+                  "id": 0,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 1,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 2,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 3,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 4,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 5,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 6,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 7,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+          </tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <tr>
+              <glamorous(th)
+                borderRight={true}
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+              <glamorous(th)>
+                Win 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)>
+                Draw 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                borderRight={true}
+              >
+                Win
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+            </tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <glamorous(th)
+                  borderRight={true}
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>,
+                <glamorous(th)>
+                  Win 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>,
+                <glamorous(th)>
+                  Draw 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>,
+                <glamorous(th)
+                  borderRight={true}
+                >
+                  Win
+                </glamorous(th)>,
+                <glamorous(th)
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "borderRight": true,
+                  "children": "Team",
+                  "definedWidth": "26%",
+                },
+                "ref": null,
+                "rendered": "Team",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "Win ",
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Win ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "|",
+                    },
+                    "ref": null,
+                    "rendered": "|",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "Draw ",
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Draw ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "|",
+                    },
+                    "ref": null,
+                    "rendered": "|",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "borderRight": true,
+                  "children": "Win",
+                },
+                "ref": null,
+                "rendered": "Win",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Team",
+                  "definedWidth": "26%",
+                },
+                "ref": null,
+                "rendered": "Team",
+                "type": [Function],
+              },
+            ],
+            "type": "tr",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 0,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 1,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 2,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 3,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 4,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 5,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 6,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 7,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 0,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 1,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 2,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 3,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 4,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 5,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 6,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "class",
+              "props": Object {
+                "fixture": Object {
+                  "id": 7,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                },
+                "onPlayed": [Function],
+                "onPredict": [Function],
+                "onSlidePlayed": [Function],
+                "teams": Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <glamorous(table)>
+          <glamorous(thead)>
+            <tr>
+              <glamorous(th)
+                borderRight={true}
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+              <glamorous(th)>
+                Win 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)>
+                Draw 
+                <glamorous(span)>
+                  |
+                </glamorous(span)>
+              </glamorous(th)>
+              <glamorous(th)
+                borderRight={true}
+              >
+                Win
+              </glamorous(th)>
+              <glamorous(th)
+                definedWidth="26%"
+              >
+                Team
+              </glamorous(th)>
+            </tr>
+          </glamorous(thead)>
+          <tbody>
+            <Fixture
+              fixture={
+                Object {
+                  "id": 0,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 1,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 2,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 3,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 4,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 5,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 6,
+                  "team1": "C Palace",
+                  "team2": "Liverpool",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+            <Fixture
+              fixture={
+                Object {
+                  "id": 7,
+                  "team1": "Brighton",
+                  "team2": "Leicester",
+                }
+              }
+              onPlayed={[Function]}
+              onPredict={[Function]}
+              onSlidePlayed={[Function]}
+              teams={
+                Array [
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                    "draw": 9,
+                    "lose": 4,
+                    "played": 31,
+                    "points": 63,
+                    "team": "Liverpool",
+                    "win": 18,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                    "draw": 9,
+                    "lose": 15,
+                    "played": 31,
+                    "points": 30,
+                    "team": "C Palace",
+                    "win": 7,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                    "draw": 10,
+                    "lose": 12,
+                    "played": 30,
+                    "points": 34,
+                    "team": "Brighton",
+                    "win": 8,
+                  },
+                  Object {
+                    "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                    "draw": 10,
+                    "lose": 10,
+                    "played": 30,
+                    "points": 40,
+                    "team": "Leicester",
+                    "win": 10,
+                  },
+                ]
+              }
+            />
+          </tbody>
+        </glamorous(table)>,
+        "width": 620,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(thead)>
+              <tr>
+                <glamorous(th)
+                  borderRight={true}
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>
+                <glamorous(th)>
+                  Win 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)>
+                  Draw 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  borderRight={true}
+                >
+                  Win
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>
+              </tr>
+            </glamorous(thead)>,
+            <tbody>
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 0,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 1,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 2,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 3,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 4,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 5,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 6,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+              <Fixture
+                fixture={
+                  Object {
+                    "id": 7,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  }
+                }
+                onPlayed={[Function]}
+                onPredict={[Function]}
+                onSlidePlayed={[Function]}
+                teams={
+                  Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ]
+                }
+              />
+            </tbody>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <tr>
+                <glamorous(th)
+                  borderRight={true}
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>
+                <glamorous(th)>
+                  Win 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)>
+                  Draw 
+                  <glamorous(span)>
+                    |
+                  </glamorous(span)>
+                </glamorous(th)>
+                <glamorous(th)
+                  borderRight={true}
+                >
+                  Win
+                </glamorous(th)>
+                <glamorous(th)
+                  definedWidth="26%"
+                >
+                  Team
+                </glamorous(th)>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(th)
+                    borderRight={true}
+                    definedWidth="26%"
+                  >
+                    Team
+                  </glamorous(th)>,
+                  <glamorous(th)>
+                    Win 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)>
+                    Draw 
+                    <glamorous(span)>
+                      |
+                    </glamorous(span)>
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    borderRight={true}
+                  >
+                    Win
+                  </glamorous(th)>,
+                  <glamorous(th)
+                    definedWidth="26%"
+                  >
+                    Team
+                  </glamorous(th)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "borderRight": true,
+                    "children": "Team",
+                    "definedWidth": "26%",
+                  },
+                  "ref": null,
+                  "rendered": "Team",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "Win ",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Win ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "Draw ",
+                      <glamorous(span)>
+                        |
+                      </glamorous(span)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Draw ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "|",
+                      },
+                      "ref": null,
+                      "rendered": "|",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "borderRight": true,
+                    "children": "Win",
+                  },
+                  "ref": null,
+                  "rendered": "Win",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Team",
+                    "definedWidth": "26%",
+                  },
+                  "ref": null,
+                  "rendered": "Team",
+                  "type": [Function],
+                },
+              ],
+              "type": "tr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 0,
+                      "team1": "C Palace",
+                      "team2": "Liverpool",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 1,
+                      "team1": "Brighton",
+                      "team2": "Leicester",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 2,
+                      "team1": "C Palace",
+                      "team2": "Liverpool",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 3,
+                      "team1": "Brighton",
+                      "team2": "Leicester",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 4,
+                      "team1": "C Palace",
+                      "team2": "Liverpool",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 5,
+                      "team1": "Brighton",
+                      "team2": "Leicester",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 6,
+                      "team1": "C Palace",
+                      "team2": "Liverpool",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+                <Fixture
+                  fixture={
+                    Object {
+                      "id": 7,
+                      "team1": "Brighton",
+                      "team2": "Leicester",
+                    }
+                  }
+                  onPlayed={[Function]}
+                  onPredict={[Function]}
+                  onSlidePlayed={[Function]}
+                  teams={
+                    Array [
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                        "draw": 9,
+                        "lose": 4,
+                        "played": 31,
+                        "points": 63,
+                        "team": "Liverpool",
+                        "win": 18,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                        "draw": 9,
+                        "lose": 15,
+                        "played": 31,
+                        "points": 30,
+                        "team": "C Palace",
+                        "win": 7,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                        "draw": 10,
+                        "lose": 12,
+                        "played": 30,
+                        "points": 34,
+                        "team": "Brighton",
+                        "win": 8,
+                      },
+                      Object {
+                        "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                        "draw": 10,
+                        "lose": 10,
+                        "played": 30,
+                        "points": 40,
+                        "team": "Leicester",
+                        "win": 10,
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 0,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 1,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 2,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 3,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 4,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 5,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 6,
+                    "team1": "C Palace",
+                    "team2": "Liverpool",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "class",
+                "props": Object {
+                  "fixture": Object {
+                    "id": 7,
+                    "team1": "Brighton",
+                    "team2": "Leicester",
+                  },
+                  "onPlayed": [Function],
+                  "onPredict": [Function],
+                  "onSlidePlayed": [Function],
+                  "teams": Array [
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Liverpool.png?strip=all&w=67",
+                      "draw": 9,
+                      "lose": 4,
+                      "played": 31,
+                      "points": 63,
+                      "team": "Liverpool",
+                      "win": 18,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/CPFC-Primary-Badge.png?strip=all&w=72",
+                      "draw": 9,
+                      "lose": 15,
+                      "played": 31,
+                      "points": 30,
+                      "team": "C Palace",
+                      "win": 7,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2017/05/1024px-brighton__hove_albion_logo-svg_.png?strip=all&w=96",
+                      "draw": 10,
+                      "lose": 12,
+                      "played": 30,
+                      "points": 34,
+                      "team": "Brighton",
+                      "win": 8,
+                    },
+                    Object {
+                      "badge": "https://www.thesun.co.uk/wp-content/uploads/2016/04/Leicester-City_RGB.png?strip=all&w=90",
+                      "draw": 10,
+                      "lose": 10,
+                      "played": 30,
+                      "points": 40,
+                      "team": "Leicester",
+                      "win": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,83 @@
+{
+	"config": {
+		"theme": {
+			"primary": "#4085cb",
+			"secondary": "#2d5c8c"
+		}
+	},
+	"content": {
+		"headline": "World Cup stars",
+		"items": [
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/egypt1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6083235/egypt-world-cup-profile-latest-odds-star-man/",
+				"label": "EGYPT"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/england_kane.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6099942/england-world-cup-profile-latest-odds-star-man/",
+				"label": "ENG vs BEL"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/france2.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6091029/france-team-profile-world-cup-latest-odds-star-man/",
+				"label": "FRANCE"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/germany1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6094056/germany-world-cup-profile-latest-odds-star-man/",
+				"label": "GERMANY"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/iceland1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6092527/iceland-team-profile-world-cup-latest-odds-star-man/",
+				"label": "ICELAND"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/iran1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6089562/iran-team-profile-world-cup-latest-odds-star-man/",
+				"label": "IRAN"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/japan1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6233898/japan-team-profile-world-cup-latest-odds-star-man/",
+				"label": "JAPAN"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/mexico2.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6094318/mexico-team-profile-world-cup-latest-odds-star-man/",
+				"label": "MEXICO"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/morocco1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6089716/morocco-world-cup-guide-latest-news-squad-list-odds-star-man/",
+				"label": "MOROCCO"
+			},
+			{
+				"image":
+					"https://www.thesun.co.uk/wp-content/uploads/2018/06/nigeria1.png",
+				"url":
+					"https://www.thesun.co.uk/world-cup-2018/6092726/nigeria-team-profile-world-cup-latest-odds-star-man/",
+				"label": "NIGERIA"
+			}
+		]
+	}
+}

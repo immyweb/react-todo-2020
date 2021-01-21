@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HotspotItem /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    hotSpotBkgndColour="#000000"
+    hotSpotTxtColour="#ffffff"
+    hotspot={
+      Object {
+        "label": Object {
+          "arrowPosition": "LEFT",
+          "arrowSide": "BOTTOM",
+          "position": Object {
+            "left": "65%",
+            "top": "30%",
+          },
+          "text": "ARMS",
+        },
+        "modal": Object {
+          "copy": Array [
+            "Longer arms make you more attractive, according to the University of New South Wales. Long dimensions in the arms can send a subtle signal that you’re a suitable mate.",
+          ],
+          "imageTop": "https://www.thesun.co.uk/wp-content/uploads/2018/04/gettyimages-104790256.jpg?strip=all&w=960",
+          "title": "Long arms are a turn on",
+        },
+      }
+    }
+    id="hotspot"
+    modalRef={[Function]}
+    pulseColour="#000000"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "ARMS",
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Label
+          arrowPosition="LEFT"
+          arrowSide="BOTTOM"
+          bkgColour="#000000"
+          onClick={[Function]}
+          txtColour="#ffffff"
+        >
+          ARMS
+        </Label>,
+        <PulseLabel
+          colour="#000000"
+          labelPosition="LEFT"
+          labelSide="BOTTOM"
+        />,
+      ],
+      "className": "interactive-image-hotspot",
+      "left": "65%",
+      "top": "30%",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "arrowPosition": "LEFT",
+          "arrowSide": "BOTTOM",
+          "bkgColour": "#000000",
+          "children": "ARMS",
+          "onClick": [Function],
+          "txtColour": "#ffffff",
+        },
+        "ref": null,
+        "rendered": "ARMS",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "colour": "#000000",
+          "labelPosition": "LEFT",
+          "labelSide": "BOTTOM",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "ARMS",
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Label
+            arrowPosition="LEFT"
+            arrowSide="BOTTOM"
+            bkgColour="#000000"
+            onClick={[Function]}
+            txtColour="#ffffff"
+          >
+            ARMS
+          </Label>,
+          <PulseLabel
+            colour="#000000"
+            labelPosition="LEFT"
+            labelSide="BOTTOM"
+          />,
+        ],
+        "className": "interactive-image-hotspot",
+        "left": "65%",
+        "top": "30%",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "arrowPosition": "LEFT",
+            "arrowSide": "BOTTOM",
+            "bkgColour": "#000000",
+            "children": "ARMS",
+            "onClick": [Function],
+            "txtColour": "#ffffff",
+          },
+          "ref": null,
+          "rendered": "ARMS",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "colour": "#000000",
+            "labelPosition": "LEFT",
+            "labelSide": "BOTTOM",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

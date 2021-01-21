@@ -1,0 +1,22 @@
+{
+	"config": {
+		"startPosition": "Center",
+		"theme": {
+			"primary": "#4085cb",
+			"secondary": "#2d5c8c"
+		}
+	},
+	"content": {
+		"headline": "SLIDE LEFT/RIGHT TO COMPARE DAYS",
+		"modified": {
+			"src":
+				"https://www.thesun.co.uk/wp-content/uploads/2018/06/pmweathergraphicpollenv-WEDS-1.jpg",
+			"label": ""
+		},
+		"original": {
+			"src":
+				"https://www.thesun.co.uk/wp-content/uploads/2018/06/pmweathergraphicpollenv-THURS-1.jpg",
+			"label": ""
+		}
+	}
+}

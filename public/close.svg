@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Close">
+            <circle id="Oval-4" fill="#222526" opacity="0.600000024" cx="12" cy="12" r="12"></circle>
+            <g id="Group" transform="translate(6.000000, 6.000000)" fill="#FFFFFF">
+                <path d="M7.52008582,6 L12,10.4799142 L10.4799142,12 L6,7.52008582 L1.52008582,12 L-3.60600438e-13,10.4799142 L4.47991418,6 L-3.60156349e-13,1.52008582 L1.52008582,-8.8817842e-15 L6,4.47991418 L10.4799142,-8.8817842e-15 L12,1.52008582 L7.52008582,6 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

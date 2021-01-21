@@ -1,0 +1,185 @@
+.titleWrapper {
+  text-align: left;
+  padding: 13px 20px 13px 15px;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.title {
+  font-size: 24px !important;
+  line-height: 1.14 !important;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica-Bold !important;
+  display: block;
+  text-transform: unset;
+}
+
+@media only screen and (min-width: 980px) {
+  .title {
+    font-size: 28px !important;
+  }
+}
+
+.BarContainer {
+  margin-bottom: 20px;
+}
+
+.BarContentHolder {
+  padding: 20px;
+}
+
+.BarSubHeading {
+  font-family: Helvetica-Bold !important;
+  font-size: 20px;
+  line-height: 1.17;
+  text-align: left;
+  color: #222526;
+  margin-top: 0;
+  margin-bottom: 5px !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.BarCopy {
+  font-size: 14px;
+  color: #222526;
+  font-family: 'Helvetica';
+  margin-bottom: 20px !important;
+}
+
+.chartHeading {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.BarChartHolder {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.LeftColumn {
+  display: flex;
+  position: relative;
+  top: -25px;
+}
+
+.BarChartLegend {
+  padding: 0 10px 0 0;
+  border-right: 1px solid #adafb0;
+}
+
+.BarChartLegendItem {
+  height: 45px;
+  font-size: 20px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.BarChartDiff {
+  padding: 0 10px;
+}
+
+.BarChartDiffItem {
+  height: 45px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.ArrowUp {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #4eb056;
+  margin-right: 3px;
+}
+
+.ArrowDown {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #a5171c;
+  margin-right: 3px;
+}
+
+.Diff {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.ChartContainer {
+  position: relative;
+  overflow: hidden;
+  top: -25px;
+}
+
+.LozengeHolder {
+  position: absolute;
+  width: 100%;
+  padding-top: 4px;
+}
+
+.Lozenge {
+  margin: 0 0 7px;
+  padding: 0 8px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  height: 37px;
+}
+
+.GridLineHolder {
+  position: absolute;
+  width: 91%;
+}
+
+.GridLine {
+  margin: 0 0 43px;
+  background: #232526;
+  opacity: 0.1;
+  height: 1px;
+}
+
+.AnotherChartContainer {
+  margin-top: 8px;
+}
+
+.UnitHolder {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 675px) {
+  .BarSubHeading {
+    font-size: 18px;
+  }
+
+  .ArrowUp {
+    display: none;
+  }
+
+  .ArrowDown {
+    display: none;
+  }
+
+  .GridLineHolder {
+    width: 83%;
+  }
+}

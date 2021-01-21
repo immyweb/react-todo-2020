@@ -1,0 +1,135 @@
+.titleWrapper {
+  text-align: left;
+  padding: 13px 20px 13px 15px;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.title {
+  font-size: 24px !important;
+  line-height: 1.14 !important;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica-Bold !important;
+  display: block;
+  text-transform: unset;
+}
+
+@media only screen and (min-width: 980px) {
+  .title {
+    font-size: 28px !important;
+  }
+}
+
+.stackedBarContainer {
+  margin-bottom: 20px;
+}
+
+.stackedBarContentHolder {
+  padding: 20px;
+}
+
+.stackedBarSubHeading {
+  font-family: Helvetica-Bold !important;
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 5px !important;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.17;
+}
+
+.stackedBarCopy {
+  font-size: 14px;
+  color: black;
+  font-family: Helvetica;
+  margin-bottom: 15px !important;
+}
+
+.chartHeadingContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.chartHeading {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.labelChartHeader {
+  font-size: 15px;
+  font-family: Helvetica-Bold;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 0px;
+}
+
+.stackedChartHolder {
+  margin: 5px 0 15px;
+  background: #ffffff;
+  border-radius: 35px;
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  height: 55px;
+  padding: 0 6px;
+}
+
+.stackedBarLegendList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.stackedBarLegendItem {
+  padding: 0 5px;
+  margin-bottom: 17px;
+  display: flex;
+  flex: 0 0 50%;
+}
+
+.stackedBarLegendColour {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.stackedBarLegendLabel {
+  display: inline-block;
+  font-family: Helvetica-Bold;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.stackedBarLegendStat {
+  display: block;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 675px) {
+  .stackedBarSubHeading {
+    font-size: 18px;
+  }
+
+  .stackedChartHolder {
+    padding: 0 8px;
+    height: 40px;
+  }
+
+  .stackedBarLegendList {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}

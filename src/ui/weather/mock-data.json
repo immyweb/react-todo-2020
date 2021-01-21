@@ -1,0 +1,96 @@
+{
+	"config": {
+		"theme": {
+			"primary": "#4085cb",
+			"secondary": "#2d5c8c"
+		}
+	},
+	"content": {
+		"map": "https://www.thesun.co.uk/wp-content/uploads/2018/08/map@2x.png",
+		"cta": {
+			"label": "Latest news",
+			"icon": "SUNNY_DAY",
+			"url": "https://www.thesun.co.uk"
+		},
+		"locations": [
+			{
+				"id": "ABER",
+				"label": "ABERDEEN",
+				"direction": "LEFT",
+				"mobilePosition": {
+					"top": "15%",
+					"left": "51%"
+				},
+				"desktopPosition": {
+					"top": "19%",
+					"left": "63%"
+				}
+			},
+			{
+				"id": "BELF",
+				"label": "BELFAST",
+				"direction": "RIGHT",
+				"mobilePosition": {
+					"top": "35%",
+					"left": "1%"
+				},
+				"desktopPosition": {
+					"top": "43%",
+					"left": "31%"
+				}
+			},
+			{
+				"id": "CARD",
+				"label": "CARDIFF",
+				"direction": "RIGHT",
+				"mobilePosition": {
+					"top": "55%",
+					"left": "21%"
+				},
+				"desktopPosition": {
+					"top": "65%",
+					"left": "42%"
+				}
+			},
+			{
+				"id": "EDBG",
+				"label": "EDINBURGH",
+				"direction": "LEFT",
+				"mobilePosition": {
+					"top": "25%",
+					"left": "44%"
+				},
+				"desktopPosition": {
+					"top": "31%",
+					"left": "58%"
+				}
+			},
+			{
+				"id": "LOND",
+				"label": "LONDON",
+				"direction": "LEFT",
+				"mobilePosition": {
+					"top": "57%",
+					"left": "65%"
+				},
+				"desktopPosition": {
+					"top": "67%",
+					"left": "72%"
+				}
+			},
+			{
+				"id": "MANC",
+				"label": "MANCHESTER",
+				"direction": "LEFT",
+				"mobilePosition": {
+					"top": "45%",
+					"left": "53%"
+				},
+				"desktopPosition": {
+					"top": "50%",
+					"left": "65%"
+				}
+			}
+		]
+	}
+}

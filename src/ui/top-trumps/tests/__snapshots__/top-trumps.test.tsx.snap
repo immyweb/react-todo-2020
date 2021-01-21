@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopTrumps /> renders correctly when errored 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TopTrumps
+    cards={
+      Array [
+        Object {
+          "fName": "Deontay",
+          "id": "wilder",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/WILDER@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/wilder-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-wilder@2x.jpg",
+          "sName": "Wilder",
+        },
+        Object {
+          "fName": "Dillian",
+          "id": "whyte",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/WHYTE@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/whyte-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-whyte@2x.jpg",
+          "sName": "Whyte",
+        },
+        Object {
+          "fName": "Tyson",
+          "id": "fury",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/FURY@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/fury-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-fury@2x.jpg",
+          "sName": "Fury",
+        },
+      ]
+    }
+    id="card"
+    introScreen={
+      Object {
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg",
+        "playButtonText": "Play now",
+      }
+    }
+    resultsScreen={
+      Object {
+        "headline": "The results",
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/results_desktop@2x.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/results_mob@2x.jpg",
+        "linkText": "Boxing news",
+        "linkUrl": "https://www.thesun.co.uk/sport/boxing/",
+        "subHeadline": "Who should AJ fight next?",
+      }
+    }
+    targetClubId="ajsept2018"
+    theme={
+      Object {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+      }
+    }
+    voteScreen={
+      Object {
+        "bottomCopy": "Cast your vote and see what others are thinking too.",
+        "headline": "It's time to decide...",
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/vote_desktop@2x.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/vote_mob@2x.jpg",
+        "subHeadline": "Who should AJ fight next?",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "backgroundColour": "#ffffff",
+      "theme": Object {
+        "primary": "#eb1701",
+        "secondary": "#a5171c",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "backgroundColour": "#ffffff",
+        "theme": Object {
+          "primary": "#eb1701",
+          "secondary": "#a5171c",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<TopTrumps /> renders correctly when not errored 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TopTrumps
+    cards={
+      Array [
+        Object {
+          "fName": "Deontay",
+          "id": "wilder",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/WILDER@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/wilder-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-wilder@2x.jpg",
+          "sName": "Wilder",
+        },
+        Object {
+          "fName": "Dillian",
+          "id": "whyte",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/WHYTE@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/whyte-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-whyte@2x.jpg",
+          "sName": "Whyte",
+        },
+        Object {
+          "fName": "Tyson",
+          "id": "fury",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/08/FURY@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/08/fury-mob@2x.jpg",
+          "imageThumb": "https://www.thesun.co.uk/wp-content/uploads/2018/08/thumbnail-fury@2x.jpg",
+          "sName": "Fury",
+        },
+      ]
+    }
+    id="card"
+    introScreen={
+      Object {
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg",
+        "playButtonText": "Play now",
+      }
+    }
+    resultsScreen={
+      Object {
+        "headline": "The results",
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/results_desktop@2x.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/results_mob@2x.jpg",
+        "linkText": "Boxing news",
+        "linkUrl": "https://www.thesun.co.uk/sport/boxing/",
+        "subHeadline": "Who should AJ fight next?",
+      }
+    }
+    targetClubId="ajsept2018"
+    theme={
+      Object {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+      }
+    }
+    voteScreen={
+      Object {
+        "bottomCopy": "Cast your vote and see what others are thinking too.",
+        "headline": "It's time to decide...",
+        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/vote_desktop@2x.jpg",
+        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/vote_mob@2x.jpg",
+        "subHeadline": "Who should AJ fight next?",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          className="ttt-intro-screen"
+          imageDesktop="https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg"
+          imageMobile="https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg"
+          onStartGame={[Function]}
+          playButtonText="Play now"
+          theme={
+            Object {
+              "primary": "#ffffff",
+              "secondary": "#000000",
+            }
+          }
+        />,
+        false,
+        false,
+        false,
+      ],
+      "className": "ttt-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": "ttt-intro-screen",
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg",
+          "onStartGame": [Function],
+          "playButtonText": "Play now",
+          "theme": Object {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+      false,
+      false,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            className="ttt-intro-screen"
+            imageDesktop="https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg"
+            imageMobile="https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg"
+            onStartGame={[Function]}
+            playButtonText="Play now"
+            theme={
+              Object {
+                "primary": "#ffffff",
+                "secondary": "#000000",
+              }
+            }
+          />,
+          false,
+          false,
+          false,
+        ],
+        "className": "ttt-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "ttt-intro-screen",
+            "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_desktop@2x1.jpg",
+            "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/09/intro_mob@2x1.jpg",
+            "onStartGame": [Function],
+            "playButtonText": "Play now",
+            "theme": Object {
+              "primary": "#ffffff",
+              "secondary": "#000000",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+        false,
+        false,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

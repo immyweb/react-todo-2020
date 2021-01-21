@@ -1,0 +1,922 @@
+{
+  "20190131": {
+    "LOND": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "6",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "UK": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "ABER": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "7",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "BELF": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "4",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "CARD": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "4",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "EDBG": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "1",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "MANC": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    }
+  },
+  "20190201": {
+    "LOND": {
+      "day": {
+        "WeatherType": "SUNNY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "UK": {
+      "day": {
+        "WeatherType": "SUNNY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "ABER": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "BELF": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "CARD": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "EDBG": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "MANC": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    }
+  },
+  "20190202": {
+    "LOND": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "3",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "UK": {
+      "day": {
+        "WeatherType": "LIGHT_RAIN_SHOWER_DAY",
+        "DayMaximumTemperature": "7",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "ABER": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "3",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "BELF": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "2",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "CARD": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "1",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "EDBG": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "4",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "MANC": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "7",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    }
+  },
+  "20190203": {
+    "LOND": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "UK": {
+      "day": {
+        "WeatherType": "LIGHT_SNOW_SHOWER_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "ABER": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "BELF": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "CARD": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "EDBG": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "MANC": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "5",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    }
+  },
+  "20190204": {
+    "LOND": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "UK": {
+      "day": {
+        "WeatherType": "HEAVY_RAIN_SHOWER_DAY",
+        "DayMaximumTemperature": "1",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "ABER": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "BELF": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "CARD": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "EDBG": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    },
+    "MANC": {
+      "day": {
+        "WeatherType": "PARTLY_CLOUDY_DAY",
+        "DayMaximumTemperature": "15",
+        "FeelsLikeDayMaximumTemperature": "1",
+        "WindDirection": "E",
+        "WindGustNoon": "13",
+        "ScreenRelativeHumidityNoon": "75",
+        "PrecipitationProbabilityDay": "4",
+        "WindSpeed": "11",
+        "Visibility": "GO",
+        "MaxUVIndex": "1"
+      },
+      "night": {
+        "WeatherType": "LIGHT_SNOW",
+        "NightMinimumTemperature": "1",
+        "FeelsLikeNightMinimumTemperature": "-4",
+        "WindDirection": "E",
+        "WindGustMidnight": "27",
+        "ScreenRelativeHumidityMidnight": "88",
+        "PrecipitationProbabilityNight": "84",
+        "WindSpeed": "13",
+        "Visibility": "MO"
+      },
+      "date": 20190131
+    }
+  }
+}

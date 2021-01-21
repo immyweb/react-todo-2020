@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardScreen /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    copy="Looks a bit more Bruce Forsyth than Tom Selleck..."
+    imageDesktop=""
+    imageMobile="https://www.thesun.co.uk/wp-content/uploads/2018/10/handlebar.jpg"
+    title="The Chevron"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <glamorous(glamorous(div))
+          imageDesktop=""
+          imageMobile="https://www.thesun.co.uk/wp-content/uploads/2018/10/handlebar.jpg"
+        />,
+        <glamorous(glamorous(div))>
+          <glamorous(glamorous(h2))>
+            The Chevron
+          </glamorous(glamorous(h2))>
+          <glamorous(glamorous(glamorous.P))>
+            Looks a bit more Bruce Forsyth than Tom Selleck...
+          </glamorous(glamorous(glamorous.P))>
+        </glamorous(glamorous(div))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "imageDesktop": "",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/10/handlebar.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(h2))>
+              The Chevron
+            </glamorous(glamorous(h2))>,
+            <glamorous(glamorous(glamorous.P))>
+              Looks a bit more Bruce Forsyth than Tom Selleck...
+            </glamorous(glamorous(glamorous.P))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "The Chevron",
+            },
+            "ref": null,
+            "rendered": "The Chevron",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Looks a bit more Bruce Forsyth than Tom Selleck...",
+            },
+            "ref": null,
+            "rendered": "Looks a bit more Bruce Forsyth than Tom Selleck...",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <glamorous(glamorous(div))
+            imageDesktop=""
+            imageMobile="https://www.thesun.co.uk/wp-content/uploads/2018/10/handlebar.jpg"
+          />,
+          <glamorous(glamorous(div))>
+            <glamorous(glamorous(h2))>
+              The Chevron
+            </glamorous(glamorous(h2))>
+            <glamorous(glamorous(glamorous.P))>
+              Looks a bit more Bruce Forsyth than Tom Selleck...
+            </glamorous(glamorous(glamorous.P))>
+          </glamorous(glamorous(div))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "imageDesktop": "",
+            "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/10/handlebar.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(glamorous(h2))>
+                The Chevron
+              </glamorous(glamorous(h2))>,
+              <glamorous(glamorous(glamorous.P))>
+                Looks a bit more Bruce Forsyth than Tom Selleck...
+              </glamorous(glamorous(glamorous.P))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "The Chevron",
+              },
+              "ref": null,
+              "rendered": "The Chevron",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Looks a bit more Bruce Forsyth than Tom Selleck...",
+              },
+              "ref": null,
+              "rendered": "Looks a bit more Bruce Forsyth than Tom Selleck...",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "theme": {
+      "primary": "#4085cb",
+      "secondary": "#2d5c8c"
+    }
+  },
+  "content": {
+    "headline": "Local Election Results",
+    "subHeadline": "After 200 of 200 seats declared",
+    "copy": "Summary text goes here. Morbi eget ligula tincidunt, gravida nulla quis, fermentum nunc. Nunc dictum risus nec enim posuere pellentesque. Etiam hendrerit turpis quis placerat pulvinar.",
+    "labelHeader": "Seats",
+    "totalHeader": 200,
+    "data": [
+      {
+        "label": "Conservatives",
+        "value": 42.4,
+        "colour": "#0087dc"
+      },
+      {
+        "label": "Lib Dem",
+        "value": 7.3,
+        "colour": "#fdbb30"
+      },
+      {
+        "label": "SNP",
+        "value": 3.0,
+        "colour": "#ffff00"
+      },
+      {
+        "label": "Ukip",
+        "value": 1.8,
+        "colour": "#70147a"
+      },
+      {
+        "label": "Green",
+        "value": 1.6,
+        "colour": "#78b943"
+      },
+      {
+        "label": "Labour",
+        "value": 39.9,
+        "colour": "#dc241f"
+      }
+    ]
+  }
+}

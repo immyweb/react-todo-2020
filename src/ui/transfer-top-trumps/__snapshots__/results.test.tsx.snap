@@ -1,0 +1,1971 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Results /> UI renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    exitUrl="http://www.thesun.co.uk"
+    headline="Transfer Top Trumps"
+    onGoToLink={[Function]}
+    playBtn="latest news"
+    playerVotes={
+      Array [
+        Object {
+          "club": "Chelsea",
+          "noVoteCount": 40,
+          "player": "willian",
+          "voteCount": 60,
+        },
+        Object {
+          "club": "Juventus",
+          "noVoteCount": 60,
+          "player": "a_sandro",
+          "voteCount": 40,
+        },
+        Object {
+          "club": "SS Lazio",
+          "noVoteCount": 0,
+          "player": "s_m_savic",
+          "voteCount": 100,
+        },
+      ]
+    }
+    players={
+      Array [
+        Object {
+          "active": false,
+          "age": 29,
+          "club": "Chelsea",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+          "fee": "£60m",
+          "fname": "",
+          "id": "willian",
+          "idx": 0,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+          "position": "CAM",
+          "sName": "Willian",
+          "selected": false,
+          "voted": true,
+        },
+        Object {
+          "active": false,
+          "age": 27,
+          "club": "Juventus",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+          "fee": "£60m",
+          "fname": "Alex",
+          "id": "a_sandro",
+          "idx": 1,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+          "position": "LB",
+          "sName": "Sandro",
+          "selected": true,
+          "voted": true,
+        },
+        Object {
+          "active": true,
+          "age": 23,
+          "club": "SS Lazio",
+          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+          "fee": "£70m",
+          "fname": "Sergej",
+          "id": "s_m_savic",
+          "idx": 2,
+          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+          "position": "CM",
+          "sName": "Milinković-Savić",
+          "selected": false,
+          "voted": false,
+        },
+      ]
+    }
+    subHeadline="The results"
+    targetClub={
+      Object {
+        "badge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+        "id": "man-utd",
+        "name": "Man Utd",
+        "teamColours": "#a81507",
+      }
+    }
+    theme={
+      Object {
+        "primary": "#000000",
+        "secondary": "#ffffff",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <glamorous(div)>
+          <glamorous(glamorous(h3))
+            className="ttt-results-headline"
+            fontColour="#000000"
+          >
+            Transfer Top Trumps
+          </glamorous(glamorous(h3))>
+          <glamorous(glamorous(h2))
+            className="ttt-results-subheadline"
+            fontColour="#ffffff"
+          >
+            The results
+          </glamorous(glamorous(h2))>
+          <glamorous(div)
+            className="ttt-results-badge"
+          >
+            <Unknown
+              colour="#a81507"
+              height={4}
+              opacity={0.5}
+              top={15}
+            />
+            <glamorous(div)
+              size={50}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+            </glamorous(div)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="ttt-results-chart"
+          >
+            <Unknown
+              sortedProfiles={
+                Array [
+                  Object {
+                    "active": false,
+                    "age": 29,
+                    "club": "Chelsea",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                    "fee": "£60m",
+                    "fname": "",
+                    "id": "willian",
+                    "idx": 0,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                    "position": "CAM",
+                    "sName": "Willian",
+                    "selected": false,
+                    "voteCount": 60,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": false,
+                    "age": 27,
+                    "club": "Juventus",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                    "fee": "£60m",
+                    "fname": "Alex",
+                    "id": "a_sandro",
+                    "idx": 1,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                    "position": "LB",
+                    "sName": "Sandro",
+                    "selected": true,
+                    "voteCount": 40,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": true,
+                    "age": 23,
+                    "club": "SS Lazio",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                    "fee": "£70m",
+                    "fname": "Sergej",
+                    "id": "s_m_savic",
+                    "idx": 2,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                    "position": "CM",
+                    "sName": "Milinković-Savić",
+                    "selected": false,
+                    "voteCount": 100,
+                    "voted": false,
+                  },
+                ]
+              }
+            />
+            <Unknown
+              sortedProfiles={
+                Array [
+                  Object {
+                    "active": false,
+                    "age": 29,
+                    "club": "Chelsea",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                    "fee": "£60m",
+                    "fname": "",
+                    "id": "willian",
+                    "idx": 0,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                    "position": "CAM",
+                    "sName": "Willian",
+                    "selected": false,
+                    "voteCount": 60,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": false,
+                    "age": 27,
+                    "club": "Juventus",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                    "fee": "£60m",
+                    "fname": "Alex",
+                    "id": "a_sandro",
+                    "idx": 1,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                    "position": "LB",
+                    "sName": "Sandro",
+                    "selected": true,
+                    "voteCount": 40,
+                    "voted": true,
+                  },
+                  Object {
+                    "active": true,
+                    "age": 23,
+                    "club": "SS Lazio",
+                    "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                    "fee": "£70m",
+                    "fname": "Sergej",
+                    "id": "s_m_savic",
+                    "idx": 2,
+                    "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                    "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                    "position": "CM",
+                    "sName": "Milinković-Savić",
+                    "selected": false,
+                    "voteCount": 100,
+                    "voted": false,
+                  },
+                ]
+              }
+            />
+            <ChartHorizontalBar
+              data={
+                Array [
+                  Object {
+                    "club": "Chelsea",
+                    "noVoteCount": 40,
+                    "noVotePercent": 40,
+                    "player": "willian",
+                    "voteCount": 60,
+                    "votePercent": 60,
+                  },
+                  Object {
+                    "club": "Juventus",
+                    "noVoteCount": 60,
+                    "noVotePercent": 60,
+                    "player": "a_sandro",
+                    "voteCount": 40,
+                    "votePercent": 40,
+                  },
+                  Object {
+                    "club": "SS Lazio",
+                    "noVoteCount": 0,
+                    "noVotePercent": 0,
+                    "player": "s_m_savic",
+                    "voteCount": 100,
+                    "votePercent": 100,
+                  },
+                ]
+              }
+              theme={
+                Object {
+                  "primary": "#000000",
+                  "secondary": "#ffffff",
+                }
+              }
+            />
+          </glamorous(div)>
+        </glamorous(div)>,
+        <glamorous(glamorous.Div)
+          className="ttt-inner"
+          padding="0 0 25px"
+        >
+          <glamorous(div)
+            className="ttt-results-button"
+          >
+            <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+              latest news
+            </glamorous(glamorous(button))>
+          </glamorous(div)>
+        </glamorous(glamorous.Div)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(glamorous(h3))
+              className="ttt-results-headline"
+              fontColour="#000000"
+            >
+              Transfer Top Trumps
+            </glamorous(glamorous(h3))>,
+            <glamorous(glamorous(h2))
+              className="ttt-results-subheadline"
+              fontColour="#ffffff"
+            >
+              The results
+            </glamorous(glamorous(h2))>,
+            <glamorous(div)
+              className="ttt-results-badge"
+            >
+              <Unknown
+                colour="#a81507"
+                height={4}
+                opacity={0.5}
+                top={15}
+              />
+              <glamorous(div)
+                size={50}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+              </glamorous(div)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="ttt-results-chart"
+            >
+              <Unknown
+                sortedProfiles={
+                  Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ]
+                }
+              />
+              <Unknown
+                sortedProfiles={
+                  Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ]
+                }
+              />
+              <ChartHorizontalBar
+                data={
+                  Array [
+                    Object {
+                      "club": "Chelsea",
+                      "noVoteCount": 40,
+                      "noVotePercent": 40,
+                      "player": "willian",
+                      "voteCount": 60,
+                      "votePercent": 60,
+                    },
+                    Object {
+                      "club": "Juventus",
+                      "noVoteCount": 60,
+                      "noVotePercent": 60,
+                      "player": "a_sandro",
+                      "voteCount": 40,
+                      "votePercent": 40,
+                    },
+                    Object {
+                      "club": "SS Lazio",
+                      "noVoteCount": 0,
+                      "noVotePercent": 0,
+                      "player": "s_m_savic",
+                      "voteCount": 100,
+                      "votePercent": 100,
+                    },
+                  ]
+                }
+                theme={
+                  Object {
+                    "primary": "#000000",
+                    "secondary": "#ffffff",
+                  }
+                }
+              />
+            </glamorous(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Transfer Top Trumps",
+              "className": "ttt-results-headline",
+              "fontColour": "#000000",
+            },
+            "ref": null,
+            "rendered": "Transfer Top Trumps",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "The results",
+              "className": "ttt-results-subheadline",
+              "fontColour": "#ffffff",
+            },
+            "ref": null,
+            "rendered": "The results",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  colour="#a81507"
+                  height={4}
+                  opacity={0.5}
+                  top={15}
+                />,
+                <glamorous(div)
+                  size={50}
+                >
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />
+                </glamorous(div)>,
+              ],
+              "className": "ttt-results-badge",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "colour": "#a81507",
+                  "height": 4,
+                  "opacity": 0.5,
+                  "top": 15,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />,
+                  "size": 50,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Man Utd",
+                    "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  sortedProfiles={
+                    Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ]
+                  }
+                />,
+                <Unknown
+                  sortedProfiles={
+                    Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ]
+                  }
+                />,
+                <ChartHorizontalBar
+                  data={
+                    Array [
+                      Object {
+                        "club": "Chelsea",
+                        "noVoteCount": 40,
+                        "noVotePercent": 40,
+                        "player": "willian",
+                        "voteCount": 60,
+                        "votePercent": 60,
+                      },
+                      Object {
+                        "club": "Juventus",
+                        "noVoteCount": 60,
+                        "noVotePercent": 60,
+                        "player": "a_sandro",
+                        "voteCount": 40,
+                        "votePercent": 40,
+                      },
+                      Object {
+                        "club": "SS Lazio",
+                        "noVoteCount": 0,
+                        "noVotePercent": 0,
+                        "player": "s_m_savic",
+                        "voteCount": 100,
+                        "votePercent": 100,
+                      },
+                    ]
+                  }
+                  theme={
+                    Object {
+                      "primary": "#000000",
+                      "secondary": "#ffffff",
+                    }
+                  }
+                />,
+              ],
+              "className": "ttt-results-chart",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "sortedProfiles": Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "sortedProfiles": Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "data": Array [
+                    Object {
+                      "club": "Chelsea",
+                      "noVoteCount": 40,
+                      "noVotePercent": 40,
+                      "player": "willian",
+                      "voteCount": 60,
+                      "votePercent": 60,
+                    },
+                    Object {
+                      "club": "Juventus",
+                      "noVoteCount": 60,
+                      "noVotePercent": 60,
+                      "player": "a_sandro",
+                      "voteCount": 40,
+                      "votePercent": 40,
+                    },
+                    Object {
+                      "club": "SS Lazio",
+                      "noVoteCount": 0,
+                      "noVotePercent": 0,
+                      "player": "s_m_savic",
+                      "voteCount": 100,
+                      "votePercent": 100,
+                    },
+                  ],
+                  "theme": Object {
+                    "primary": "#000000",
+                    "secondary": "#ffffff",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <glamorous(div)
+            className="ttt-results-button"
+          >
+            <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+              latest news
+            </glamorous(glamorous(button))>
+          </glamorous(div)>,
+          "className": "ttt-inner",
+          "padding": "0 0 25px",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <glamorous(glamorous(button))
+              bkgndBottom="#ffffff"
+              bkgndTop="#000000"
+              onClick={[Function]}
+            >
+              <glamorous(img)
+                alt="Man Utd"
+                src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+              />
+              latest news
+            </glamorous(glamorous(button))>,
+            "className": "ttt-results-button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bkgndBottom": "#ffffff",
+              "bkgndTop": "#000000",
+              "children": Array [
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />,
+                "latest news",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "Man Utd",
+                  "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "latest news",
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <glamorous(div)>
+            <glamorous(glamorous(h3))
+              className="ttt-results-headline"
+              fontColour="#000000"
+            >
+              Transfer Top Trumps
+            </glamorous(glamorous(h3))>
+            <glamorous(glamorous(h2))
+              className="ttt-results-subheadline"
+              fontColour="#ffffff"
+            >
+              The results
+            </glamorous(glamorous(h2))>
+            <glamorous(div)
+              className="ttt-results-badge"
+            >
+              <Unknown
+                colour="#a81507"
+                height={4}
+                opacity={0.5}
+                top={15}
+              />
+              <glamorous(div)
+                size={50}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+              </glamorous(div)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="ttt-results-chart"
+            >
+              <Unknown
+                sortedProfiles={
+                  Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ]
+                }
+              />
+              <Unknown
+                sortedProfiles={
+                  Array [
+                    Object {
+                      "active": false,
+                      "age": 29,
+                      "club": "Chelsea",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                      "fee": "£60m",
+                      "fname": "",
+                      "id": "willian",
+                      "idx": 0,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                      "position": "CAM",
+                      "sName": "Willian",
+                      "selected": false,
+                      "voteCount": 60,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": false,
+                      "age": 27,
+                      "club": "Juventus",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                      "fee": "£60m",
+                      "fname": "Alex",
+                      "id": "a_sandro",
+                      "idx": 1,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                      "position": "LB",
+                      "sName": "Sandro",
+                      "selected": true,
+                      "voteCount": 40,
+                      "voted": true,
+                    },
+                    Object {
+                      "active": true,
+                      "age": 23,
+                      "club": "SS Lazio",
+                      "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                      "fee": "£70m",
+                      "fname": "Sergej",
+                      "id": "s_m_savic",
+                      "idx": 2,
+                      "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                      "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                      "position": "CM",
+                      "sName": "Milinković-Savić",
+                      "selected": false,
+                      "voteCount": 100,
+                      "voted": false,
+                    },
+                  ]
+                }
+              />
+              <ChartHorizontalBar
+                data={
+                  Array [
+                    Object {
+                      "club": "Chelsea",
+                      "noVoteCount": 40,
+                      "noVotePercent": 40,
+                      "player": "willian",
+                      "voteCount": 60,
+                      "votePercent": 60,
+                    },
+                    Object {
+                      "club": "Juventus",
+                      "noVoteCount": 60,
+                      "noVotePercent": 60,
+                      "player": "a_sandro",
+                      "voteCount": 40,
+                      "votePercent": 40,
+                    },
+                    Object {
+                      "club": "SS Lazio",
+                      "noVoteCount": 0,
+                      "noVotePercent": 0,
+                      "player": "s_m_savic",
+                      "voteCount": 100,
+                      "votePercent": 100,
+                    },
+                  ]
+                }
+                theme={
+                  Object {
+                    "primary": "#000000",
+                    "secondary": "#ffffff",
+                  }
+                }
+              />
+            </glamorous(div)>
+          </glamorous(div)>,
+          <glamorous(glamorous.Div)
+            className="ttt-inner"
+            padding="0 0 25px"
+          >
+            <glamorous(div)
+              className="ttt-results-button"
+            >
+              <glamorous(glamorous(button))
+                bkgndBottom="#ffffff"
+                bkgndTop="#000000"
+                onClick={[Function]}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+                latest news
+              </glamorous(glamorous(button))>
+            </glamorous(div)>
+          </glamorous(glamorous.Div)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(glamorous(h3))
+                className="ttt-results-headline"
+                fontColour="#000000"
+              >
+                Transfer Top Trumps
+              </glamorous(glamorous(h3))>,
+              <glamorous(glamorous(h2))
+                className="ttt-results-subheadline"
+                fontColour="#ffffff"
+              >
+                The results
+              </glamorous(glamorous(h2))>,
+              <glamorous(div)
+                className="ttt-results-badge"
+              >
+                <Unknown
+                  colour="#a81507"
+                  height={4}
+                  opacity={0.5}
+                  top={15}
+                />
+                <glamorous(div)
+                  size={50}
+                >
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />
+                </glamorous(div)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="ttt-results-chart"
+              >
+                <Unknown
+                  sortedProfiles={
+                    Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ]
+                  }
+                />
+                <Unknown
+                  sortedProfiles={
+                    Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ]
+                  }
+                />
+                <ChartHorizontalBar
+                  data={
+                    Array [
+                      Object {
+                        "club": "Chelsea",
+                        "noVoteCount": 40,
+                        "noVotePercent": 40,
+                        "player": "willian",
+                        "voteCount": 60,
+                        "votePercent": 60,
+                      },
+                      Object {
+                        "club": "Juventus",
+                        "noVoteCount": 60,
+                        "noVotePercent": 60,
+                        "player": "a_sandro",
+                        "voteCount": 40,
+                        "votePercent": 40,
+                      },
+                      Object {
+                        "club": "SS Lazio",
+                        "noVoteCount": 0,
+                        "noVotePercent": 0,
+                        "player": "s_m_savic",
+                        "voteCount": 100,
+                        "votePercent": 100,
+                      },
+                    ]
+                  }
+                  theme={
+                    Object {
+                      "primary": "#000000",
+                      "secondary": "#ffffff",
+                    }
+                  }
+                />
+              </glamorous(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Transfer Top Trumps",
+                "className": "ttt-results-headline",
+                "fontColour": "#000000",
+              },
+              "ref": null,
+              "rendered": "Transfer Top Trumps",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "The results",
+                "className": "ttt-results-subheadline",
+                "fontColour": "#ffffff",
+              },
+              "ref": null,
+              "rendered": "The results",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    colour="#a81507"
+                    height={4}
+                    opacity={0.5}
+                    top={15}
+                  />,
+                  <glamorous(div)
+                    size={50}
+                  >
+                    <glamorous(img)
+                      alt="Man Utd"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                    />
+                  </glamorous(div)>,
+                ],
+                "className": "ttt-results-badge",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "colour": "#a81507",
+                    "height": 4,
+                    "opacity": 0.5,
+                    "top": 15,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <glamorous(img)
+                      alt="Man Utd"
+                      src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                    />,
+                    "size": 50,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Man Utd",
+                      "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    sortedProfiles={
+                      Array [
+                        Object {
+                          "active": false,
+                          "age": 29,
+                          "club": "Chelsea",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                          "fee": "£60m",
+                          "fname": "",
+                          "id": "willian",
+                          "idx": 0,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                          "position": "CAM",
+                          "sName": "Willian",
+                          "selected": false,
+                          "voteCount": 60,
+                          "voted": true,
+                        },
+                        Object {
+                          "active": false,
+                          "age": 27,
+                          "club": "Juventus",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                          "fee": "£60m",
+                          "fname": "Alex",
+                          "id": "a_sandro",
+                          "idx": 1,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                          "position": "LB",
+                          "sName": "Sandro",
+                          "selected": true,
+                          "voteCount": 40,
+                          "voted": true,
+                        },
+                        Object {
+                          "active": true,
+                          "age": 23,
+                          "club": "SS Lazio",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                          "fee": "£70m",
+                          "fname": "Sergej",
+                          "id": "s_m_savic",
+                          "idx": 2,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                          "position": "CM",
+                          "sName": "Milinković-Savić",
+                          "selected": false,
+                          "voteCount": 100,
+                          "voted": false,
+                        },
+                      ]
+                    }
+                  />,
+                  <Unknown
+                    sortedProfiles={
+                      Array [
+                        Object {
+                          "active": false,
+                          "age": 29,
+                          "club": "Chelsea",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                          "fee": "£60m",
+                          "fname": "",
+                          "id": "willian",
+                          "idx": 0,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                          "position": "CAM",
+                          "sName": "Willian",
+                          "selected": false,
+                          "voteCount": 60,
+                          "voted": true,
+                        },
+                        Object {
+                          "active": false,
+                          "age": 27,
+                          "club": "Juventus",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                          "fee": "£60m",
+                          "fname": "Alex",
+                          "id": "a_sandro",
+                          "idx": 1,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                          "position": "LB",
+                          "sName": "Sandro",
+                          "selected": true,
+                          "voteCount": 40,
+                          "voted": true,
+                        },
+                        Object {
+                          "active": true,
+                          "age": 23,
+                          "club": "SS Lazio",
+                          "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                          "fee": "£70m",
+                          "fname": "Sergej",
+                          "id": "s_m_savic",
+                          "idx": 2,
+                          "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                          "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                          "position": "CM",
+                          "sName": "Milinković-Savić",
+                          "selected": false,
+                          "voteCount": 100,
+                          "voted": false,
+                        },
+                      ]
+                    }
+                  />,
+                  <ChartHorizontalBar
+                    data={
+                      Array [
+                        Object {
+                          "club": "Chelsea",
+                          "noVoteCount": 40,
+                          "noVotePercent": 40,
+                          "player": "willian",
+                          "voteCount": 60,
+                          "votePercent": 60,
+                        },
+                        Object {
+                          "club": "Juventus",
+                          "noVoteCount": 60,
+                          "noVotePercent": 60,
+                          "player": "a_sandro",
+                          "voteCount": 40,
+                          "votePercent": 40,
+                        },
+                        Object {
+                          "club": "SS Lazio",
+                          "noVoteCount": 0,
+                          "noVotePercent": 0,
+                          "player": "s_m_savic",
+                          "voteCount": 100,
+                          "votePercent": 100,
+                        },
+                      ]
+                    }
+                    theme={
+                      Object {
+                        "primary": "#000000",
+                        "secondary": "#ffffff",
+                      }
+                    }
+                  />,
+                ],
+                "className": "ttt-results-chart",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "sortedProfiles": Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "sortedProfiles": Array [
+                      Object {
+                        "active": false,
+                        "age": 29,
+                        "club": "Chelsea",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/chelsea_@2x.png",
+                        "fee": "£60m",
+                        "fname": "",
+                        "id": "willian",
+                        "idx": 0,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/WILLIAN_mobile_@2x.jpg",
+                        "position": "CAM",
+                        "sName": "Willian",
+                        "selected": false,
+                        "voteCount": 60,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": false,
+                        "age": 27,
+                        "club": "Juventus",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/juventus_@2x1.png",
+                        "fee": "£60m",
+                        "fname": "Alex",
+                        "id": "a_sandro",
+                        "idx": 1,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/SANDRO_mobile_@2x.jpg",
+                        "position": "LB",
+                        "sName": "Sandro",
+                        "selected": true,
+                        "voteCount": 40,
+                        "voted": true,
+                      },
+                      Object {
+                        "active": true,
+                        "age": 23,
+                        "club": "SS Lazio",
+                        "clubBadge": "https://www.thesun.co.uk/wp-content/uploads/2018/07/lazio_@2x1.png",
+                        "fee": "£70m",
+                        "fname": "Sergej",
+                        "id": "s_m_savic",
+                        "idx": 2,
+                        "imageDesktop": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_desktop_@2x.jpg",
+                        "imageMobile": "https://www.thesun.co.uk/wp-content/uploads/2018/07/MILINKOVIC-SAVIC_mobile_@2x.jpg",
+                        "position": "CM",
+                        "sName": "Milinković-Savić",
+                        "selected": false,
+                        "voteCount": 100,
+                        "voted": false,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "data": Array [
+                      Object {
+                        "club": "Chelsea",
+                        "noVoteCount": 40,
+                        "noVotePercent": 40,
+                        "player": "willian",
+                        "voteCount": 60,
+                        "votePercent": 60,
+                      },
+                      Object {
+                        "club": "Juventus",
+                        "noVoteCount": 60,
+                        "noVotePercent": 60,
+                        "player": "a_sandro",
+                        "voteCount": 40,
+                        "votePercent": 40,
+                      },
+                      Object {
+                        "club": "SS Lazio",
+                        "noVoteCount": 0,
+                        "noVotePercent": 0,
+                        "player": "s_m_savic",
+                        "voteCount": 100,
+                        "votePercent": 100,
+                      },
+                    ],
+                    "theme": Object {
+                      "primary": "#000000",
+                      "secondary": "#ffffff",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <glamorous(div)
+              className="ttt-results-button"
+            >
+              <glamorous(glamorous(button))
+                bkgndBottom="#ffffff"
+                bkgndTop="#000000"
+                onClick={[Function]}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+                latest news
+              </glamorous(glamorous(button))>
+            </glamorous(div)>,
+            "className": "ttt-inner",
+            "padding": "0 0 25px",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(glamorous(button))
+                bkgndBottom="#ffffff"
+                bkgndTop="#000000"
+                onClick={[Function]}
+              >
+                <glamorous(img)
+                  alt="Man Utd"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                />
+                latest news
+              </glamorous(glamorous(button))>,
+              "className": "ttt-results-button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bkgndBottom": "#ffffff",
+                "bkgndTop": "#000000",
+                "children": Array [
+                  <glamorous(img)
+                    alt="Man Utd"
+                    src="https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png"
+                  />,
+                  "latest news",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Man Utd",
+                    "src": "https://www.thesun.co.uk/wp-content/uploads/2018/07/manutd_@2x.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "latest news",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

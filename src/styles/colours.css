@@ -1,0 +1,46 @@
+@value white: #ffffff;
+@value ultraLightGrey: #f3f6f7;
+@value lightGrey: #e6eaeb;
+@value midLightGrey: #d2d6d7;
+@value midGrey: #adafb0;
+@value midDarkGrey: #6e7070;
+@value darkGrey: #393e3f;
+@value offBlack: #222526;
+@value offBlackRGB: [34, 37, 38]; /*To use alpha channel. */
+@value black: #000000;
+
+/* The Sun News type base colours*/
+@value main: #eb1701; /* Main  */
+@value showbiz: #9c73c1; /* Showbiz  */
+@value football: #459977; /* Football */
+@value sport: #3695a6; /* Sport */
+@value living: #e665bf; /* Living */
+@value fabulous: #e665bf; /* Fabulous */
+@value news: #4085cb; /* News */
+@value motors: #4d64ce; /* Motors */
+@value travel: #ffa111; /* Travel */
+@value money: #a64470; /* Money */
+@value tech: #9eaabb; /* Tech */
+@value worldCup: #BC1200; /* World Cup */
+
+/* The Sun News type secondary colours */
+@value mainSecondary: #a5171c; /* Main */
+@value showbizSecondary: #6a4e82; /* Showbiz */
+@value footballSecondary: #2e664f; /* Football */
+@value sportSecondary: #266773; /* Sport */
+@value livingSecondary: #a6498a; /* Living */
+@value fabulousSecondary: #a6498a; /* Fabulous */
+@value newsSecondary: #2d5c8c; /* News */
+@value motorsSecondary: #35488d; /* Motors */
+@value travelSecondary: #fc750e; /* Motors */
+@value moneySecondary: #802b51; /* Money */
+@value techSecondary: #7a8491; /* Tech */
+
+/* Transparent fill */
+@value transparent: rgba(0,0,0,0);
+
+/* Gradient buttons */
+@value lightRed: #ed283a;
+@value darkRed: #9f041b;
+@value lightGreen: #a5dc39;
+@value darkGreen: #6cb71b;

@@ -1,0 +1,3061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> can customise headline theme 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Carousel
+    config={
+      Object {
+        "headlineTheme": Object {
+          "primary": "#eeeeee",
+          "secondary": "#cccccc",
+        },
+        "theme": Object {
+          "border": "#ffffff",
+          "txtColour": "#ffffff",
+        },
+      }
+    }
+    content={
+      Object {
+        "headline": "World Cup stars",
+        "items": Array [
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+            "label": "Messi",
+            "url": "http://wwww.thesun.co.uk/messi",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+            "label": "Kane",
+            "url": "http://wwww.thesun.co.uk",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+            "label": "",
+            "url": "",
+          },
+        ],
+      }
+    }
+    id="tt0113375"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          background={true}
+          className="carousel-header"
+          theme={
+            Object {
+              "primary": undefined,
+              "secondary": undefined,
+            }
+          }
+          title="World Cup stars"
+        />,
+        <Slider
+          dots={false}
+          infinite={true}
+          nextArrow={
+            <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />
+          }
+          onSwipe={[Function]}
+          prevArrow={
+            <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />
+          }
+          responsive={
+            Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ]
+          }
+          slidesToScroll={1}
+          slidesToShow={3}
+          swipe={true}
+        >
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk/messi"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Messi"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Messi
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Kane"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Kane
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <div>
+              <glamorous(img)
+                alt=""
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+              />
+              
+            </div>
+          </glamorous(div)>
+        </Slider>,
+        <Pagination
+          animateDirection=""
+          theme={
+            Object {
+              "border": "#ffffff",
+              "txtColour": "#ffffff",
+            }
+          }
+        />,
+        <OverFlow />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "background": true,
+          "className": "carousel-header",
+          "theme": Object {
+            "primary": undefined,
+            "secondary": undefined,
+          },
+          "title": "World Cup stars",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>,
+          ],
+          "dots": false,
+          "infinite": true,
+          "nextArrow": <CarouselNav
+            direction="NEXT"
+            handleNavClick={[Function]}
+          />,
+          "onSwipe": [Function],
+          "prevArrow": <CarouselNav
+            direction="PREV"
+            handleNavClick={[Function]}
+          />,
+          "responsive": Array [
+            Object {
+              "breakpoint": 980,
+              "settings": Object {
+                "initialSlide": 0,
+                "slidesToShow": 3,
+              },
+            },
+            Object {
+              "breakpoint": 660,
+              "settings": Object {
+                "centerMode": true,
+                "initialSlide": 1,
+                "slidesToShow": 1,
+              },
+            },
+          ],
+          "slidesToScroll": 1,
+          "slidesToShow": 3,
+          "swipe": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Messi",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk/messi",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Messi",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Messi",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Messi",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Kane",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Kane",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Kane",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Kane",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "",
+            "nodeType": "class",
+            "props": Object {
+              "children": <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />,
+                  "",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "",
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animateDirection": "",
+          "theme": Object {
+            "border": "#ffffff",
+            "txtColour": "#ffffff",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "color": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            background={true}
+            className="carousel-header"
+            theme={
+              Object {
+                "primary": undefined,
+                "secondary": undefined,
+              }
+            }
+            title="World Cup stars"
+          />,
+          <Slider
+            dots={false}
+            infinite={true}
+            nextArrow={
+              <CarouselNav
+                direction="NEXT"
+                handleNavClick={[Function]}
+              />
+            }
+            onSwipe={[Function]}
+            prevArrow={
+              <CarouselNav
+                direction="PREV"
+                handleNavClick={[Function]}
+              />
+            }
+            responsive={
+              Array [
+                Object {
+                  "breakpoint": 980,
+                  "settings": Object {
+                    "initialSlide": 0,
+                    "slidesToShow": 3,
+                  },
+                },
+                Object {
+                  "breakpoint": 660,
+                  "settings": Object {
+                    "centerMode": true,
+                    "initialSlide": 1,
+                    "slidesToShow": 1,
+                  },
+                },
+              ]
+            }
+            slidesToScroll={1}
+            slidesToShow={3}
+            swipe={true}
+          >
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>
+          </Slider>,
+          <Pagination
+            animateDirection=""
+            theme={
+              Object {
+                "border": "#ffffff",
+                "txtColour": "#ffffff",
+              }
+            }
+          />,
+          <OverFlow />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "background": true,
+            "className": "carousel-header",
+            "theme": Object {
+              "primary": undefined,
+              "secondary": undefined,
+            },
+            "title": "World Cup stars",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>
+              </glamorous(div)>,
+            ],
+            "dots": false,
+            "infinite": true,
+            "nextArrow": <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />,
+            "onSwipe": [Function],
+            "prevArrow": <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />,
+            "responsive": Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ],
+            "slidesToScroll": 1,
+            "slidesToShow": 3,
+            "swipe": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Messi",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Messi"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Messi
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk/messi",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Messi",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Messi",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Messi",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Kane",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Kane"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Kane
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Kane",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Kane",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Kane",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "",
+              "nodeType": "class",
+              "props": Object {
+                "children": <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt=""
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                    />,
+                    "",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "",
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animateDirection": "",
+            "theme": Object {
+              "border": "#ffffff",
+              "txtColour": "#ffffff",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Carousel /> can customise theme 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Carousel
+    config={
+      Object {
+        "headlineTheme": Object {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+        },
+        "theme": Object {
+          "border": "#cccccc",
+          "txtColour": "#eeeeee",
+        },
+      }
+    }
+    content={
+      Object {
+        "headline": "World Cup stars",
+        "items": Array [
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+            "label": "Messi",
+            "url": "http://wwww.thesun.co.uk/messi",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+            "label": "Kane",
+            "url": "http://wwww.thesun.co.uk",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+            "label": "",
+            "url": "",
+          },
+        ],
+      }
+    }
+    id="tt0113375"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          background={true}
+          className="carousel-header"
+          theme={
+            Object {
+              "primary": undefined,
+              "secondary": undefined,
+            }
+          }
+          title="World Cup stars"
+        />,
+        <Slider
+          dots={false}
+          infinite={true}
+          nextArrow={
+            <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />
+          }
+          onSwipe={[Function]}
+          prevArrow={
+            <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />
+          }
+          responsive={
+            Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ]
+          }
+          slidesToScroll={1}
+          slidesToShow={3}
+          swipe={true}
+        >
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk/messi"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Messi"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Messi
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Kane"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Kane
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <div>
+              <glamorous(img)
+                alt=""
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+              />
+              
+            </div>
+          </glamorous(div)>
+        </Slider>,
+        <Pagination
+          animateDirection=""
+          theme={
+            Object {
+              "border": "#cccccc",
+              "txtColour": "#eeeeee",
+            }
+          }
+        />,
+        <OverFlow />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "background": true,
+          "className": "carousel-header",
+          "theme": Object {
+            "primary": undefined,
+            "secondary": undefined,
+          },
+          "title": "World Cup stars",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>,
+          ],
+          "dots": false,
+          "infinite": true,
+          "nextArrow": <CarouselNav
+            direction="NEXT"
+            handleNavClick={[Function]}
+          />,
+          "onSwipe": [Function],
+          "prevArrow": <CarouselNav
+            direction="PREV"
+            handleNavClick={[Function]}
+          />,
+          "responsive": Array [
+            Object {
+              "breakpoint": 980,
+              "settings": Object {
+                "initialSlide": 0,
+                "slidesToShow": 3,
+              },
+            },
+            Object {
+              "breakpoint": 660,
+              "settings": Object {
+                "centerMode": true,
+                "initialSlide": 1,
+                "slidesToShow": 1,
+              },
+            },
+          ],
+          "slidesToScroll": 1,
+          "slidesToShow": 3,
+          "swipe": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Messi",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk/messi",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Messi",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Messi",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Messi",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Kane",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Kane",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Kane",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Kane",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "",
+            "nodeType": "class",
+            "props": Object {
+              "children": <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />,
+                  "",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "",
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animateDirection": "",
+          "theme": Object {
+            "border": "#cccccc",
+            "txtColour": "#eeeeee",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "color": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            background={true}
+            className="carousel-header"
+            theme={
+              Object {
+                "primary": undefined,
+                "secondary": undefined,
+              }
+            }
+            title="World Cup stars"
+          />,
+          <Slider
+            dots={false}
+            infinite={true}
+            nextArrow={
+              <CarouselNav
+                direction="NEXT"
+                handleNavClick={[Function]}
+              />
+            }
+            onSwipe={[Function]}
+            prevArrow={
+              <CarouselNav
+                direction="PREV"
+                handleNavClick={[Function]}
+              />
+            }
+            responsive={
+              Array [
+                Object {
+                  "breakpoint": 980,
+                  "settings": Object {
+                    "initialSlide": 0,
+                    "slidesToShow": 3,
+                  },
+                },
+                Object {
+                  "breakpoint": 660,
+                  "settings": Object {
+                    "centerMode": true,
+                    "initialSlide": 1,
+                    "slidesToShow": 1,
+                  },
+                },
+              ]
+            }
+            slidesToScroll={1}
+            slidesToShow={3}
+            swipe={true}
+          >
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>
+          </Slider>,
+          <Pagination
+            animateDirection=""
+            theme={
+              Object {
+                "border": "#cccccc",
+                "txtColour": "#eeeeee",
+              }
+            }
+          />,
+          <OverFlow />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "background": true,
+            "className": "carousel-header",
+            "theme": Object {
+              "primary": undefined,
+              "secondary": undefined,
+            },
+            "title": "World Cup stars",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>
+              </glamorous(div)>,
+            ],
+            "dots": false,
+            "infinite": true,
+            "nextArrow": <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />,
+            "onSwipe": [Function],
+            "prevArrow": <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />,
+            "responsive": Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ],
+            "slidesToScroll": 1,
+            "slidesToShow": 3,
+            "swipe": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Messi",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Messi"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Messi
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk/messi",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Messi",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Messi",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Messi",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Kane",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Kane"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Kane
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Kane",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Kane",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Kane",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "",
+              "nodeType": "class",
+              "props": Object {
+                "children": <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt=""
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                    />,
+                    "",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "",
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animateDirection": "",
+            "theme": Object {
+              "border": "#cccccc",
+              "txtColour": "#eeeeee",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Carousel /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Carousel
+    config={
+      Object {
+        "headlineTheme": Object {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+        },
+        "theme": Object {
+          "border": "#ffffff",
+          "txtColour": "#ffffff",
+        },
+      }
+    }
+    content={
+      Object {
+        "headline": "World Cup stars",
+        "items": Array [
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+            "label": "Messi",
+            "url": "http://wwww.thesun.co.uk/messi",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+            "label": "Kane",
+            "url": "http://wwww.thesun.co.uk",
+          },
+          Object {
+            "image": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+            "label": "",
+            "url": "",
+          },
+        ],
+      }
+    }
+    id="tt0113375"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          background={true}
+          className="carousel-header"
+          theme={
+            Object {
+              "primary": undefined,
+              "secondary": undefined,
+            }
+          }
+          title="World Cup stars"
+        />,
+        <Slider
+          dots={false}
+          infinite={true}
+          nextArrow={
+            <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />
+          }
+          onSwipe={[Function]}
+          prevArrow={
+            <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />
+          }
+          responsive={
+            Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ]
+          }
+          slidesToScroll={1}
+          slidesToShow={3}
+          swipe={true}
+        >
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk/messi"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Messi"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Messi
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <glamorous(a)
+              href="http://wwww.thesun.co.uk"
+              onClick={[Function]}
+              target="_blank"
+            >
+              <glamorous(img)
+                alt="Kane"
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+              />
+              <glamorous(p)
+                className="carousel-item-label"
+              >
+                Kane
+              </glamorous(p)>
+            </glamorous(a)>
+          </glamorous(div)>
+          <glamorous(div)
+            className="carousel-item"
+          >
+            <div>
+              <glamorous(img)
+                alt=""
+                className="carousel-item-image"
+                src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+              />
+              
+            </div>
+          </glamorous(div)>
+        </Slider>,
+        <Pagination
+          animateDirection=""
+          theme={
+            Object {
+              "border": "#ffffff",
+              "txtColour": "#ffffff",
+            }
+          }
+        />,
+        <OverFlow />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "background": true,
+          "className": "carousel-header",
+          "theme": Object {
+            "primary": undefined,
+            "secondary": undefined,
+          },
+          "title": "World Cup stars",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>,
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>,
+          ],
+          "dots": false,
+          "infinite": true,
+          "nextArrow": <CarouselNav
+            direction="NEXT"
+            handleNavClick={[Function]}
+          />,
+          "onSwipe": [Function],
+          "prevArrow": <CarouselNav
+            direction="PREV"
+            handleNavClick={[Function]}
+          />,
+          "responsive": Array [
+            Object {
+              "breakpoint": 980,
+              "settings": Object {
+                "initialSlide": 0,
+                "slidesToShow": 3,
+              },
+            },
+            Object {
+              "breakpoint": 660,
+              "settings": Object {
+                "centerMode": true,
+                "initialSlide": 1,
+                "slidesToShow": 1,
+              },
+            },
+          ],
+          "slidesToScroll": 1,
+          "slidesToShow": 3,
+          "swipe": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Messi",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk/messi",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Messi",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Messi",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Messi",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Kane",
+            "nodeType": "class",
+            "props": Object {
+              "children": <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />,
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>,
+                ],
+                "href": "http://wwww.thesun.co.uk",
+                "onClick": [Function],
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Kane",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Kane",
+                    "className": "carousel-item-label",
+                    "txtColour": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Kane",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "",
+            "nodeType": "class",
+            "props": Object {
+              "children": <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>,
+              "className": "carousel-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />,
+                  "",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "",
+                    "borderColour": undefined,
+                    "className": "carousel-item-image",
+                    "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "",
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animateDirection": "",
+          "theme": Object {
+            "border": "#ffffff",
+            "txtColour": "#ffffff",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "color": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            background={true}
+            className="carousel-header"
+            theme={
+              Object {
+                "primary": undefined,
+                "secondary": undefined,
+              }
+            }
+            title="World Cup stars"
+          />,
+          <Slider
+            dots={false}
+            infinite={true}
+            nextArrow={
+              <CarouselNav
+                direction="NEXT"
+                handleNavClick={[Function]}
+              />
+            }
+            onSwipe={[Function]}
+            prevArrow={
+              <CarouselNav
+                direction="PREV"
+                handleNavClick={[Function]}
+              />
+            }
+            responsive={
+              Array [
+                Object {
+                  "breakpoint": 980,
+                  "settings": Object {
+                    "initialSlide": 0,
+                    "slidesToShow": 3,
+                  },
+                },
+                Object {
+                  "breakpoint": 660,
+                  "settings": Object {
+                    "centerMode": true,
+                    "initialSlide": 1,
+                    "slidesToShow": 1,
+                  },
+                },
+              ]
+            }
+            slidesToScroll={1}
+            slidesToShow={3}
+            swipe={true}
+          >
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk/messi"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Messi"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Messi
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <glamorous(a)
+                href="http://wwww.thesun.co.uk"
+                onClick={[Function]}
+                target="_blank"
+              >
+                <glamorous(img)
+                  alt="Kane"
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                />
+                <glamorous(p)
+                  className="carousel-item-label"
+                >
+                  Kane
+                </glamorous(p)>
+              </glamorous(a)>
+            </glamorous(div)>
+            <glamorous(div)
+              className="carousel-item"
+            >
+              <div>
+                <glamorous(img)
+                  alt=""
+                  className="carousel-item-image"
+                  src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                />
+                
+              </div>
+            </glamorous(div)>
+          </Slider>,
+          <Pagination
+            animateDirection=""
+            theme={
+              Object {
+                "border": "#ffffff",
+                "txtColour": "#ffffff",
+              }
+            }
+          />,
+          <OverFlow />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "background": true,
+            "className": "carousel-header",
+            "theme": Object {
+              "primary": undefined,
+              "secondary": undefined,
+            },
+            "title": "World Cup stars",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>
+              </glamorous(div)>,
+              <glamorous(div)
+                className="carousel-item"
+              >
+                <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>
+              </glamorous(div)>,
+            ],
+            "dots": false,
+            "infinite": true,
+            "nextArrow": <CarouselNav
+              direction="NEXT"
+              handleNavClick={[Function]}
+            />,
+            "onSwipe": [Function],
+            "prevArrow": <CarouselNav
+              direction="PREV"
+              handleNavClick={[Function]}
+            />,
+            "responsive": Array [
+              Object {
+                "breakpoint": 980,
+                "settings": Object {
+                  "initialSlide": 0,
+                  "slidesToShow": 3,
+                },
+              },
+              Object {
+                "breakpoint": 660,
+                "settings": Object {
+                  "centerMode": true,
+                  "initialSlide": 1,
+                  "slidesToShow": 1,
+                },
+              },
+            ],
+            "slidesToScroll": 1,
+            "slidesToShow": 3,
+            "swipe": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Messi",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk/messi"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Messi"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Messi
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Messi"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Messi
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk/messi",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Messi",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/messi.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Messi",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Messi",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Kane",
+              "nodeType": "class",
+              "props": Object {
+                "children": <glamorous(a)
+                  href="http://wwww.thesun.co.uk"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  <glamorous(img)
+                    alt="Kane"
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                  />
+                  <glamorous(p)
+                    className="carousel-item-label"
+                  >
+                    Kane
+                  </glamorous(p)>
+                </glamorous(a)>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt="Kane"
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960"
+                    />,
+                    <glamorous(p)
+                      className="carousel-item-label"
+                    >
+                      Kane
+                    </glamorous(p)>,
+                  ],
+                  "href": "http://wwww.thesun.co.uk",
+                  "onClick": [Function],
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "Kane",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/kane.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Kane",
+                      "className": "carousel-item-label",
+                      "txtColour": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Kane",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "",
+              "nodeType": "class",
+              "props": Object {
+                "children": <div>
+                  <glamorous(img)
+                    alt=""
+                    className="carousel-item-image"
+                    src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                  />
+                  
+                </div>,
+                "className": "carousel-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <glamorous(img)
+                      alt=""
+                      className="carousel-item-image"
+                      src="https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960"
+                    />,
+                    "",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alt": "",
+                      "borderColour": undefined,
+                      "className": "carousel-item-image",
+                      "src": "https://www-dev.uat-thesun.co.uk/wp-content/uploads/2018/05/ronaldo.png?strip=all&w=960",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "",
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animateDirection": "",
+            "theme": Object {
+              "border": "#ffffff",
+              "txtColour": "#ffffff",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
